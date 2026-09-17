@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Box3D · 13000 步快速验证</title>
+<style>
+:root{color-scheme:light;--ink:#192124;--muted:#596367;--line:#d8dfe0;--accent:#096e61}
+*{box-sizing:border-box;letter-spacing:0}body{margin:0;background:#f5f7f7;color:var(--ink);font:15px/1.6 system-ui,-apple-system,sans-serif}
+main{max-width:1440px;margin:auto;padding:32px 28px 64px}header{padding-bottom:24px;border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--accent);font-size:12px;font-weight:700}h1{font-size:30px;line-height:1.25;margin:10px 0 16px}p{margin:8px 0}.muted{color:var(--muted)}
+.metrics{display:flex;gap:32px;flex-wrap:wrap;margin:20px 0}.metrics strong{display:block;font-size:22px}.metrics span{font-size:13px;color:var(--muted)}
+.toolbar{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:20px 0}label{display:flex;align-items:center;gap:8px}select{padding:8px;background:white;border:1px solid var(--line);border-radius:4px;color:var(--ink);font:inherit;max-width:100%}
+.legend{margin-left:auto;font-size:13px;color:var(--muted)}article{margin:0 0 28px;padding:0 0 24px;border-bottom:1px solid var(--line)}
+.title{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 10px}h2{font-size:17px;margin:0}.title a{font-size:13px;color:var(--accent)}
+video{display:block;width:100%;height:auto;aspect-ratio:1248/268;background:#111;object-fit:contain;border-radius:4px}footer{color:var(--muted);font-size:13px}a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #dc9c36;outline-offset:3px}
+@media(min-width:1100px){#gallery{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}}
+@media(max-width:600px){main{padding:22px 14px 40px}h1{font-size:25px}.metrics{gap:20px}.legend{margin-left:0;width:100%}.title{gap:8px}}
+</style>
+<main>
+<header><div class="eyebrow">BOX3D / VALIDATION</div><h1>Box3D · 13000 步快速验证</h1>
+<div class="metrics"><div><strong>240p</strong><span>单视图 416 × 240</span></div><div><strong>25 帧</strong><span>每条视频</span></div><div><strong>13000 步</strong><span>累计训练</span></div><div><strong>10 条</strong><span>验证样本</span></div></div>
+<p>原模型训练 12000 步 + 显式方向分支适配 1000 步。</p>
+<p class="muted">快速验证结果。车辆朝向、车型还原及额外车辆等问题仍在评估中。</p></header>
+<div class="toolbar"><label>样本 <select id="sample"><option value="all">全部样本</option></select></label><label><input type="checkbox" id="loop" checked>循环播放</label><span class="legend">左：GT · 中：Clean HDMap · 右：Prediction</span></div>
+<section id="gallery" aria-label="验证视频"></section>
+<footer>Checkpoint：heading step-1000 · 累计训练 13000 步 · 三列拼接尺寸不代表单视图训练分辨率。</footer>
+</main>
+<script>
+const records=[{"id": 1, "title": "Case 01", "video": "videos/case-01.mp4", "poster": "posters/case-01.jpg", "filename": "000000_hdmap_m000001_s02_2021_05_25_14_16_10_veh-35_01690_02183__s000300_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "2ddc66c865250471d575b1a30fe154700e7eb7c56ad97ffcd6968cb930cec1a6"}, {"id": 2, "title": "Case 02", "video": "videos/case-02.mp4", "poster": "posters/case-02.jpg", "filename": "000001_hdmap_m000003_s04_2021_05_25_14_16_10_veh-35_01690_02183__s000900_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "12970bdfa4974dd29cfeba61277398bf21fe2366853507fefa5cecfe7d77ab4e"}, {"id": 3, "title": "Case 03", "video": "videos/case-03.mp4", "poster": "posters/case-03.jpg", "filename": "000002_hdmap_m000007_s02_2021_05_25_14_16_10_veh-35_01690_02183__s002100_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "d47ff01b33ed4bd808e1fa6eb2963014cfaf724672349d3226bc494c8c732cfc"}, {"id": 4, "title": "Case 04", "video": "videos/case-04.mp4", "poster": "posters/case-04.jpg", "filename": "000003_hdmap_m000008_s04_2021_05_25_14_16_10_veh-35_01690_02183__s002400_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "eba495d4ed56e2ca8bf125061784dffcbd9cf5493c4985acf37ce6b1153bd17d"}, {"id": 5, "title": "Case 05", "video": "videos/case-05.mp4", "poster": "posters/case-05.jpg", "filename": "000004_hdmap_m000016_s00_2021_06_03_12_02_06_veh-35_00233_00609__s000000_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "f1d7be7f47623ff47686fd61ed2bd3b28fe4ae51b37e8a94ece8a212a1ba98ee"}, {"id": 6, "title": "Case 06", "video": "videos/case-06.mp4", "poster": "posters/case-06.jpg", "filename": "000005_hdmap_m000019_s01_2021_06_03_12_02_06_veh-35_00233_00609__s000900_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "c5cac7e8b7f34bd0ef54a580ae0ed4c71fa98c4c6e8dd8b3a16ec60df9817b13"}, {"id": 7, "title": "Case 07", "video": "videos/case-07.mp4", "poster": "posters/case-07.jpg", "filename": "000006_hdmap_m000020_s04_2021_06_03_12_02_06_veh-35_00233_00609__s001200_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "d4dbb06a2f825f3877397d2e24ce8e892ca4a341449b09d43999ae0100b824a2"}, {"id": 8, "title": "Case 08", "video": "videos/case-08.mp4", "poster": "posters/case-08.jpg", "filename": "000007_hdmap_m000022_s01_2021_06_03_12_02_06_veh-35_00233_00609__s001800_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "648c75b5a8c57607593e3557dc9117da03106f6dc2091c5fdeb78873efa4c85b"}, {"id": 9, "title": "Case 09", "video": "videos/case-09.mp4", "poster": "posters/case-09.jpg", "filename": "000008_hdmap_m000025_s00_2021_06_03_12_02_06_veh-35_00233_00609__s002700_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "53690eb45d79dbae6f8e6143763e73e28c62240dbb2bb83317057a33791a8ca1"}, {"id": 10, "title": "Case 10", "video": "videos/case-10.mp4", "poster": "posters/case-10.jpg", "filename": "000009_hdmap_m000027_s02_2021_06_03_12_02_06_veh-35_00233_00609__s003300_n00300_compare.mp4", "frames": 25, "fps": 8.0, "width": 1248, "height": 272, "sha256": "6431ed3ee0824df3630def3478d38ffbce347d2efbe91ade985816a078031f69"}];
+const gallery=document.querySelector('#gallery'),select=document.querySelector('#sample');
+for(const item of records){
+ const option=document.createElement('option');option.value=item.id;option.textContent=item.title;select.append(option);
+ const article=document.createElement('article');article.dataset.id=item.id;
+ const title=document.createElement('div');title.className='title';
+ const heading=document.createElement('h2');heading.textContent=item.title;
+ const link=document.createElement('a');link.href=item.video;link.download='';link.textContent='下载视频';title.append(heading,link);
+ const video=document.createElement('video');video.src=item.video;video.poster=item.poster;video.controls=true;video.loop=true;video.playsInline=true;video.preload='none';video.setAttribute('aria-label',item.title+'：真实视频、地图与生成结果');video.style.aspectRatio=item.width+'/'+item.height;
+ video.addEventListener('play',()=>{for(const other of gallery.querySelectorAll('video'))if(other!==video)other.pause()});
+ article.append(title,video);gallery.append(article);
+}
+select.addEventListener('change',()=>{for(const article of gallery.children){article.hidden=select.value!=='all'&&article.dataset.id!==select.value;if(article.hidden)article.querySelector('video').pause()}});
+document.querySelector('#loop').addEventListener('change',event=>{for(const video of gallery.querySelectorAll('video'))video.loop=event.target.checked});
+</script>
+</html>
