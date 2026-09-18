@@ -9,7 +9,11 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "2ddc66c865250471d575b1a30fe154700e7eb7c56ad97ffcd6968cb930cec1a6"
+    "sha256": "2ddc66c865250471d575b1a30fe154700e7eb7c56ad97ffcd6968cb930cec1a6",
+    "boxes_video": "videos-boxes/case-01.mp4",
+    "boxes_poster": "posters-boxes/case-01.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   },
   {
     "id": 2,
@@ -21,7 +25,11 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "12970bdfa4974dd29cfeba61277398bf21fe2366853507fefa5cecfe7d77ab4e"
+    "sha256": "12970bdfa4974dd29cfeba61277398bf21fe2366853507fefa5cecfe7d77ab4e",
+    "boxes_video": "videos-boxes/case-02.mp4",
+    "boxes_poster": "posters-boxes/case-02.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   },
   {
     "id": 3,
@@ -33,7 +41,11 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "d47ff01b33ed4bd808e1fa6eb2963014cfaf724672349d3226bc494c8c732cfc"
+    "sha256": "d47ff01b33ed4bd808e1fa6eb2963014cfaf724672349d3226bc494c8c732cfc",
+    "boxes_video": "videos-boxes/case-03.mp4",
+    "boxes_poster": "posters-boxes/case-03.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   },
   {
     "id": 4,
@@ -45,7 +57,11 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "eba495d4ed56e2ca8bf125061784dffcbd9cf5493c4985acf37ce6b1153bd17d"
+    "sha256": "eba495d4ed56e2ca8bf125061784dffcbd9cf5493c4985acf37ce6b1153bd17d",
+    "boxes_video": "videos-boxes/case-04.mp4",
+    "boxes_poster": "posters-boxes/case-04.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   },
   {
     "id": 5,
@@ -57,7 +73,11 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "f1d7be7f47623ff47686fd61ed2bd3b28fe4ae51b37e8a94ece8a212a1ba98ee"
+    "sha256": "f1d7be7f47623ff47686fd61ed2bd3b28fe4ae51b37e8a94ece8a212a1ba98ee",
+    "boxes_video": "videos-boxes/case-05.mp4",
+    "boxes_poster": "posters-boxes/case-05.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   },
   {
     "id": 6,
@@ -69,7 +89,11 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "c5cac7e8b7f34bd0ef54a580ae0ed4c71fa98c4c6e8dd8b3a16ec60df9817b13"
+    "sha256": "c5cac7e8b7f34bd0ef54a580ae0ed4c71fa98c4c6e8dd8b3a16ec60df9817b13",
+    "boxes_video": "videos-boxes/case-06.mp4",
+    "boxes_poster": "posters-boxes/case-06.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   },
   {
     "id": 7,
@@ -81,7 +105,11 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "d4dbb06a2f825f3877397d2e24ce8e892ca4a341449b09d43999ae0100b824a2"
+    "sha256": "d4dbb06a2f825f3877397d2e24ce8e892ca4a341449b09d43999ae0100b824a2",
+    "boxes_video": "videos-boxes/case-07.mp4",
+    "boxes_poster": "posters-boxes/case-07.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   },
   {
     "id": 8,
@@ -93,7 +121,11 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "648c75b5a8c57607593e3557dc9117da03106f6dc2091c5fdeb78873efa4c85b"
+    "sha256": "648c75b5a8c57607593e3557dc9117da03106f6dc2091c5fdeb78873efa4c85b",
+    "boxes_video": "videos-boxes/case-08.mp4",
+    "boxes_poster": "posters-boxes/case-08.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   },
   {
     "id": 9,
@@ -105,7 +137,11 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "53690eb45d79dbae6f8e6143763e73e28c62240dbb2bb83317057a33791a8ca1"
+    "sha256": "53690eb45d79dbae6f8e6143763e73e28c62240dbb2bb83317057a33791a8ca1",
+    "boxes_video": "videos-boxes/case-09.mp4",
+    "boxes_poster": "posters-boxes/case-09.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   },
   {
     "id": 10,
@@ -117,6 +153,10 @@
     "fps": 8.0,
     "width": 1248,
     "height": 272,
-    "sha256": "6431ed3ee0824df3630def3478d38ffbce347d2efbe91ade985816a078031f69"
+    "sha256": "6431ed3ee0824df3630def3478d38ffbce347d2efbe91ade985816a078031f69",
+    "boxes_video": "videos-boxes/case-10.mp4",
+    "boxes_poster": "posters-boxes/case-10.jpg",
+    "boxes_width": 2496,
+    "boxes_height": 528
   }
 ]
