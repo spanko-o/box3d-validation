@@ -1,4 +1,21 @@
-# Box3D · 13000 步快速验证
+# Box3D · 精选生成结果
+
+[打开当前展示页面](https://spanko-o.github.io/box3d-validation/)
+
+当前首页包含 14 条精选视频，每条左侧为生成结果，右侧为同一生成结果叠加实际输入 3D 框。单视图 416×240，25 帧；不包含 GT 或 HDMap 面板。
+
+- 密集行人穿行 3 条、鬼探头 4 条：Fusion Refine step-8000。
+- 长颈鹿 1 条：step-8000 后段窗口。
+- 狗和近景床垫各 1 条：step-8000，目标类别语义替换并增加目标 attention 偏置的推理增强版。
+- Base step-12000 与 Fusion Refine step-8000：各自的 000003、000007，共 4 条。
+
+青色框为插入目标，灰色框为其他有效目标。叠框不是对生成内容的检测。Fusion Refine 8000 指本轮继续训练的更新步数。增强版并不保证精确轨迹与掉落过程。
+
+文件与哈希见 `selected/manifest.json`。原有视频及历史展示仍保留：[Heading 13000](https://spanko-o.github.io/box3d-validation/heading-13000.html)。
+
+---
+
+# 历史展示：Box3D · 13000 步快速验证
 
 **240p（单视图 416×240） · 25 帧 · 10 条验证样本**
 

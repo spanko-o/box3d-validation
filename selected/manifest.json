@@ -1,0 +1,240 @@
+[
+  {
+    "id": "dense_pedestrian_crosswalk_001",
+    "title": "密集行人穿行 001",
+    "group": "密集行人",
+    "version": "Fusion Refine · step-8000",
+    "video": "selected/videos/dense_pedestrian_crosswalk_001.mp4",
+    "poster": "selected/posters/dense_pedestrian_crosswalk_001.jpg",
+    "sourceFrames": [
+      0,
+      24
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "3315f3b74b1298a4c6ec412e4146d5b069647d19eed1ceeaf4af0d28627fe0b1"
+  },
+  {
+    "id": "dense_pedestrian_crosswalk_002",
+    "title": "密集行人穿行 002",
+    "group": "密集行人",
+    "version": "Fusion Refine · step-8000",
+    "video": "selected/videos/dense_pedestrian_crosswalk_002.mp4",
+    "poster": "selected/posters/dense_pedestrian_crosswalk_002.jpg",
+    "sourceFrames": [
+      0,
+      24
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "5800af123f2a2e288c083c974f7b9a33b27f8a9575d47daa9e099d56d39d521f"
+  },
+  {
+    "id": "dense_pedestrian_crosswalk_003",
+    "title": "密集行人穿行 003",
+    "group": "密集行人",
+    "version": "Fusion Refine · step-8000",
+    "video": "selected/videos/dense_pedestrian_crosswalk_003.mp4",
+    "poster": "selected/posters/dense_pedestrian_crosswalk_003.jpg",
+    "sourceFrames": [
+      0,
+      24
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "d6a381280989208805330e208ed1da4c80e162e812b0f548b13477df2b3519a5"
+  },
+  {
+    "id": "ghost_probe_turn_ego_stop_001",
+    "title": "转弯鬼探头 · 自车停车",
+    "group": "鬼探头",
+    "version": "Fusion Refine · step-8000",
+    "video": "selected/videos/ghost_probe_turn_ego_stop_001.mp4",
+    "poster": "selected/posters/ghost_probe_turn_ego_stop_001.jpg",
+    "sourceFrames": [
+      32,
+      56
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "0a3fac6ea155bd833929a5c1eb408c6209802fecfae15185b305439db57baa38"
+  },
+  {
+    "id": "ghost_probe_turn_pedestrian_retreat_001",
+    "title": "转弯鬼探头 · 行人退回",
+    "group": "鬼探头",
+    "version": "Fusion Refine · step-8000",
+    "video": "selected/videos/ghost_probe_turn_pedestrian_retreat_001.mp4",
+    "poster": "selected/posters/ghost_probe_turn_pedestrian_retreat_001.jpg",
+    "sourceFrames": [
+      32,
+      56
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "8c76a2e533333f83d6feae38a2c07033da843d99e7689d4cda20884fdcdf29b5"
+  },
+  {
+    "id": "ghost_probe_moving_001",
+    "title": "动态鬼探头",
+    "group": "鬼探头",
+    "version": "Fusion Refine · step-8000",
+    "video": "selected/videos/ghost_probe_moving_001.mp4",
+    "poster": "selected/posters/ghost_probe_moving_001.jpg",
+    "sourceFrames": [
+      0,
+      24
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "257278c322db353e9c9282c8c8eb0d59f79617da28906fac584aac3a14b32085"
+  },
+  {
+    "id": "ghost_probe_static_001",
+    "title": "静态鬼探头",
+    "group": "鬼探头",
+    "version": "Fusion Refine · step-8000",
+    "video": "selected/videos/ghost_probe_static_001.mp4",
+    "poster": "selected/posters/ghost_probe_static_001.jpg",
+    "sourceFrames": [
+      0,
+      24
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "2fbd8fb659c8ad96faccdd2bd8c9cd16a04e5f210a225d40b12837cfeda0209e"
+  },
+  {
+    "id": "foreign_object_drop_mattress_close_visible",
+    "title": "床垫掉落 · 增强版",
+    "group": "长尾目标",
+    "version": "Fusion Refine · step-8000 · 目标语义 + attention 增强",
+    "video": "selected/videos/foreign_object_drop_mattress_close_visible.mp4",
+    "poster": "selected/posters/foreign_object_drop_mattress_close_visible.jpg",
+    "sourceFrames": [
+      6,
+      30
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "c8e65c023abf28f0e878223cf93d18788878989e5dc524e5d1b611b4eb9c2dd1"
+  },
+  {
+    "id": "animal_giraffe_crossing_001",
+    "title": "长颈鹿穿行",
+    "group": "长尾目标",
+    "version": "Fusion Refine · step-8000 · 后段窗口",
+    "video": "selected/videos/animal_giraffe_crossing_001.mp4",
+    "poster": "selected/posters/animal_giraffe_crossing_001.jpg",
+    "sourceFrames": [
+      24,
+      48
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "55a862341b611e8a2cb8fdedaa471d15f0aa0bd93736bf036f12781a8d42b210"
+  },
+  {
+    "id": "animal_dog_crossing_001",
+    "title": "狗穿行 · 增强版",
+    "group": "长尾目标",
+    "version": "Fusion Refine · step-8000 · 目标语义 + attention 增强",
+    "video": "selected/videos/animal_dog_crossing_001.mp4",
+    "poster": "selected/posters/animal_dog_crossing_001.jpg",
+    "sourceFrames": [
+      20,
+      44
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "30c301b83a2360d7ffd1d9269ae530cbca3186960d2a00a2c94e0ffb8159e239"
+  },
+  {
+    "id": "base-000003",
+    "title": "000003 · Base 12000",
+    "group": "转弯对照",
+    "version": "Base · step-12000",
+    "video": "selected/videos/base-000003.mp4",
+    "poster": "selected/posters/base-000003.jpg",
+    "sourceFrames": [
+      0,
+      24
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "33bba353f10344d87a5896a8e8172fde47c00163fcb95f67a4f2dde18b3bf478"
+  },
+  {
+    "id": "refine-000003",
+    "title": "000003 · Fusion Refine 8000",
+    "group": "转弯对照",
+    "version": "Fusion Refine · step-8000",
+    "video": "selected/videos/refine-000003.mp4",
+    "poster": "selected/posters/refine-000003.jpg",
+    "sourceFrames": [
+      0,
+      24
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "47cc3d09d3b8d856121ad5b584bb491db2b6dd96bdbd1e70d32e7832fdcd6531"
+  },
+  {
+    "id": "base-000007",
+    "title": "000007 · Base 12000",
+    "group": "转弯对照",
+    "version": "Base · step-12000",
+    "video": "selected/videos/base-000007.mp4",
+    "poster": "selected/posters/base-000007.jpg",
+    "sourceFrames": [
+      0,
+      24
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "d4bd9f825a63a1e3b11458d6b41a6c361e0ca0b7477c06825f5cd7e58d89ea44"
+  },
+  {
+    "id": "refine-000007",
+    "title": "000007 · Fusion Refine 8000",
+    "group": "转弯对照",
+    "version": "Fusion Refine · step-8000",
+    "video": "selected/videos/refine-000007.mp4",
+    "poster": "selected/posters/refine-000007.jpg",
+    "sourceFrames": [
+      0,
+      24
+    ],
+    "frames": 25,
+    "width": 832,
+    "height": 240,
+    "fps": 8,
+    "sha256": "c910cf28d5e77ff21f75a1b75f9db2628887491b088e68d3a56caf44d6ddf17e"
+  }
+]
