@@ -9,9 +9,9 @@
 - 狗和近景床垫各 1 条：step-8000，目标类别语义替换并增加目标 attention 偏置的推理增强版。
 - Base step-12000 与 Fusion Refine step-8000：各自的 000003、000007，共 4 条。
 
-青色框为插入目标，灰色框为其他有效目标。叠框不是对生成内容的检测。Fusion Refine 8000 指本轮继续训练的更新步数。增强版并不保证精确轨迹与掉落过程。
+叠框统一按模型类别着色：汽车蓝色、卡车橙色、行人红色、骑行者绿色、其他物体灰褐色，不显示 TARGET 或 slot 标签。狗、床垫和长颈鹿沿用 NPZ 的 Others 类别。叠框不是对生成内容的检测。Fusion Refine 8000 指本轮继续训练的更新步数。增强版并不保证精确轨迹与掉落过程。
 
-文件与哈希见 `selected/manifest.json`。原有视频及历史展示仍保留：[Heading 13000](https://spanko-o.github.io/box3d-validation/heading-13000.html)。
+文件与哈希见 `selected-class-colors/manifest.json`。之前的叠框资产保留在 `selected/`。原有视频及历史展示仍保留：[Heading 13000](https://spanko-o.github.io/box3d-validation/heading-13000.html)。
 
 ---
 
