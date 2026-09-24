@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E011",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆 FedEx 货车在城市街道上缓慢行驶，车身印有 FedEx 标志，车尾可见尾灯和车牌区域。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：一辆 FedEx 货车在城市街道上缓慢行驶，车身印有 FedEx 标志，车尾可见尾灯和车牌区域。\",\n    \"后段：货车继续在街道上缓慢行驶，保持稳定姿态，未见明显偏离或异常行为。\"\n  ],\n  \"related_ids\": [\n    \"R1\",\n    \"R2\"\n  ],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"事件描述清晰，货车在街道上行驶，无异常行为或复杂交互。\"\n}\n```",
+  "seconds": 4.967849835054949
+}

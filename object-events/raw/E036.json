@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E036",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆白色货车在道路上行驶，车尾装载着货物，车身侧面有蓝色和白色的标识。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：货车在道路上行驶，车尾装载着货物，车身侧面有蓝色和白色的标识。\",\n    \"后段：货车继续在道路上行驶，车尾装载着货物，车身侧面有蓝色和白色的标识。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"该事件描述了货车在道路上的行驶情况，没有涉及复杂行为或交互，因此被分类为ordinary。\"\n}\n```",
+  "seconds": 4.243413712014444
+}

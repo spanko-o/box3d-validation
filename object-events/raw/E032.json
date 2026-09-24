@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E032",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆黑色的三轮摩托车在道路上行驶，车头朝向画面右侧。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：一辆黑色的三轮摩托车在道路上行驶，车头朝向画面右侧。\",\n    \"后段：该三轮摩托车继续向前行驶，保持稳定姿态，未见明显偏离或异常行为。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"此事件仅涉及三轮摩托车的正常行驶行为，无复杂交互或显著变化。\"\n}\n```",
+  "seconds": 3.5899497570935637
+}

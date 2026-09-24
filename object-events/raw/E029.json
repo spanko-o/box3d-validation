@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E029",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一名男子骑着自行车，旁边有一只狗跟随着。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：一名男子骑着自行车，旁边有一只狗跟随着。\",\n    \"后段：该男子和狗继续前行，狗紧随其后。\",\n    \"相关对象：无\"\n  ],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"该事件描述了男子骑自行车和狗跟随的行为，属于日常活动范畴，无复杂交互或显著变化。\"\n}\n```",
+  "seconds": 3.4473695260239765
+}

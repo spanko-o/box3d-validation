@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E020",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆深灰色的丰田Sienna minivan停在路边，车尾朝向镜头，车牌清晰可见，车顶行李架和后窗雨刮器均可辨认。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：车辆静止停放于路边，未见明显移动。\",\n    \"后段：车辆保持静止状态，未发生任何移动或变化。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无关联标记。\",\n  \"uncertainty_zh\": \"无不确定性。\",\n  \"selection_reason_zh\": \"该对象为一辆静止的丰田Sienna minivan，仅描述其外观特征，无动态行为或交互事件。\"\n}\n```",
+  "seconds": 4.157252290984616
+}

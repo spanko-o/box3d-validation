@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E047",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一名身穿绿色上衣和黑白条纹短裤的女性正走在人行横道上，周围有其他行人。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：一名身穿绿色上衣和黑白条纹短裤的女性正走在人行横道上，周围有其他行人。\",\n    \"后段：该女性继续在人行横道上行走，周围行人保持相对静止。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"此事件仅涉及一名女性在人行横道上的正常行走行为，无复杂交互或显著变化。\"\n}\n```",
+  "seconds": 4.162231478956528
+}

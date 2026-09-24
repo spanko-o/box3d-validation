@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E026",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一名身穿深色连帽衫和灰色裤子的人背着背包，正从一辆白色汽车的驾驶座下车。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：一名身穿深色连帽衫和灰色裤子的人背着背包，正从一辆白色汽车的驾驶座下车。\",\n    \"后段：此人已完全从车中走出，背对镜头，背包在肩上，身体朝向车辆尾部。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"该事件仅涉及一名个体从汽车中下车的动作，属于常规行为，无复杂交互或显著变化。\"\n}\n```",
+  "seconds": 3.815697434009053
+}

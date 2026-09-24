@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E019",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆蓝色的轿车在道路上行驶，其尾部和部分侧面可见。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：蓝色轿车在道路上行驶，尾部和部分侧面可见。\",\n    \"后段：蓝色轿车继续在道路上行驶，尾部和部分侧面可见。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"蓝色轿车在道路上行驶，尾部和部分侧面可见。\"\n}\n```",
+  "seconds": 3.498913802090101
+}

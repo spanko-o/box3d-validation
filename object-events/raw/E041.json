@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E041",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆深色汽车在道路上缓慢行驶，车身轮廓清晰可见。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：车辆在道路上缓慢行驶，车身轮廓清晰可见。\",\n    \"后段：车辆继续在道路上缓慢行驶，车身轮廓清晰可见。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"车辆在道路上缓慢行驶，车身轮廓清晰可见。\"\n}\n```",
+  "seconds": 3.401346058002673
+}

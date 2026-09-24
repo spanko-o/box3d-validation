@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E005",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆双层巴士在城市街道上行驶，车身主要为米色，车尾标有数字 \\\"190\\\"，其后方可见一辆白色汽车。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：巴士在城市街道上行驶，其后方可见一辆白色汽车。\",\n    \"后段：巴士继续在城市街道上行驶，其后方可见一辆白色汽车。\"\n  ],\n  \"related_ids\": [\n    \"R1\",\n    \"R2\"\n  ],\n  \"additional_semantics_zh\": \"框轨迹以外的可见信息；若无则写无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"巴士在城市街道上行驶，其后方可见一辆白色汽车。\"\n}\n```",
+  "seconds": 4.527938285027631
+}

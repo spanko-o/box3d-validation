@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E031",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一位金发女性身穿黑色短袖上衣和短裤，背对镜头，正在人行道上行走。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：一位金发女性身穿黑色短袖上衣和短裤，背对镜头，正在人行道上行走。\",\n    \"后段：一位金发女性身穿黑色短袖上衣和短裤，背对镜头，正在人行道上行走。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"该对象为一位金发女性，其行为表现为在人行道上行走。由于其行为简单且无复杂交互，因此被分类为ordinary。\"\n}\n```",
+  "seconds": 4.454786433954723
+}

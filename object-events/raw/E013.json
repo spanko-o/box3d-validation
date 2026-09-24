@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E013",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆黑色皮卡车在道路上行驶，其尾灯亮起，表明车辆正在运行。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：黑色皮卡车在道路上行驶，尾灯亮起。\",\n    \"后段：黑色皮卡车继续在道路上行驶，尾灯保持亮起状态。\"\n  ],\n  \"related_ids\": [\n    \"R1\",\n    \"R2\"\n  ],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"黑色皮卡车在道路上行驶，尾灯亮起，这是一个正常的行驶行为，没有表现出复杂动作或交互。\"\n}\n```",
+  "seconds": 3.7536612360272557
+}

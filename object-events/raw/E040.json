@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E040",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆白色出租车停在路边，车顶有广告牌，车身侧面有文字标识。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：出租车静止停放于路边。\",\n    \"后段：出租车保持静止状态，未发生移动。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"出租车在视频中始终保持静止，未表现出任何运动或交互行为。\"\n}\n```",
+  "seconds": 3.1129793900763616
+}

@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E012",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆棕色的福特探险者SUV在城市街道上行驶，其尾部朝向镜头，车牌清晰可见，周围有其他车辆和建筑物。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：一辆棕色的福特探险者SUV在城市街道上行驶，其尾部朝向镜头，车牌清晰可见，周围有其他车辆和建筑物。\",\n    \"后段：该SUV继续在街道上行驶，保持稳定的速度和方向，周围环境未发生显著变化。\"\n  ],\n  \"related_ids\": [\n    \"R1\",\n    \"R2\"\n  ],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"该事件描述了福特探险者SUV在城市街道上的正常行驶行为，没有涉及复杂交互或显著变化。\"\n}\n```",
+  "seconds": 5.009004301973619
+}

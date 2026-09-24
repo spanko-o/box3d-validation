@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E010",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆黑色皮卡车在城市街道上行驶，其后方有一辆黄色出租车紧随其后。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：黑色皮卡车在城市街道上行驶，其后方有一辆黄色出租车紧随其后。\",\n    \"后段：黑色皮卡车继续在城市街道上行驶，黄色出租车保持在皮卡车后方。\"\n  ],\n  \"related_ids\": [\n    \"R1\"\n  ],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"事件描述了车辆在城市街道上的正常行驶行为，没有涉及复杂交互或不可预测的变化。\"\n}\n```",
+  "seconds": 4.089009945979342
+}

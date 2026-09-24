@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E050",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆橙色出租车在道路上行驶，车尾标有数字4462。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：出租车在道路上行驶，车尾标有数字4462。\",\n    \"后段：出租车在道路上行驶，车尾标有数字4462。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"出租车在道路上行驶，车尾标有数字4462。\"\n}\n```",
+  "seconds": 3.596217228914611
+}

@@ -1,0 +1,5 @@
+{
+  "candidate_id": "E004",
+  "response": "```json\n{\n  \"target_id\": \"T\",\n  \"description_zh\": \"一辆白色的丰田埃尔法出租车，车身上有黄色条纹和文字标识，停在路边。\",\n  \"decision\": \"ordinary\",\n  \"event_type\": \"simple_motion\",\n  \"observations_zh\": [\n    \"前段：车辆静止停放于路边。\",\n    \"后段：车辆保持静止状态，未发生移动。\"\n  ],\n  \"related_ids\": [],\n  \"additional_semantics_zh\": \"无\",\n  \"uncertainty_zh\": \"无\",\n  \"selection_reason_zh\": \"车辆在图像中呈现为静止状态，未表现出任何动态行为。\"\n}\n```",
+  "seconds": 3.4356480109272525
+}
