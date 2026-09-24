@@ -1,0 +1,12 @@
+{
+  "response": "```json\n{\n  \"identity\": \"轿车\",\n  \"early\": \"一辆银灰色轿车停在路边，车尾朝向镜头。\",\n  \"middle\": \"一辆银灰色轿车在道路上缓慢行驶，其后方有一辆黑色SUV。\",\n  \"late\": \"银灰色轿车在道路上继续前行，黑色SUV紧随其后。\",\n  \"description\": \"银灰色轿车在道路上缓慢行驶，其后方有一辆黑色SUV。\",\n  \"value\": \"ordinary\",\n  \"reason\": \"银灰色轿车和黑色SUV在道路上行驶，银灰色轿车位于黑色SUV的前方。\",\n  \"uncertainty\": \"\"\n}\n```",
+  "seconds": 3.5771317270118743,
+  "video_grid_thw": [
+    [
+      14,
+      30,
+      52
+    ]
+  ],
+  "input_tokens": 6187
+}

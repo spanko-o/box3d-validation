@@ -1,0 +1,12 @@
+{
+  "response": "```json\n{\n  \"identity\": \"T\",\n  \"early\": \"画面中，一名行人正在行走。\",\n  \"middle\": \"画面中，一名行人正在行走。\",\n  \"late\": \"画面中，一名行人正在行走。\",\n  \"description\": \"一名行人正在行走。\",\n  \"value\": \"ordinary\",\n  \"reason\": \"画面中，一名行人正在行走。\",\n  \"uncertainty\": \"\"\n}\n```",
+  "seconds": 2.47174609801732,
+  "video_grid_thw": [
+    [
+      14,
+      30,
+      52
+    ]
+  ],
+  "input_tokens": 6191
+}

@@ -1,0 +1,12 @@
+{
+  "response": "```json\n{\n  \"identity\": \"卡车\",\n  \"early\": \"一辆大型广告卡车停在路边，车身印有Virgin Hotels Las Vegas的广告，宣传其新开业的消息。\",\n  \"middle\": \"卡车开始移动，沿着城市街道前进，周围有其他车辆和建筑物。\",\n  \"late\": \"卡车继续行驶，逐渐远离镜头，背景中可以看到高楼大厦和广告牌。\",\n  \"description\": \"一辆大型广告卡车在城市街道上行驶，车身印有Virgin Hotels Las Vegas的广告。\",\n  \"value\": \"ordinary\",\n  \"reason\": \"卡车在城市街道上行驶，车身印有Virgin Hotels Las Vegas的广告。\",\n  \"uncertainty\": \"\"\n}\n```",
+  "seconds": 3.7099351428914815,
+  "video_grid_thw": [
+    [
+      14,
+      30,
+      52
+    ]
+  ],
+  "input_tokens": 6195
+}

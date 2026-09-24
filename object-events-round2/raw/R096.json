@@ -1,0 +1,12 @@
+{
+  "response": "```json\n{\n  \"identity\": \"T\",\n  \"early\": \"一辆蓝色的汽车在道路上行驶。\",\n  \"middle\": \"一辆蓝色的汽车在道路上行驶。\",\n  \"late\": \"一辆蓝色的汽车在道路上行驶。\",\n  \"description\": \"一辆蓝色的汽车在道路上行驶。\",\n  \"value\": \"ordinary\",\n  \"reason\": \"一辆蓝色的汽车在道路上行驶。\",\n  \"uncertainty\": \"\"\n}\n```",
+  "seconds": 2.7176329829962924,
+  "video_grid_thw": [
+    [
+      14,
+      30,
+      52
+    ]
+  ],
+  "input_tokens": 6203
+}

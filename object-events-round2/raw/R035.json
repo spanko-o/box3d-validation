@@ -1,0 +1,12 @@
+{
+  "response": "```json\n{\n  \"identity\":\"出租车\",\n  \"early\":\"一辆白色的出租车在道路上行驶，车顶装有警示灯。\",\n  \"middle\":\"出租车继续向前行驶，逐渐远离镜头。\",\n  \"late\":\"出租车完全驶出画面，不再可见。\",\n  \"description\":\"一辆白色的出租车在道路上行驶，车顶装有警示灯。\",\n  \"value\":\"ordinary\",\n  \"reason\":\"车辆在道路上行驶，车顶装有警示灯。\",\n  \"uncertainty\":\"none\"\n}\n```",
+  "seconds": 2.652229897095822,
+  "video_grid_thw": [
+    [
+      14,
+      30,
+      52
+    ]
+  ],
+  "input_tokens": 6187
+}

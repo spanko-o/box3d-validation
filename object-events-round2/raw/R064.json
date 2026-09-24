@@ -1,0 +1,12 @@
+{
+  "response": "```json\n{\n  \"identity\": \"T\",\n  \"early\": \"A white Toyota Prius is positioned in the leftmost lane of a multi-laned road, waiting at an intersection with its brake lights illuminated.\",\n  \"middle\": \"The Toyota Prius remains stationary as the traffic light ahead turns green, allowing vehicles to begin moving forward.\",\n  \"late\": \"All vehicles, including the Toyota Prius, start accelerating and proceed through the intersection.\",\n  \"description\": \"The Toyota Prius begins to move forward as the traffic light turns green, joining other vehicles in the queue.\",\n  \"value\": \"ordinary\",\n  \"reason\": \"The Toyota Prius is seen accelerating and moving forward as the traffic light turns green, indicating that it is following the flow of traffic.\",\n  \"uncertainty\": \"\"\n}\n```",
+  "seconds": 3.618637584033422,
+  "video_grid_thw": [
+    [
+      14,
+      30,
+      52
+    ]
+  ],
+  "input_tokens": 6175
+}

@@ -1,0 +1,12 @@
+{
+  "response": "```json\n{\n  \"identity\":\"T\",\n  \"early\":\"A man wearing a striped shirt and shorts is walking across the street.\",\n  \"middle\":\"Three men are walking across the street; one is riding a bicycle with a dog attached to the back.\",\n  \"late\":\"All three men have exited the frame.\",\n  \"description\":\"Three men—one on a bicycle with a dog—are crossing the street, while another man in a striped shirt and shorts walks alongside them.\",\n  \"value\":\"ordinary\",\n  \"reason\":\"Three men—one on a bicycle with a dog—are crossing the street, while another man in a striped shirt and shorts walks alongside them.\",\n  \"uncertainty\":\"None\"\n}\n```",
+  "seconds": 3.385956385056488,
+  "video_grid_thw": [
+    [
+      14,
+      30,
+      52
+    ]
+  ],
+  "input_tokens": 6188
+}

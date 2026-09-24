@@ -1,0 +1,12 @@
+{
+  "response": "```json\n{\n  \"identity\":\"T\",\n  \"early\":\"一辆白色SUV停在路边，车头朝向画面左侧。\",\n  \"middle\":\"一辆白色SUV在道路上缓慢行驶，车头朝向画面左侧。\",\n  \"late\":\"一辆白色SUV在道路上缓慢行驶，车头朝向画面左侧。\",\n  \"description\":\"一辆白色SUV在道路上缓慢行驶，车头朝向画面左侧。\",\n  \"value\":\"ordinary\",\n  \"reason\":\"一辆白色SUV在道路上缓慢行驶，车头朝向画面左侧。\",\n  \"uncertainty\":\"\"\n}\n```",
+  "seconds": 3.323132149060257,
+  "video_grid_thw": [
+    [
+      14,
+      30,
+      52
+    ]
+  ],
+  "input_tokens": 6195
+}
