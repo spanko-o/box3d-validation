@@ -1,0 +1,569 @@
+[
+  {
+    "candidate_id": "R023",
+    "clip_id": "hdmap_m003375_s03_2021.06.23.14.06.20_veh-26_00020_01142__s001200_n00300",
+    "track_id": "4a6b1f43ff5252ec",
+    "slot": 2,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一名男子骑着自行车，身后跟着一只狗，他们穿过一个十字路口，周围有行人和车辆。",
+      "8b": "一名男子骑着自行车沿人行道前行，一只黑狗紧随其后奔跑，两人先后经过一位正在过马路的男子。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "行进中向自身左侧转向。",
+    "video_grid_thw": [
+      [
+        9,
+        30,
+        52
+      ],
+      [
+        9,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 5655,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R017",
+    "clip_id": "hdmap_m000790_s02_2021.06.09.14.03.17_veh-12_00375_00566__s000600_n00300",
+    "track_id": "50b60e2974cb5b7d",
+    "slot": 3,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一名背着背包的人从一辆出租车的后门下车，随后转身进入车内。",
+      "8b": "一名男子背着背包从白色出租车后座下车，车门敞开，他正迈出脚步离开车辆。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "无具体运动变化提示。",
+    "video_grid_thw": [
+      [
+        9,
+        30,
+        52
+      ],
+      [
+        9,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 5645,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R113",
+    "clip_id": "hdmap_m000346_s01_2021.06.09.11.54.15_veh-12_03121_03319__s000600_n00300",
+    "track_id": "ee315a1f414c523d",
+    "slot": 6,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一名身穿灰色T恤和黑色短裤的男子正在跑步穿过马路，周围有其他行人和车辆。",
+      "8b": "一名男子身穿灰色短袖和黑色短裤，在斑马线上跑步前进。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "无具体运动变化提示。",
+    "video_grid_thw": [
+      [
+        5,
+        30,
+        52
+      ],
+      [
+        5,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 3451,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R049",
+    "clip_id": "hdmap_m005210_s00_2021.07.09.17.06.37_veh-35_05026_05593__s005100_n00300",
+    "track_id": "122be85c5e9458e3",
+    "slot": 1,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一辆黑色轿车在十字路口等待，随后加速并左转，穿过斑马线，与其他车辆一同驶离。",
+      "8b": "黑色轿车在十字路口等候后，向左转并加速驶离。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动过程中速度增加。行进中向自身左侧转向。",
+    "video_grid_thw": [
+      [
+        14,
+        30,
+        52
+      ],
+      [
+        14,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 8410,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R007",
+    "clip_id": "hdmap_m004641_s04_2021.06.23.21.56.29_veh-35_00220_00936__s002100_n00300",
+    "track_id": "ac5975deff6454db",
+    "slot": 0,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一辆军绿色吉普车在城市街道上行驶，车上载有数人，其中一人坐在后座，另一人站在车顶，周围还有其他车辆和行人。",
+      "8b": "一辆绿色吉普车在城市道路上行驶，车上载有多名乘客，其中一人坐在车后座并手持长杆状物体。车辆沿道路前进，周围可见其他汽车和棕榈树。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动过程中速度降低。",
+    "video_grid_thw": [
+      [
+        14,
+        30,
+        52
+      ],
+      [
+        14,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 8402,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R085",
+    "clip_id": "hdmap_m007446_s00_2021.07.16.22.40.23_veh-38_00371_00797__s002700_n00300",
+    "track_id": "eebeec6e35de5621",
+    "slot": 3,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一名背着背包的男子从路边人群旁走过，随后走向一辆停在路边的汽车。",
+      "8b": "一名男子与一名女子并肩站立于人行道旁，随后男子率先迈步向前行走，女子紧随其后，二人一同穿过车流间隙，在移动过程中男子一度伸手轻触身旁车辆。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标从近乎静止逐渐开始移动。",
+    "video_grid_thw": [
+      [
+        14,
+        30,
+        52
+      ],
+      [
+        14,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 8398,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R010",
+    "clip_id": "hdmap_m006889_s01_2021.07.16.16.27.22_veh-26_03836_05047__s006300_n00300",
+    "track_id": "eb39a0eca75e5281",
+    "slot": 0,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一辆灰色商务车在城市街道上缓慢行驶，尾灯亮起，周围有其他车辆和建筑物。",
+      "8b": "灰色面包车从静止状态起步，缓慢向前行驶并完成前进动作。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标从近乎静止逐渐开始移动。",
+    "video_grid_thw": [
+      [
+        14,
+        30,
+        52
+      ],
+      [
+        14,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 8394,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R025",
+    "clip_id": "hdmap_m002021_s03_2021.06.14.13.28.41_veh-12_01313_01541__s000600_n00300",
+    "track_id": "0991b72ae68e545c",
+    "slot": 1,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一辆三轮赛车在繁忙的街道上行驶，周围有多辆汽车和行人，随后逐渐减速直至停止。",
+      "8b": "一辆白色三轮车在道路上行驶，随后逐渐减速直至几乎停止。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动后减速至近乎静止。",
+    "video_grid_thw": [
+      [
+        14,
+        30,
+        52
+      ],
+      [
+        14,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 8420,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R027",
+    "clip_id": "hdmap_m002021_s03_2021.06.14.13.28.41_veh-12_01313_01541__s000600_n00300",
+    "track_id": "efd62aa2993752b2",
+    "slot": 0,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一辆橙色三轮车在城市街道上行驶，周围有其他车辆和行人，车辆在道路上有序移动。",
+      "8b": "橙色三轮车在道路上行驶时速度逐渐减慢，并最终被一辆黑色皮卡车超越。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动过程中速度降低。",
+    "video_grid_thw": [
+      [
+        14,
+        30,
+        52
+      ],
+      [
+        14,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 8418,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R029",
+    "clip_id": "hdmap_m008004_s01_2021.08.17.15.02.08_veh-45_01348_01731__s001500_n00300",
+    "track_id": "a50a0b63748054e1",
+    "slot": 0,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "黑色SUV在绿灯亮起后加速行驶，从十字路口右转并逐渐远离镜头，车身保持平稳，尾灯亮起。",
+      "8b": "黑色SUV在道路上行驶，随后向右转弯并加速前进。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动过程中速度增加。行进中向自身右侧转向。",
+    "video_grid_thw": [
+      [
+        12,
+        30,
+        52
+      ],
+      [
+        12,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 7306,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R035",
+    "clip_id": "hdmap_m007623_s03_2021.07.16.23.22.27_veh-14_01631_03833__s014400_n00300",
+    "track_id": "d6013e6e89f15953",
+    "slot": 0,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一辆出租车在道路上行驶，随后向左转弯并逐渐远离镜头，背景中有行人和建筑物。",
+      "8b": "白色出租车沿道路行驶，在行进中向左侧转向并加速前进。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动过程中速度增加。行进中向自身左侧转向。",
+    "video_grid_thw": [
+      [
+        14,
+        30,
+        52
+      ],
+      [
+        14,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 8412,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R045",
+    "clip_id": "hdmap_m000702_s01_2021.06.09.12.51.31_veh-35_01729_02626__s008100_n00300",
+    "track_id": "6087570ad7af55ff",
+    "slot": 1,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一辆白色轿车在道路上行驶，并向右转弯。",
+      "8b": "白色轿车起初处于静止状态，随后启动并沿道路前行，在行进过程中向右转弯。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标从近乎静止逐渐开始移动。行进中向自身右侧转向。",
+    "video_grid_thw": [
+      [
+        14,
+        30,
+        52
+      ],
+      [
+        14,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 8412,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R062",
+    "clip_id": "hdmap_m001267_s00_2021.06.09.17.23.18_veh-38_04286_04521__s000000_n00300",
+    "track_id": "ebdac910291655aa",
+    "slot": 7,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "银色轿车在城市街道上行驶，逐渐加速并向右转弯，经过多个车道并接近路边的绿色隔离柱。",
+      "8b": "银色轿车沿道路行驶，在行进中向右侧转向并加速前进。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动过程中速度增加。行进中向自身右侧转向。",
+    "video_grid_thw": [
+      [
+        13,
+        30,
+        52
+      ],
+      [
+        13,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 7863,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R077",
+    "clip_id": "hdmap_m008732_s03_2021.10.11.05.34.05_veh-50_02309_02677__s000000_n00300",
+    "track_id": "154be8f48a265063",
+    "slot": 9,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一名骑着摩托车的人在城市街道上行驶，经过一个十字路口，随后向右转弯并继续前进。",
+      "8b": "一名骑手驾驶一辆黑色摩托车，在城市道路上从左向右行驶，途中加速并向右转弯，背景可见其他车辆与绿化带。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动过程中速度增加。行进中向自身右侧转向。",
+    "video_grid_thw": [
+      [
+        12,
+        30,
+        52
+      ],
+      [
+        12,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 7312,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R078",
+    "clip_id": "hdmap_m008732_s03_2021.10.11.05.34.05_veh-50_02309_02677__s000000_n00300",
+    "track_id": "cf5d75118c5551b7",
+    "slot": 7,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一名骑着摩托车的人在城市街道上行驶，途中向右转弯并加速前进。",
+      "8b": "一名骑手驾驶黑色摩托车，在路口处向右转并加速前行。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动过程中速度增加。行进中向自身右侧转向。",
+    "video_grid_thw": [
+      [
+        7,
+        30,
+        52
+      ],
+      [
+        7,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 4556,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R082",
+    "clip_id": "hdmap_m006389_s00_2021.07.16.16.01.30_veh-38_00356_02486__s012900_n00300",
+    "track_id": "11c4815880d45d2a",
+    "slot": 3,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "白色轿车在城市道路上行驶，经过十字路口，随后向右转弯并驶入另一条道路。",
+      "8b": "白色轿车在道路上行进中向自身右侧转向。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "行进中向自身右侧转向。",
+    "video_grid_thw": [
+      [
+        7,
+        30,
+        52
+      ],
+      [
+        7,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 4556,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R100",
+    "clip_id": "hdmap_m008505_s00_2021.08.17.18.44.32_veh-08_00586_00848__s001800_n00300",
+    "track_id": "ec3eeda811725845",
+    "slot": 10,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一辆黑色轿车在城市街道上行驶，经过十字路口后向左转弯，周围有其他车辆和行人。",
+      "8b": "黑色轿车沿道路行驶，在行进中向左侧转向并加速前进。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标在移动过程中速度增加。行进中向自身左侧转向。",
+    "video_grid_thw": [
+      [
+        9,
+        30,
+        52
+      ],
+      [
+        9,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 5678,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R102",
+    "clip_id": "hdmap_m004233_s01_2021.06.23.17.31.36_veh-16_01443_01606__s000900_n00300",
+    "track_id": "fd544ad770b45ea8",
+    "slot": 5,
+    "comparison_group": "retained",
+    "captions": {
+      "2b": "一辆黑色轿车在十字路口处转弯，刹车灯亮起，随后向右转并驶离路口。",
+      "8b": "黑色汽车在道路上行进中向自身右侧转向。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "行进中向自身右侧转向。",
+    "video_grid_thw": [
+      [
+        10,
+        30,
+        52
+      ],
+      [
+        10,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 6203,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R001",
+    "clip_id": "hdmap_m000750_s03_2021.06.09.12.51.31_veh-35_04247_04424__s000600_n00300",
+    "track_id": "140b2081076556be",
+    "slot": 1,
+    "comparison_group": "control",
+    "captions": {
+      "2b": "白色皮卡车在城市街道上行驶，逐渐加速并转弯，周围有其他车辆和建筑物。",
+      "8b": "白色皮卡车起初处于静止状态，随后开始向前行驶并逐渐加速，在城市道路上与其他车辆一同前进。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标从近乎静止逐渐开始移动。",
+    "video_grid_thw": [
+      [
+        14,
+        30,
+        52
+      ],
+      [
+        14,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 8406,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R096",
+    "clip_id": "hdmap_m004019_s01_2021.06.23.16.52.00_veh-26_01043_03099__s012600_n00300",
+    "track_id": "6a0a6c1f92b55b2f",
+    "slot": 0,
+    "comparison_group": "control",
+    "captions": {
+      "2b": "一辆蓝色轿车在城市街道上行驶，随后逐渐远离镜头。",
+      "8b": "蓝色轿车在道路上行驶。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "无具体运动变化提示。",
+    "video_grid_thw": [
+      [
+        6,
+        30,
+        52
+      ],
+      [
+        6,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 4019,
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R101",
+    "clip_id": "hdmap_m004233_s01_2021.06.23.17.31.36_veh-16_01443_01606__s000900_n00300",
+    "track_id": "8f2d0dae2d2d5730",
+    "slot": 2,
+    "comparison_group": "control",
+    "captions": {
+      "2b": "出租车在十字路口处起步，随后向左转弯，驶离原位。",
+      "8b": "白色出租车从近乎静止状态开始移动并向前行驶。"
+    },
+    "caption_source": "Verbatim decoded model outputs; no editorial rewriting",
+    "motion_hint": "目标从近乎静止逐渐开始移动。",
+    "video_grid_thw": [
+      [
+        5,
+        30,
+        52
+      ],
+      [
+        5,
+        24,
+        24
+      ]
+    ],
+    "input_tokens": 3470,
+    "training_approved": false
+  }
+]
