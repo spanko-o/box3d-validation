@@ -1,0 +1,175 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Fine-Grained Object Events v2 Screening</title>
+<style>
+body{margin:0;background:#f5f6f8;color:#20252b;font:15px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1180px;margin:0 auto;padding:24px}h1{font-size:24px;margin:0 0 6px}p.lead{color:#5c6670;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:16px}.card{background:#fff;border:1px solid #d9dee4;border-radius:6px;padding:14px;box-shadow:0 1px 2px #0000000c}
+header{display:flex;gap:8px;align-items:center;margin-bottom:8px}header strong{font-size:18px}header span,header em{font-style:normal;font-size:12px;padding:2px 6px;border-radius:3px;background:#e9eef5;color:#405263}header em{background:#fff0d8;color:#7a4b00;margin-left:auto}
+img{display:block;width:100%;height:auto;border-radius:3px;background:#eee}.sentence{font-weight:650;font-size:16px;margin-bottom:4px}.card p{margin:8px 0}.card dl{display:grid;grid-template-columns:58px 1fr;margin:10px 0 0;font-size:13px;color:#5c6670}.card dt{font-weight:650}.card dd{margin:0 0 4px;overflow-wrap:anywhere}
+@media(max-width:520px){main{padding:12px}.grid{grid-template-columns:1fr}}
+</style>
+<main><h1>Fine-Grained Object Events v2</h1>
+<p class="lead">严格筛选审查页。所有句子仍是候选草稿；没有样本被批准训练。先检查主体、动作顺序和关系，再决定是否导出。</p>
+<section class="grid"><article class="card">
+<header><strong>R023</strong><span>event_core_candidate</span><em>keep_pending_human_review</em></header>
+<img src="frames/R023_overview.jpg" alt="R023 首中尾帧">
+<p class="sentence">一个男人骑着自行车穿过路口，一只狗在自行车旁跟着他。</p>
+<p>骑车人与狗的伴随关系是可描述事件；狗不绑定3D track，避免从文本猜框。</p>
+<p><a href="../../object-events-round3/timeline/R023.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>bicycle · 4a6b1f43ff5252ec · slot 2</dd>
+<dt>复核</dt><dd>确认狗在完整视频中始终与骑车人同行；确认主track是自行车而不是旁边行人</dd></dl>
+</article>
+<article class="card">
+<header><strong>R017</strong><span>event_core_candidate</span><em>keep_pending_human_review</em></header>
+<img src="frames/R017_overview.jpg" alt="R017 首中尾帧">
+<p class="sentence">一个背着背包的人从出租车旁上车，进入车内。</p>
+<p>视频支持人员从出租车旁进入车内，动作有明确时间变化；机器主绑定错误。；机器主绑定冲突</p>
+<p><a href="../../object-events-round3/timeline/R017.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>pedestrian · 50b60e2974cb5b7d · slot 3</dd>
+<dt>复核</dt><dd>确认主track是上车行人；确认上车方向和动作顺序</dd></dl>
+</article>
+<article class="card">
+<header><strong>R113</strong><span>event_candidate_needs_sentence_review</span><em>keep_pending_human_review</em></header>
+<img src="frames/R113_overview.jpg" alt="R113 首中尾帧">
+<p class="sentence">一名行人穿过斑马线，经过路边等候的其他行人。</p>
+<p>带3D框时间轴确认主框跟随灰衣行人穿过斑马线；仍需人工确认跑步还是普通行走，并修正机器主绑定冲突。；机器主绑定冲突</p>
+<p><a href="../../object-events-round3/timeline/R113.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>pedestrian · ee315a1f414c523d · slot 6</dd>
+<dt>复核</dt><dd>在带框时间轴中确认主track对应哪一名行人；确认是跑步还是普通行走</dd></dl>
+</article>
+<article class="card">
+<header><strong>R049</strong><span>event_core_candidate</span><em>keep_pending_human_review</em></header>
+<img src="frames/R049_overview.jpg" alt="R049 首中尾帧">
+<p class="sentence">一辆黑色轿车在路口等待，白色轿车横穿前方后，黑车再通过路口。</p>
+<p>黑车等待、白车先横穿、黑车随后通过，存在可见的多车时序关系；机器主绑定需人工确认。；机器主绑定冲突</p>
+<p><a href="../../object-events-round3/timeline/R049.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · 122be85c5e9458e3 · slot 1</dd>
+<dt>复核</dt><dd>确认黑车是主track；确认是否确实发生左转，不用语言补充不可见因果</dd></dl>
+</article>
+<article class="card">
+<header><strong>R085</strong><span>event_candidate_needs_sentence_review</span><em>keep_pending_human_review</em></header>
+<img src="frames/R085_overview.jpg" alt="R085 首中尾帧">
+<p class="sentence">一名行人从路边人群中走出，朝黑色轿车后方走去。</p>
+<p>带3D框时间轴确认目标行人从人群方向走到黑色轿车后方；是否发生更具体交互仍不能从当前片段确认。</p>
+<p><a href="../../object-events-round3/timeline/R085.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>pedestrian · eebeec6e35de5621 · slot 3</dd>
+<dt>复核</dt><dd>确认主track在全程是否可见；确认其是否真的朝车辆后方行走</dd></dl>
+</article>
+<article class="card">
+<header><strong>R007</strong><span>event_core_candidate</span><em>keep_pending_human_review</em></header>
+<img src="frames/R007_overview.jpg" alt="R007 首中尾帧">
+<p class="sentence">一辆后部敞开的吉普车载着乘客和物品沿街行驶。</p>
+<p>后部敞开的车辆及其乘员/载物是有辨识度的构型，不是单纯描述车辆直行。</p>
+<p><a href="../../object-events-round3/timeline/R007.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · ac5975deff6454db · slot 0</dd>
+<dt>复核</dt><dd>确认后部可见的是乘客和物品，避免加入车顶等未证实细节</dd></dl>
+</article>
+<article class="card">
+<header><strong>R025</strong><span>event_core_candidate</span><em>keep_pending_human_review</em></header>
+<img src="frames/R025_overview.jpg" alt="R025 首中尾帧">
+<p class="sentence">一辆白色三轮车减速时，另一辆橙色三轮车从其左后方驶近。</p>
+<p>罕见三轮车辆与另一辆三轮车存在接近和减速关系，具有对象交互信息；NPZ类别桶为bicycle，需人工确认语义是否接受。</p>
+<p><a href="../../object-events-round3/timeline/R025.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>bicycle · 0991b72ae68e545c · slot 1</dd>
+<dt>复核</dt><dd>确认白色三轮车是主track；确认bicycle类别桶与三轮车文本是否需要保留；与R027保持同一来源场景划分</dd></dl>
+</article>
+<article class="card">
+<header><strong>R027</strong><span>event_core_candidate</span><em>keep_pending_human_review</em></header>
+<img src="frames/R027_overview.jpg" alt="R027 首中尾帧">
+<p class="sentence">一辆橙色三轮车从另一辆三轮车左后方驶近，随后两车沿相邻车道前进。</p>
+<p>同场景另一辆橙色三轮车的接近关系可作为互补对象事件；NPZ类别桶为bicycle，需人工确认语义是否接受。</p>
+<p><a href="../../object-events-round3/timeline/R027.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>bicycle · efd62aa2993752b2 · slot 0</dd>
+<dt>复核</dt><dd>确认橙色三轮车是主track；确认bicycle类别桶与三轮车文本是否需要保留；与R025保持同一来源场景划分</dd></dl>
+</article>
+<article class="card">
+<header><strong>R035</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一辆白色出租车从自车左侧驶到前方，并向左调整方向后驶远。</p>
+<p>起步和转向可用于运动补充池，但缺少更丰富的交互或语义事件。</p>
+<p><a href="../../object-events-round3/timeline/R035.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · d6013e6e89f15953 · slot 0</dd>
+<dt>复核</dt><dd>确认转向描述与3D轨迹方向一致</dd></dl>
+</article>
+<article class="card">
+<header><strong>R010</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一辆灰色商务车短暂停留后起步，向前驶去。</p>
+<p>从近乎静止到起步是状态变化，但仍属于低信息量运动补充。</p>
+<p><a href="../../object-events-round3/timeline/R010.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · eb39a0eca75e5281 · slot 0</dd>
+<dt>复核</dt><dd>确认中段确实发生起步而非相机运动造成的假象</dd></dl>
+</article>
+<article class="card">
+<header><strong>R029</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一辆黑色SUV驶入路口后向右转，沿侧方道路驶去。</p>
+<p>明确右转，但没有独立的复杂交互；不放入事件核心池。</p>
+<p><a href="../../object-events-round3/timeline/R029.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · a50a0b63748054e1 · slot 0</dd>
+<dt>复核</dt><dd>确认右转方向</dd></dl>
+</article>
+<article class="card">
+<header><strong>R045</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一辆银色轿车从道路右侧起步，向右转入前方车道后驶远。</p>
+<p>起步后右转，保留作轨迹运动补充，不作为高信息事件。</p>
+<p><a href="../../object-events-round3/timeline/R045.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · 6087570ad7af55ff · slot 1</dd>
+<dt>复核</dt><dd>确认起步和右转均在目标可见阶段发生</dd></dl>
+</article>
+<article class="card">
+<header><strong>R062</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一辆银灰色轿车驶向路口，随后向右转入侧方道路。</p>
+<p>明确右转进入侧路，但语义上仍接近普通交通运动。</p>
+<p><a href="../../object-events-round3/timeline/R062.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · ebdac910291655aa · slot 7</dd>
+<dt>复核</dt><dd>确认目标track和右转方向</dd></dl>
+</article>
+<article class="card">
+<header><strong>R077</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一名骑手进入路口后向右转，驶向横向道路。</p>
+<p>带3D框时间轴确认摩托车在关键帧可见；仅保留为右转运动补充，不提升为事件核心。</p>
+<p><a href="../../object-events-round3/timeline/R077.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>bicycle · 154be8f48a265063 · slot 9</dd>
+<dt>复核</dt><dd>先用带3D框时间轴确认骑手是否在目标视频中可见</dd></dl>
+</article>
+<article class="card">
+<header><strong>R078</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一名骑手穿过路口后向右转，驶向另一条道路。</p>
+<p>带3D框时间轴确认摩托车在关键帧可见；仅保留为右转运动补充，不提升为事件核心。</p>
+<p><a href="../../object-events-round3/timeline/R078.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>bicycle · cf5d75118c5551b7 · slot 7</dd>
+<dt>复核</dt><dd>先用带3D框时间轴确认骑手是否在目标视频中可见</dd></dl>
+</article>
+<article class="card">
+<header><strong>R082</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一辆白色轿车驶到路口后向右转入侧方道路，其他车辆继续直行。</p>
+<p>存在右转和直行车流背景，但不能从此句推断避让或因果。</p>
+<p><a href="../../object-events-round3/timeline/R082.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · 11c4815880d45d2a · slot 3</dd>
+<dt>复核</dt><dd>确认不要把同时发生写成避让原因</dd></dl>
+</article>
+<article class="card">
+<header><strong>R100</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一辆深色轿车从前方车道向左转弯，驶入左侧道路。</p>
+<p>明确左转，但缺少额外对象交互，作为运动补充。</p>
+<p><a href="../../object-events-round3/timeline/R100.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · ec3eeda811725845 · slot 10</dd>
+<dt>复核</dt><dd>确认左转方向</dd></dl>
+</article>
+<article class="card">
+<header><strong>R102</strong><span>motion_supplement</span><em>keep_pending_human_review</em></header>
+
+<p class="sentence">一辆深色轿车沿最右侧车道驶入路口，随后向右转弯离开直行车流。</p>
+<p>明确右转离开直行车流，但仍属于常规轨迹控制样本。</p>
+<p><a href="../../object-events-round3/timeline/R102.jpg">打开带3D框时间轴</a></p>
+<dl><dt>主对象</dt><dd>vehicle · fd544ad770b45ea8 · slot 5</dd>
+<dt>复核</dt><dd>确认主track和转向方向</dd></dl>
+</article></section></main>

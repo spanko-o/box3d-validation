@@ -1,0 +1,21 @@
+{
+  "dataset": "nuplan_object_events_curated_v2_screening",
+  "source": "curated_v1/metadata/records.json",
+  "records": 18,
+  "tier_counts": {
+    "event_candidate_needs_sentence_review": 2,
+    "event_core_candidate": 6,
+    "motion_supplement": 10
+  },
+  "event_core_candidate_ids": [
+    "R023",
+    "R017",
+    "R049",
+    "R007",
+    "R025",
+    "R027"
+  ],
+  "hold_candidate_ids": [],
+  "training_approved": 0,
+  "policy": "This is a screening review layer. No machine or agent output is training approval."
+}

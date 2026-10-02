@@ -1,0 +1,959 @@
+[
+  {
+    "candidate_id": "R023",
+    "scene_id": "S006",
+    "clip_id": "hdmap_m003375_s03_2021.06.23.14.06.20_veh-26_00020_01142__s001200_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0001/hdmap_m003375_s03_2021.06.23.14.06.20_veh-26_00020_01142__s001200_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/03/hdmap_m003375_s03_2021.06.23.14.06.20_veh-26_00020_01142__s001200_n00300.npz",
+    "source_npz_sha256": "bee6f8a3210201c65e6a28eb44046041140d27874d11fe1030d9134b016b828f",
+    "primary": {
+      "track_id": "4a6b1f43ff5252ec",
+      "slot": 2,
+      "category": "bicycle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一个男人骑着自行车穿过路口，旁边有一条狗跟着跑。",
+    "proposed_sentence": "一个男人骑着自行车穿过路口，一只狗在自行车旁跟着他。",
+    "priority_v1": "event",
+    "screening": {
+      "tier": "event_core_candidate",
+      "decision": "keep_pending_human_review",
+      "reason": "骑车人与狗的伴随关系是可描述事件；狗不绑定3D track，避免从文本猜框。",
+      "proposed_sentence": "一个男人骑着自行车穿过路口，一只狗在自行车旁跟着他。",
+      "review_questions": [
+        "确认狗在完整视频中始终与骑车人同行",
+        "确认主track是自行车而不是旁边行人"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": 18.485782623291016,
+      "center_displacement_m": 9.823285012723248,
+      "early_speed_mps": 2.416349105969325,
+      "speed_p90_mps": 2.9704780956608516,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在该可见时间段内移动。行进中向自身左侧转向。"
+    },
+    "model_binding_check": {
+      "status": "primary_matches",
+      "source": "nuplan_object_events/qwen_drive_pilot/binding_v2/R023/result.json",
+      "verified_bindings": [
+        {
+          "label": "O003",
+          "slot": 2,
+          "track_id": "4a6b1f43ff5252ec",
+          "category": "bicycle",
+          "role": "primary"
+        }
+      ],
+      "issues": [],
+      "machine_status": "candidate_pending_review",
+      "machine_event_sentence": "一名骑自行车的人带着狗穿过十字路口。"
+    },
+    "same_scene_candidates": [
+      "R023"
+    ],
+    "split_group": "nuplan_scene:S006",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R017",
+    "scene_id": "S005",
+    "clip_id": "hdmap_m000790_s02_2021.06.09.14.03.17_veh-12_00375_00566__s000600_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0000/hdmap_m000790_s02_2021.06.09.14.03.17_veh-12_00375_00566__s000600_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/29/hdmap_m000790_s02_2021.06.09.14.03.17_veh-12_00375_00566__s000600_n00300.npz",
+    "source_npz_sha256": "c6a2b0a19ec4bbcd4945e8d20704f7bddb624c9507d90e9ff71004cd76cdec7e",
+    "primary": {
+      "track_id": "50b60e2974cb5b7d",
+      "slot": 3,
+      "category": "pedestrian"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一个背着背包的男人站在出租车打开的车门旁，随后俯身进入车内。",
+    "proposed_sentence": "一个背着背包的人从出租车旁上车，进入车内。",
+    "priority_v1": "event",
+    "screening": {
+      "tier": "event_core_candidate",
+      "decision": "keep_pending_human_review",
+      "reason": "视频支持人员从出租车旁进入车内，动作有明确时间变化；机器主绑定错误。",
+      "proposed_sentence": "一个背着背包的人从出租车旁上车，进入车内。",
+      "review_questions": [
+        "确认主track是上车行人",
+        "确认上车方向和动作顺序"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": false,
+      "heading_net_deg": -27.97614860534668,
+      "center_displacement_m": 1.0513544357873212,
+      "early_speed_mps": 0.5083075580262322,
+      "speed_p90_mps": 0.5218060496775963,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在该可见时间段内移动。"
+    },
+    "model_binding_check": {
+      "status": "conflict",
+      "source": "nuplan_object_events/qwen_drive_pilot/binding_v2/R017/result.json",
+      "verified_bindings": [
+        {
+          "label": "O001",
+          "slot": 0,
+          "track_id": "16dd9952a89b5024",
+          "category": "vehicle",
+          "role": "primary"
+        },
+        {
+          "label": "O002",
+          "slot": 1,
+          "track_id": "957cf64f305553b1",
+          "category": "vehicle",
+          "role": "related"
+        }
+      ],
+      "issues": [
+        "model_primary_binding_conflicts_with_evidence_binding"
+      ],
+      "machine_status": "candidate_pending_review",
+      "machine_event_sentence": "右侧白色出租车（O001）车门保持开启状态，一名乘客正在下车，左侧白色MPV（O002）在车道内保持静止。"
+    },
+    "same_scene_candidates": [
+      "R017"
+    ],
+    "split_group": "nuplan_scene:S005",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R113",
+    "scene_id": "S004",
+    "clip_id": "hdmap_m000346_s01_2021.06.09.11.54.15_veh-12_03121_03319__s000600_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0000/hdmap_m000346_s01_2021.06.09.11.54.15_veh-12_03121_03319__s000600_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/1a/hdmap_m000346_s01_2021.06.09.11.54.15_veh-12_03121_03319__s000600_n00300.npz",
+    "source_npz_sha256": "d206aa6c40cd9811947f04aa08ad481da7e2b778fd6a3752af900e34f4b51952",
+    "primary": {
+      "track_id": "ee315a1f414c523d",
+      "slot": 6,
+      "category": "pedestrian"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一个穿灰色上衣的男人跑过马路，从几名正在步行的行人旁经过。",
+    "proposed_sentence": "一名行人穿过斑马线，经过路边等候的其他行人。",
+    "priority_v1": "event",
+    "screening": {
+      "tier": "event_candidate_needs_sentence_review",
+      "decision": "keep_pending_human_review",
+      "reason": "带3D框时间轴确认主框跟随灰衣行人穿过斑马线；仍需人工确认跑步还是普通行走，并修正机器主绑定冲突。",
+      "proposed_sentence": "一名行人穿过斑马线，经过路边等候的其他行人。",
+      "review_questions": [
+        "在带框时间轴中确认主track对应哪一名行人",
+        "确认是跑步还是普通行走"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": false,
+      "heading_net_deg": -12.437302589416504,
+      "center_displacement_m": 5.877799352628615,
+      "early_speed_mps": 2.712081092925552,
+      "speed_p90_mps": 3.162773660385614,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在该可见时间段内移动。"
+    },
+    "model_binding_check": {
+      "status": "conflict",
+      "source": "nuplan_object_events/qwen_drive_pilot/binding_v2/R113/result.json",
+      "verified_bindings": [
+        {
+          "label": "O003",
+          "slot": 2,
+          "track_id": "9f193190cf975533",
+          "category": "pedestrian",
+          "role": "primary"
+        },
+        {
+          "label": "O005",
+          "slot": 4,
+          "track_id": "092f7a19584456b2",
+          "category": "pedestrian",
+          "role": "related"
+        }
+      ],
+      "issues": [
+        "model_primary_binding_conflicts_with_evidence_binding"
+      ],
+      "machine_status": "candidate_pending_review",
+      "machine_event_sentence": "身穿黄色上衣的男子（O003）在红灯期间从左侧人行道走向并进入十字路口，与此同时，身穿白色上衣的女子（O005）与同伴在人行道上等待后开始横穿马路。"
+    },
+    "same_scene_candidates": [
+      "R113"
+    ],
+    "split_group": "nuplan_scene:S004",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R049",
+    "scene_id": "S013",
+    "clip_id": "hdmap_m005210_s00_2021.07.09.17.06.37_veh-35_05026_05593__s005100_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0002/hdmap_m005210_s00_2021.07.09.17.06.37_veh-35_05026_05593__s005100_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/35/hdmap_m005210_s00_2021.07.09.17.06.37_veh-35_05026_05593__s005100_n00300.npz",
+    "source_npz_sha256": "8d996af90d62a5df9efe0d51d77636ae3a9f72c0489e9a503d0bfe237daadc72",
+    "primary": {
+      "track_id": "122be85c5e9458e3",
+      "slot": 1,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆黑色轿车在路口等待，一辆白色轿车从它前方驶过后，黑车向左转驶过路口。",
+    "proposed_sentence": "一辆黑色轿车在路口等待，白色轿车横穿前方后，黑车再通过路口。",
+    "priority_v1": "event",
+    "screening": {
+      "tier": "event_core_candidate",
+      "decision": "keep_pending_human_review",
+      "reason": "黑车等待、白车先横穿、黑车随后通过，存在可见的多车时序关系；机器主绑定需人工确认。",
+      "proposed_sentence": "一辆黑色轿车在路口等待，白色轿车横穿前方后，黑车再通过路口。",
+      "review_questions": [
+        "确认黑车是主track",
+        "确认是否确实发生左转，不用语言补充不可见因果"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": 59.007259368896484,
+      "center_displacement_m": 10.60046000447872,
+      "early_speed_mps": 0.5090558461497466,
+      "speed_p90_mps": 5.639568395262722,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动过程中速度增加。行进中向自身左侧转向。"
+    },
+    "model_binding_check": {
+      "status": "conflict",
+      "source": "nuplan_object_events/qwen_drive_pilot/binding_v2/R049/result.json",
+      "verified_bindings": [
+        {
+          "label": "O005",
+          "slot": 4,
+          "track_id": "3e7800d74bc455d9",
+          "category": "vehicle",
+          "role": "primary"
+        }
+      ],
+      "issues": [
+        "model_primary_binding_conflicts_with_evidence_binding"
+      ],
+      "machine_status": "candidate_pending_review",
+      "machine_event_sentence": "编号O005的蓝色车辆停在路口右侧，期间有一辆白色轿车和一辆黑色轿车从右向左穿过路口。"
+    },
+    "same_scene_candidates": [
+      "R049"
+    ],
+    "split_group": "nuplan_scene:S013",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R085",
+    "scene_id": "S022",
+    "clip_id": "hdmap_m007446_s00_2021.07.16.22.40.23_veh-38_00371_00797__s002700_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0003/hdmap_m007446_s00_2021.07.16.22.40.23_veh-38_00371_00797__s002700_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/1a/hdmap_m007446_s00_2021.07.16.22.40.23_veh-38_00371_00797__s002700_n00300.npz",
+    "source_npz_sha256": "db5d2a1910089c4a2ee03a79a26997e40aab2a00849fb45a8c6d085f7a0fc34a",
+    "primary": {
+      "track_id": "eebeec6e35de5621",
+      "slot": 3,
+      "category": "pedestrian"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一个男人从路边等候的人群中走出，朝旁边一辆黑色轿车的后侧走去。",
+    "proposed_sentence": "一名行人从路边人群中走出，朝黑色轿车后方走去。",
+    "priority_v1": "event",
+    "screening": {
+      "tier": "event_candidate_needs_sentence_review",
+      "decision": "keep_pending_human_review",
+      "reason": "带3D框时间轴确认目标行人从人群方向走到黑色轿车后方；是否发生更具体交互仍不能从当前片段确认。",
+      "proposed_sentence": "一名行人从路边人群中走出，朝黑色轿车后方走去。",
+      "review_questions": [
+        "确认主track在全程是否可见",
+        "确认其是否真的朝车辆后方行走"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": false,
+      "heading_net_deg": 100.7607650756836,
+      "center_displacement_m": 4.433652498003326,
+      "early_speed_mps": 0.030053335203068854,
+      "speed_p90_mps": 1.5148970285700412,
+      "reliable_geometry": true,
+      "motion_sentence": "目标从近乎静止逐渐开始移动。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R085"
+    ],
+    "split_group": "nuplan_scene:S022",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R007",
+    "scene_id": "S002",
+    "clip_id": "hdmap_m004641_s04_2021.06.23.21.56.29_veh-35_00220_00936__s002100_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0002/hdmap_m004641_s04_2021.06.23.21.56.29_veh-35_00220_00936__s002100_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/b8/hdmap_m004641_s04_2021.06.23.21.56.29_veh-35_00220_00936__s002100_n00300.npz",
+    "source_npz_sha256": "ef74276b16f56d90113186a49f525fc2d5017785a4c57ab15d96c8b9c2093683",
+    "primary": {
+      "track_id": "ac5975deff6454db",
+      "slot": 0,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆后部敞开的吉普车载着乘客和行李沿街行驶。",
+    "proposed_sentence": "一辆后部敞开的吉普车载着乘客和物品沿街行驶。",
+    "priority_v1": "event",
+    "screening": {
+      "tier": "event_core_candidate",
+      "decision": "keep_pending_human_review",
+      "reason": "后部敞开的车辆及其乘员/载物是有辨识度的构型，不是单纯描述车辆直行。",
+      "proposed_sentence": "一辆后部敞开的吉普车载着乘客和物品沿街行驶。",
+      "review_questions": [
+        "确认后部可见的是乘客和物品，避免加入车顶等未证实细节"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": false,
+      "heading_net_deg": 0.5965365171432495,
+      "center_displacement_m": 48.49437023938931,
+      "early_speed_mps": 9.528789791919063,
+      "speed_p90_mps": 9.5539221033171,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动过程中速度降低。"
+    },
+    "model_binding_check": {
+      "status": "primary_matches",
+      "source": "nuplan_object_events/qwen_drive_pilot/binding_v2/R007/result.json",
+      "verified_bindings": [
+        {
+          "label": "O001",
+          "slot": 0,
+          "track_id": "ac5975deff6454db",
+          "category": "vehicle",
+          "role": "primary"
+        }
+      ],
+      "issues": [],
+      "machine_status": "candidate_pending_review",
+      "machine_event_sentence": "编号O001的军绿色吉普车在左侧车道持续跟随前方车辆行驶。"
+    },
+    "same_scene_candidates": [
+      "R007"
+    ],
+    "split_group": "nuplan_scene:S002",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R025",
+    "scene_id": "S007",
+    "clip_id": "hdmap_m002021_s03_2021.06.14.13.28.41_veh-12_01313_01541__s000600_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0001/hdmap_m002021_s03_2021.06.14.13.28.41_veh-12_01313_01541__s000600_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/b2/hdmap_m002021_s03_2021.06.14.13.28.41_veh-12_01313_01541__s000600_n00300.npz",
+    "source_npz_sha256": "85db5f6b5ea2f032364a85d4cea5196e6854eb7ee2205ef4aa0bd9b080c14c2e",
+    "primary": {
+      "track_id": "0991b72ae68e545c",
+      "slot": 1,
+      "category": "bicycle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆三轮摩托车在靠路边的车道上减速，另一辆橙色三轮摩托车从它左后方驶近。",
+    "proposed_sentence": "一辆白色三轮车减速时，另一辆橙色三轮车从其左后方驶近。",
+    "priority_v1": "event",
+    "screening": {
+      "tier": "event_core_candidate",
+      "decision": "keep_pending_human_review",
+      "reason": "罕见三轮车辆与另一辆三轮车存在接近和减速关系，具有对象交互信息；NPZ类别桶为bicycle，需人工确认语义是否接受。",
+      "proposed_sentence": "一辆白色三轮车减速时，另一辆橙色三轮车从其左后方驶近。",
+      "review_questions": [
+        "确认白色三轮车是主track",
+        "确认bicycle类别桶与三轮车文本是否需要保留",
+        "与R027保持同一来源场景划分"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": false,
+      "heading_net_deg": 5.3514084815979,
+      "center_displacement_m": 22.713805880290362,
+      "early_speed_mps": 7.847960597576534,
+      "speed_p90_mps": 7.459375373050613,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动后减速至近乎静止。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R025",
+      "R027"
+    ],
+    "split_group": "nuplan_scene:S007",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R027",
+    "scene_id": "S007",
+    "clip_id": "hdmap_m002021_s03_2021.06.14.13.28.41_veh-12_01313_01541__s000600_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0001/hdmap_m002021_s03_2021.06.14.13.28.41_veh-12_01313_01541__s000600_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/b2/hdmap_m002021_s03_2021.06.14.13.28.41_veh-12_01313_01541__s000600_n00300.npz",
+    "source_npz_sha256": "85db5f6b5ea2f032364a85d4cea5196e6854eb7ee2205ef4aa0bd9b080c14c2e",
+    "primary": {
+      "track_id": "efd62aa2993752b2",
+      "slot": 0,
+      "category": "bicycle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆橙色三轮摩托车从左后方驶近另一辆三轮摩托车，随后减速，两车沿相邻车道向前行驶。",
+    "proposed_sentence": "一辆橙色三轮车从另一辆三轮车左后方驶近，随后两车沿相邻车道前进。",
+    "priority_v1": "event",
+    "screening": {
+      "tier": "event_core_candidate",
+      "decision": "keep_pending_human_review",
+      "reason": "同场景另一辆橙色三轮车的接近关系可作为互补对象事件；NPZ类别桶为bicycle，需人工确认语义是否接受。",
+      "proposed_sentence": "一辆橙色三轮车从另一辆三轮车左后方驶近，随后两车沿相邻车道前进。",
+      "review_questions": [
+        "确认橙色三轮车是主track",
+        "确认bicycle类别桶与三轮车文本是否需要保留",
+        "与R025保持同一来源场景划分"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": false,
+      "heading_net_deg": 1.2820706367492676,
+      "center_displacement_m": 35.51799227750844,
+      "early_speed_mps": 6.908941002705988,
+      "speed_p90_mps": 8.262147032872312,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动过程中速度降低。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R025",
+      "R027"
+    ],
+    "split_group": "nuplan_scene:S007",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R035",
+    "scene_id": "S009",
+    "clip_id": "hdmap_m007623_s03_2021.07.16.23.22.27_veh-14_01631_03833__s014400_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0003/hdmap_m007623_s03_2021.07.16.23.22.27_veh-14_01631_03833__s014400_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/9f/hdmap_m007623_s03_2021.07.16.23.22.27_veh-14_01631_03833__s014400_n00300.npz",
+    "source_npz_sha256": "43148e999d23e1a0ef8f03e2ba812eb9c905322d1c300a3dd50b8a4a01ed85be",
+    "primary": {
+      "track_id": "d6013e6e89f15953",
+      "slot": 0,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆白色出租车从自车左侧驶到前方，向左调整行驶方向后沿路驶远。",
+    "proposed_sentence": "一辆白色出租车从自车左侧驶到前方，并向左调整方向后驶远。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "起步和转向可用于运动补充池，但缺少更丰富的交互或语义事件。",
+      "proposed_sentence": "一辆白色出租车从自车左侧驶到前方，并向左调整方向后驶远。",
+      "review_questions": [
+        "确认转向描述与3D轨迹方向一致"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": 24.162290573120117,
+      "center_displacement_m": 11.411457842065216,
+      "early_speed_mps": 0.5494675192336675,
+      "speed_p90_mps": 3.592521213446418,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动过程中速度增加。行进中向自身左侧转向。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R035"
+    ],
+    "split_group": "nuplan_scene:S009",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R010",
+    "scene_id": "S003",
+    "clip_id": "hdmap_m006889_s01_2021.07.16.16.27.22_veh-26_03836_05047__s006300_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0003/hdmap_m006889_s01_2021.07.16.16.27.22_veh-26_03836_05047__s006300_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/6c/hdmap_m006889_s01_2021.07.16.16.27.22_veh-26_03836_05047__s006300_n00300.npz",
+    "source_npz_sha256": "0a2500e7c8daf7418767fb401fbe69f4f5531562da18f2e9f1a887a804fe2705",
+    "primary": {
+      "track_id": "eb39a0eca75e5281",
+      "slot": 0,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆灰色商务车短暂停留后起步，逐渐摆正车身向前驶去。",
+    "proposed_sentence": "一辆灰色商务车短暂停留后起步，向前驶去。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "从近乎静止到起步是状态变化，但仍属于低信息量运动补充。",
+      "proposed_sentence": "一辆灰色商务车短暂停留后起步，向前驶去。",
+      "review_questions": [
+        "确认中段确实发生起步而非相机运动造成的假象"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": false,
+      "heading_net_deg": 6.02871561050415,
+      "center_displacement_m": 3.159421994640617,
+      "early_speed_mps": 0.1567157538885211,
+      "speed_p90_mps": 1.8913522688069286,
+      "reliable_geometry": true,
+      "motion_sentence": "目标从近乎静止逐渐开始移动。"
+    },
+    "model_binding_check": {
+      "status": "primary_matches",
+      "source": "nuplan_object_events/qwen_drive_pilot/binding_v2/R010/result.json",
+      "verified_bindings": [
+        {
+          "label": "O001",
+          "slot": 0,
+          "track_id": "eb39a0eca75e5281",
+          "category": "vehicle",
+          "role": "primary"
+        }
+      ],
+      "issues": [],
+      "machine_status": "candidate_pending_review",
+      "machine_event_sentence": "编号O001的灰色MPV在接近路口时保持静止，随后启动并向左转弯驶离。"
+    },
+    "same_scene_candidates": [
+      "R010"
+    ],
+    "split_group": "nuplan_scene:S003",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R029",
+    "scene_id": "S008",
+    "clip_id": "hdmap_m008004_s01_2021.08.17.15.02.08_veh-45_01348_01731__s001500_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0004/hdmap_m008004_s01_2021.08.17.15.02.08_veh-45_01348_01731__s001500_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/f6/hdmap_m008004_s01_2021.08.17.15.02.08_veh-45_01348_01731__s001500_n00300.npz",
+    "source_npz_sha256": "51e29b59e05339094ed19ca2d0a67468fa0bb2ba1a5393a478d376fce9bf9d77",
+    "primary": {
+      "track_id": "a50a0b63748054e1",
+      "slot": 0,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆黑色SUV驶入路口后向右转弯，沿街角驶入右侧道路。",
+    "proposed_sentence": "一辆黑色SUV驶入路口后向右转，沿侧方道路驶去。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "明确右转，但没有独立的复杂交互；不放入事件核心池。",
+      "proposed_sentence": "一辆黑色SUV驶入路口后向右转，沿侧方道路驶去。",
+      "review_questions": [
+        "确认右转方向"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": -64.8271484375,
+      "center_displacement_m": 19.838340574517826,
+      "early_speed_mps": 2.0286879622477616,
+      "speed_p90_mps": 6.252812640091329,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动过程中速度增加。行进中向自身右侧转向。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R029"
+    ],
+    "split_group": "nuplan_scene:S008",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R045",
+    "scene_id": "S012",
+    "clip_id": "hdmap_m000702_s01_2021.06.09.12.51.31_veh-35_01729_02626__s008100_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0000/hdmap_m000702_s01_2021.06.09.12.51.31_veh-35_01729_02626__s008100_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/2e/hdmap_m000702_s01_2021.06.09.12.51.31_veh-35_01729_02626__s008100_n00300.npz",
+    "source_npz_sha256": "8725cb8cd7250ea7e8fca451b266b9efa22bee35b77628d5c858eccba5bf465b",
+    "primary": {
+      "track_id": "6087570ad7af55ff",
+      "slot": 1,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆银色轿车从道路右侧起步，向右转入前方车道后驶远。",
+    "proposed_sentence": "一辆银色轿车从道路右侧起步，向右转入前方车道后驶远。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "起步后右转，保留作轨迹运动补充，不作为高信息事件。",
+      "proposed_sentence": "一辆银色轿车从道路右侧起步，向右转入前方车道后驶远。",
+      "review_questions": [
+        "确认起步和右转均在目标可见阶段发生"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": -72.98008728027344,
+      "center_displacement_m": 10.026816297383057,
+      "early_speed_mps": 0.016232305353176546,
+      "speed_p90_mps": 4.5238993562350105,
+      "reliable_geometry": true,
+      "motion_sentence": "目标从近乎静止逐渐开始移动。行进中向自身右侧转向。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R045"
+    ],
+    "split_group": "nuplan_scene:S012",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R062",
+    "scene_id": "S016",
+    "clip_id": "hdmap_m001267_s00_2021.06.09.17.23.18_veh-38_04286_04521__s000000_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0000/hdmap_m001267_s00_2021.06.09.17.23.18_veh-38_04286_04521__s000000_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/af/hdmap_m001267_s00_2021.06.09.17.23.18_veh-38_04286_04521__s000000_n00300.npz",
+    "source_npz_sha256": "1392eacb83ae5f30b5642440fb614bf06ac08bd0f756297e5c3c8ed3ab03dc3b",
+    "primary": {
+      "track_id": "ebdac910291655aa",
+      "slot": 7,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆银灰色轿车沿右侧车道驶向路口，随后向右转弯驶入侧方道路。",
+    "proposed_sentence": "一辆银灰色轿车驶向路口，随后向右转入侧方道路。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "明确右转进入侧路，但语义上仍接近普通交通运动。",
+      "proposed_sentence": "一辆银灰色轿车驶向路口，随后向右转入侧方道路。",
+      "review_questions": [
+        "确认目标track和右转方向"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": -88.01117706298828,
+      "center_displacement_m": 25.02872572585188,
+      "early_speed_mps": 3.2540207544129265,
+      "speed_p90_mps": 8.946590845344708,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动过程中速度增加。行进中向自身右侧转向。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R062"
+    ],
+    "split_group": "nuplan_scene:S016",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R077",
+    "scene_id": "S020",
+    "clip_id": "hdmap_m008732_s03_2021.10.11.05.34.05_veh-50_02309_02677__s000000_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0004/hdmap_m008732_s03_2021.10.11.05.34.05_veh-50_02309_02677__s000000_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/3d/hdmap_m008732_s03_2021.10.11.05.34.05_veh-50_02309_02677__s000000_n00300.npz",
+    "source_npz_sha256": "5320bdede41101de6b0effcaa51a65f47360cfdb3e415d01b56a8dd5c141dec8",
+    "primary": {
+      "track_id": "154be8f48a265063",
+      "slot": 9,
+      "category": "bicycle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一名骑手驾驶摩托车进入路口，向右转弯后沿横向道路驶去。",
+    "proposed_sentence": "一名骑手进入路口后向右转，驶向横向道路。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "带3D框时间轴确认摩托车在关键帧可见；仅保留为右转运动补充，不提升为事件核心。",
+      "proposed_sentence": "一名骑手进入路口后向右转，驶向横向道路。",
+      "review_questions": [
+        "先用带3D框时间轴确认骑手是否在目标视频中可见"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": -47.07345199584961,
+      "center_displacement_m": 44.440485808445665,
+      "early_speed_mps": 6.968891952401584,
+      "speed_p90_mps": 11.404992514493731,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动过程中速度增加。行进中向自身右侧转向。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R077",
+      "R078"
+    ],
+    "split_group": "nuplan_scene:S020",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R078",
+    "scene_id": "S020",
+    "clip_id": "hdmap_m008732_s03_2021.10.11.05.34.05_veh-50_02309_02677__s000000_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0004/hdmap_m008732_s03_2021.10.11.05.34.05_veh-50_02309_02677__s000000_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/3d/hdmap_m008732_s03_2021.10.11.05.34.05_veh-50_02309_02677__s000000_n00300.npz",
+    "source_npz_sha256": "5320bdede41101de6b0effcaa51a65f47360cfdb3e415d01b56a8dd5c141dec8",
+    "primary": {
+      "track_id": "cf5d75118c5551b7",
+      "slot": 7,
+      "category": "bicycle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一名骑手驾驶摩托车穿过路口，向右转弯后驶向另一条道路。",
+    "proposed_sentence": "一名骑手穿过路口后向右转，驶向另一条道路。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "带3D框时间轴确认摩托车在关键帧可见；仅保留为右转运动补充，不提升为事件核心。",
+      "proposed_sentence": "一名骑手穿过路口后向右转，驶向另一条道路。",
+      "review_questions": [
+        "先用带3D框时间轴确认骑手是否在目标视频中可见"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": -27.18535041809082,
+      "center_displacement_m": 17.991484685100875,
+      "early_speed_mps": 6.555790836282229,
+      "speed_p90_mps": 8.034775245693602,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动过程中速度增加。行进中向自身右侧转向。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R077",
+      "R078"
+    ],
+    "split_group": "nuplan_scene:S020",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R082",
+    "scene_id": "S021",
+    "clip_id": "hdmap_m006389_s00_2021.07.16.16.01.30_veh-38_00356_02486__s012900_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0003/hdmap_m006389_s00_2021.07.16.16.01.30_veh-38_00356_02486__s012900_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/a8/hdmap_m006389_s00_2021.07.16.16.01.30_veh-38_00356_02486__s012900_n00300.npz",
+    "source_npz_sha256": "2cd6a98fcae7490e5e1ec1a3f161e5d7f925c15d75330ea7fbedf614790454d9",
+    "primary": {
+      "track_id": "11c4815880d45d2a",
+      "slot": 3,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆白色轿车驶到路口，在其他车辆继续直行时向右转入侧方道路。",
+    "proposed_sentence": "一辆白色轿车驶到路口后向右转入侧方道路，其他车辆继续直行。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "存在右转和直行车流背景，但不能从此句推断避让或因果。",
+      "proposed_sentence": "一辆白色轿车驶到路口后向右转入侧方道路，其他车辆继续直行。",
+      "review_questions": [
+        "确认不要把同时发生写成避让原因"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": -56.84955978393555,
+      "center_displacement_m": 13.5694934287485,
+      "early_speed_mps": 5.843220109442064,
+      "speed_p90_mps": 5.813000066132529,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在该可见时间段内移动。行进中向自身右侧转向。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R082"
+    ],
+    "split_group": "nuplan_scene:S021",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R100",
+    "scene_id": "S025",
+    "clip_id": "hdmap_m008505_s00_2021.08.17.18.44.32_veh-08_00586_00848__s001800_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0004/hdmap_m008505_s00_2021.08.17.18.44.32_veh-08_00586_00848__s001800_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/06/hdmap_m008505_s00_2021.08.17.18.44.32_veh-08_00586_00848__s001800_n00300.npz",
+    "source_npz_sha256": "88da8745ea5f7b8fb027fb528b90d1290084d772970861a39fe59b4227ca6406",
+    "primary": {
+      "track_id": "ec3eeda811725845",
+      "slot": 10,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆深色轿车从前方车道向左转弯，穿过路口驶入左侧道路。",
+    "proposed_sentence": "一辆深色轿车从前方车道向左转弯，驶入左侧道路。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "明确左转，但缺少额外对象交互，作为运动补充。",
+      "proposed_sentence": "一辆深色轿车从前方车道向左转弯，驶入左侧道路。",
+      "review_questions": [
+        "确认左转方向"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": 66.4418716430664,
+      "center_displacement_m": 20.705883449888496,
+      "early_speed_mps": 4.322944721696981,
+      "speed_p90_mps": 8.074538605515615,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在移动过程中速度增加。行进中向自身左侧转向。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R100"
+    ],
+    "split_group": "nuplan_scene:S025",
+    "human_review_status": "pending",
+    "training_approved": false
+  },
+  {
+    "candidate_id": "R102",
+    "scene_id": "S026",
+    "clip_id": "hdmap_m004233_s01_2021.06.23.17.31.36_veh-16_01443_01606__s000900_n00300",
+    "source_split": "train",
+    "target_video": "/mnt/Public_Space/nuplan-full/hdmap_57f_box3d_clean_v2/videos_target/shard_0002/hdmap_m004233_s01_2021.06.23.17.31.36_veh-16_01443_01606__s000900_n00300.mp4",
+    "box3d_path": "/mnt/taoweirun_workspace/Dataset/nuplan_semantic_categories/box3d/train/34/hdmap_m004233_s01_2021.06.23.17.31.36_veh-16_01443_01606__s000900_n00300.npz",
+    "source_npz_sha256": "4dd4bbeeb6b871fdc3611fdd11cda6622622b204f536f6b60ee0e36adaac855f",
+    "primary": {
+      "track_id": "fd544ad770b45ea8",
+      "slot": 5,
+      "category": "vehicle"
+    },
+    "related_track_ids": [],
+    "source_event_sentence": "一辆深色轿车沿最右侧车道驶入路口，随后向右转弯离开直行车流。",
+    "proposed_sentence": "一辆深色轿车沿最右侧车道驶入路口，随后向右转弯离开直行车流。",
+    "priority_v1": "motion",
+    "screening": {
+      "tier": "motion_supplement",
+      "decision": "keep_pending_human_review",
+      "reason": "明确右转离开直行车流，但仍属于常规轨迹控制样本。",
+      "proposed_sentence": "一辆深色轿车沿最右侧车道驶入路口，随后向右转弯离开直行车流。",
+      "review_questions": [
+        "确认主track和转向方向"
+      ]
+    },
+    "geometry_evidence": {
+      "turning": true,
+      "heading_net_deg": -44.73166275024414,
+      "center_displacement_m": 17.359818191272524,
+      "early_speed_mps": 5.323807921462361,
+      "speed_p90_mps": 5.364035865024237,
+      "reliable_geometry": true,
+      "motion_sentence": "目标在该可见时间段内移动。行进中向自身右侧转向。"
+    },
+    "model_binding_check": {
+      "status": "not_run",
+      "source": null,
+      "verified_bindings": [],
+      "issues": []
+    },
+    "same_scene_candidates": [
+      "R102"
+    ],
+    "split_group": "nuplan_scene:S026",
+    "human_review_status": "pending",
+    "training_approved": false
+  }
+]
