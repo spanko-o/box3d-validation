@@ -22,7 +22,7 @@
     "clip": "A005",
     "track": "O002",
     "caption": "一名穿黄黑条纹上衣的男子手提多个购物袋横穿路口。",
-    "status": "uncertain",
+    "status": "reject",
     "video": "videos/A005-O002.mp4",
     "poster": "posters/A005-O002.jpg"
   },
@@ -31,7 +31,7 @@
     "clip": "A005",
     "track": "O001",
     "caption": "一名赤裸上身、穿花色短裤和帽子的男子骑着自行车从路口右侧向左侧横穿。",
-    "status": "uncertain",
+    "status": "reject",
     "video": "videos/A005-O001.mp4",
     "poster": "posters/A005-O001.jpg"
   },
@@ -40,7 +40,7 @@
     "clip": "A006",
     "track": "O005",
     "caption": "一名身穿深色衣裤的行人从画面右侧的人行道区域横穿马路。",
-    "status": "uncertain",
+    "status": "reject",
     "video": "videos/A006-O005.mp4",
     "poster": "posters/A006-O005.jpg"
   },
@@ -49,7 +49,7 @@
     "clip": "A008",
     "track": "O001",
     "caption": "一辆白色厢式货车从画面右侧驶入路口，向左转弯横穿自车前方。",
-    "status": "uncertain",
+    "status": "reject",
     "video": "videos/A008-O001.mp4",
     "poster": "posters/A008-O001.jpg"
   },
@@ -58,7 +58,7 @@
     "clip": "A008",
     "track": "O002",
     "caption": "一名身穿黑色短袖上衣和卡其色长裤的行人，手持白色物品，从画面左侧横穿马路向右侧行走。",
-    "status": "uncertain",
+    "status": "reject",
     "video": "videos/A008-O002.mp4",
     "poster": "posters/A008-O002.jpg"
   },
@@ -85,7 +85,7 @@
     "clip": "A011",
     "track": "O002",
     "caption": "一辆银色轿车从画面右侧驶入路口，横穿马路向左侧行驶。",
-    "status": "uncertain",
+    "status": "reject",
     "video": "videos/A011-O002.mp4",
     "poster": "posters/A011-O002.jpg"
   },
@@ -121,7 +121,7 @@
     "clip": "A018",
     "track": "O003",
     "caption": "一名身穿浅色上衣和深色长裤的人站在白色轿车右侧，身体前倾并持续探身进入车内进行操作。",
-    "status": "uncertain",
+    "status": "accept",
     "video": "videos/A018-O003.mp4",
     "poster": "posters/A018-O003.jpg"
   },
@@ -130,7 +130,7 @@
     "clip": "A019",
     "track": "O001",
     "caption": "一名戴黑色棒球帽、穿白色T恤和卡其色短裤的男子从画面右侧向左侧横穿马路。",
-    "status": "uncertain",
+    "status": "reject",
     "video": "videos/A019-O001.mp4",
     "poster": "posters/A019-O001.jpg"
   },
@@ -139,7 +139,7 @@
     "clip": "A021",
     "track": "O001",
     "caption": "一名穿黑色短袖T恤和黑色短裤的男子从画面左侧进入人行横道，横穿马路走向右侧。",
-    "status": "uncertain",
+    "status": "reject",
     "video": "videos/A021-O001.mp4",
     "poster": "posters/A021-O001.jpg"
   },
@@ -148,7 +148,7 @@
     "clip": "A022",
     "track": "O001",
     "caption": "一辆橙色三轮摩托车在路口左侧车道等待，随后跟随车流向前行驶。",
-    "status": "uncertain",
+    "status": "reject",
     "video": "videos/A022-O001.mp4",
     "poster": "posters/A022-O001.jpg"
   },
