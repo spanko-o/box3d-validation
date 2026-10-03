@@ -1,0 +1,13 @@
+{
+  "samples": 30,
+  "model": "Qwen3.8-27B",
+  "sampled_frames": 16,
+  "videos_frames": 57,
+  "decisions": {
+    "keep": 11,
+    "reject": 5,
+    "uncertain": 14
+  },
+  "training_approved": false,
+  "notes": "Model outputs are unedited. Same-model recheck is not independent ground truth."
+}
