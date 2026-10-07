@@ -1,0 +1,147 @@
+[
+  {
+    "clip_id": "H008",
+    "track": "O003",
+    "track_id": "9fea046d6ef75537",
+    "event_types": [
+      "unusual_actor_or_load"
+    ],
+    "caption": "A dark SUV drives in the center lane with a large, bulky load of blue bags and pink items strapped to its rear bumper.",
+    "video": "videos/H008-O003.mp4",
+    "poster": "posters/H008-O003.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H020",
+    "track": "O003",
+    "track_id": "c8f64247d2265bed",
+    "event_types": [
+      "loading_or_unloading"
+    ],
+    "caption": "A person stands by the open rear passenger door of a white SUV, bending down to handle a stroller on the ground.",
+    "video": "videos/H020-O003.mp4",
+    "poster": "posters/H020-O003.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H021",
+    "track": "O001",
+    "track_id": "ed6d158e1f705077",
+    "event_types": [
+      "stops_moving"
+    ],
+    "caption": "A white minivan in the ego lane brakes and comes to a stop behind the traffic ahead.",
+    "video": "videos/H021-O001.mp4",
+    "poster": "posters/H021-O001.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H030",
+    "track": "O002",
+    "track_id": "9ea13ee234e15ea4",
+    "event_types": [
+      "intersection_crossing"
+    ],
+    "caption": "A black SUV crosses the intersection from left to right behind the silver sedan.",
+    "video": "videos/H030-O002.mp4",
+    "poster": "posters/H030-O002.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H051",
+    "track": "O001",
+    "track_id": "2c1d0c3cd4995e5d",
+    "event_types": [
+      "intersection_crossing"
+    ],
+    "caption": "A dark sedan crosses the intersection from right to left while the traffic lights remain red for the ego vehicle.",
+    "video": "videos/H051-O001.mp4",
+    "poster": "posters/H051-O001.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H052",
+    "track": "O001",
+    "track_id": "9500103368115756",
+    "event_types": [
+      "vehicle_turn_right"
+    ],
+    "caption": "A white minivan ahead turns right at the intersection.",
+    "video": "videos/H052-O001.mp4",
+    "poster": "posters/H052-O001.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H054",
+    "track": "O006",
+    "track_id": "8e945fed378d52bc",
+    "event_types": [
+      "stops_moving"
+    ],
+    "caption": "The orange sedan in front of the ego vehicle brakes and comes to a stop in the right lane.",
+    "video": "videos/H054-O006.mp4",
+    "poster": "posters/H054-O006.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H058",
+    "track": "O007",
+    "track_id": "8e40c1ae56795617",
+    "event_types": [
+      "pushing_or_pulling_object"
+    ],
+    "caption": "A pedestrian on the right sidewalk pushes a stroller along the walkway next to the road.",
+    "video": "videos/H058-O007.mp4",
+    "poster": "posters/H058-O007.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H064",
+    "track": "O002",
+    "track_id": "daa7389da7a05304",
+    "event_types": [
+      "loading_or_unloading",
+      "carrying_object"
+    ],
+    "caption": "A man in a white shirt and cap unloads a golf bag from the open trunk of a black SUV while a woman stands nearby.",
+    "video": "videos/H064-O002.mp4",
+    "poster": "posters/H064-O002.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H070",
+    "track": "O004",
+    "track_id": "9fea046d6ef75537",
+    "event_types": [
+      "unusual_actor_or_load"
+    ],
+    "caption": "A dark SUV drives in the center lane with a large, bulky load of blue bags and a pink suitcase strapped to a rear-mounted rack.",
+    "video": "videos/H070-O004.mp4",
+    "poster": "posters/H070-O004.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H075",
+    "track": "O001",
+    "track_id": "e9c70ab46ab955bb",
+    "event_types": [
+      "vehicle_turn_left"
+    ],
+    "caption": "A white taxi follows the curved driveway, turning left as it moves away from the camera.",
+    "video": "videos/H075-O001.mp4",
+    "poster": "posters/H075-O001.jpg",
+    "training_approved": false
+  },
+  {
+    "clip_id": "H077",
+    "track": "O002",
+    "track_id": "baa62f9e3a4251aa",
+    "event_types": [
+      "stops_moving"
+    ],
+    "caption": "A white minivan in the center lane brakes and comes to a stop at the intersection.",
+    "video": "videos/H077-O002.mp4",
+    "poster": "posters/H077-O002.jpg",
+    "training_approved": false
+  }
+]

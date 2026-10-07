@@ -2,6 +2,8 @@
 
 [打开当前展示页面](https://spanko-o.github.io/box3d-validation/)
 
+[Object event review · selected tracks and captions](https://spanko-o.github.io/box3d-validation/object-events-v2/)
+
 当前首页包含 14 条精选视频，每条左侧为生成结果，右侧为同一生成结果叠加实际输入 3D 框。单视图 416×240，25 帧；不包含 GT 或 HDMap 面板。
 
 - 密集行人穿行 3 条、鬼探头 4 条：Fusion Refine step-8000。
