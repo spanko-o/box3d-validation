@@ -1,14 +1,15 @@
 [
   {
     "clip_id": "H008",
-    "track": "O003",
-    "track_id": "9fea046d6ef75537",
+    "track": "O001",
+    "track_id": "cfac22f7b8fd5cf9",
     "event_types": [
       "unusual_actor_or_load"
     ],
     "caption": "A dark SUV drives in the center lane with a large, bulky load of blue bags and pink items strapped to its rear bumper.",
-    "video": "videos/H008-O003.mp4",
-    "poster": "posters/H008-O003.jpg",
+    "video": "videos/H008-O001.mp4",
+    "poster": "posters/H008-O001.jpg",
+    "review_status": "rebind_required",
     "training_approved": false
   },
   {
@@ -73,14 +74,15 @@
   },
   {
     "clip_id": "H054",
-    "track": "O006",
-    "track_id": "8e945fed378d52bc",
+    "track": "O001",
+    "track_id": "bcca75c132ff580a",
     "event_types": [
       "stops_moving"
     ],
     "caption": "The orange sedan in front of the ego vehicle brakes and comes to a stop in the right lane.",
-    "video": "videos/H054-O006.mp4",
-    "poster": "posters/H054-O006.jpg",
+    "video": "videos/H054-O001.mp4",
+    "poster": "posters/H054-O001.jpg",
+    "review_status": "rebind_required",
     "training_approved": false
   },
   {
@@ -110,14 +112,15 @@
   },
   {
     "clip_id": "H070",
-    "track": "O004",
-    "track_id": "9fea046d6ef75537",
+    "track": "O001",
+    "track_id": "cfac22f7b8fd5cf9",
     "event_types": [
       "unusual_actor_or_load"
     ],
     "caption": "A dark SUV drives in the center lane with a large, bulky load of blue bags and a pink suitcase strapped to a rear-mounted rack.",
-    "video": "videos/H070-O004.mp4",
-    "poster": "posters/H070-O004.jpg",
+    "video": "videos/H070-O001.mp4",
+    "poster": "posters/H070-O001.jpg",
+    "review_status": "rebind_required",
     "training_approved": false
   },
   {
