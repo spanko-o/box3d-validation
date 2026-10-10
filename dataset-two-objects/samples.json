@@ -273,15 +273,21 @@
     "objects": [
       {
         "number": 1,
-        "caption": "一辆橙色三轮摩托车从左后方驶近另一辆三轮摩托车，随后减速，两车沿相邻车道向前行驶。",
+        "caption": "An orange three-wheeled motorcycle approaches another three-wheeled motorcycle from behind on its left, then slows down as both vehicles continue forward in adjacent lanes.",
         "category": "bicycle",
-        "source": "Existing"
+        "source": "Existing",
+        "caption_language": "en",
+        "caption_provenance": "Translation of legacy caption; not a new model annotation",
+        "review_status": "pending"
       },
       {
         "number": 2,
-        "caption": "一辆三轮摩托车在靠路边的车道上减速，另一辆橙色三轮摩托车从它左后方驶近。",
+        "caption": "A three-wheeled motorcycle slows down in the curbside lane as an orange three-wheeled motorcycle approaches from behind on its left.",
         "category": "bicycle",
-        "source": "Existing"
+        "source": "Existing",
+        "caption_language": "en",
+        "caption_provenance": "Translation of legacy caption; not a new model annotation",
+        "review_status": "pending"
       }
     ]
   },
@@ -1769,15 +1775,21 @@
     "objects": [
       {
         "number": 1,
-        "caption": "一名骑手驾驶摩托车穿过路口，向右转弯后驶向另一条道路。",
+        "caption": "A rider travels through the intersection on a motorcycle, then turns right toward another road.",
         "category": "bicycle",
-        "source": "Existing"
+        "source": "Existing",
+        "caption_language": "en",
+        "caption_provenance": "Translation of legacy caption; not a new model annotation",
+        "review_status": "pending"
       },
       {
         "number": 2,
-        "caption": "一名骑手驾驶摩托车进入路口，向右转弯后沿横向道路驶去。",
+        "caption": "A rider enters the intersection on a motorcycle, turns right, and rides away along the cross street.",
         "category": "bicycle",
-        "source": "Existing"
+        "source": "Existing",
+        "caption_language": "en",
+        "caption_provenance": "Translation of legacy caption; not a new model annotation",
+        "review_status": "pending"
       }
     ]
   },
