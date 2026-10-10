@@ -1,0 +1,1806 @@
+[
+  {
+    "id": "D001",
+    "video": "videos/D001.mp4",
+    "poster": "posters/D001.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 21,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white sedan crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark pickup truck crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D002",
+    "video": "videos/D002.mp4",
+    "poster": "posters/D002.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 23,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A flatbed truck carrying a tall metal structure crosses the intersection from left to right.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white pickup truck crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D003",
+    "video": "videos/D003.mp4",
+    "poster": "posters/D003.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 49,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A red sedan crosses the intersection laterally from left to right behind the black SUV.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black SUV crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D004",
+    "video": "videos/D004.mp4",
+    "poster": "posters/D004.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 29,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A pedestrian in a black dress crosses the street from the right sidewalk toward the left side of the road.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A couple walks across the street from the left side toward the right side of the road.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D005",
+    "video": "videos/D005.mp4",
+    "poster": "posters/D005.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 11,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A long articulated city bus crosses the intersection laterally from left to right behind the fire truck.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A large red fire truck crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D006",
+    "video": "videos/D006.mp4",
+    "poster": "posters/D006.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 34,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white minivan crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white shuttle bus crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D007",
+    "video": "videos/D007.mp4",
+    "poster": "posters/D007.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 6,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A red sedan crosses the intersection from left to right behind the white sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white sedan crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D008",
+    "video": "videos/D008.mp4",
+    "poster": "posters/D008.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 0,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A large white tow truck with a crane crosses the intersection from left to right.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white flatbed truck crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D009",
+    "video": "videos/D009.mp4",
+    "poster": "posters/D009.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 4,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A red sedan crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black convertible crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D010",
+    "video": "videos/D010.mp4",
+    "poster": "posters/D010.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 7,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white pickup truck crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D011",
+    "video": "videos/D011.mp4",
+    "poster": "posters/D011.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 28,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white pickup truck crosses the intersection laterally from left to right behind the first vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark sedan crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D012",
+    "video": "videos/D012.mp4",
+    "poster": "posters/D012.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 14,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A large tour bus crosses the intersection laterally from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark pickup truck crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D013",
+    "video": "videos/D013.mp4",
+    "poster": "posters/D013.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 57,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "一辆橙色三轮摩托车从左后方驶近另一辆三轮摩托车，随后减速，两车沿相邻车道向前行驶。",
+        "category": "bicycle",
+        "source": "Existing"
+      },
+      {
+        "number": 2,
+        "caption": "一辆三轮摩托车在靠路边的车道上减速，另一辆橙色三轮摩托车从它左后方驶近。",
+        "category": "bicycle",
+        "source": "Existing"
+      }
+    ]
+  },
+  {
+    "id": "D014",
+    "video": "videos/D014.mp4",
+    "poster": "posters/D014.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 38,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white hatchback begins to move forward from a stationary position on the right side of the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A red sedan executes a left turn across the intersection from the oncoming lanes.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D015",
+    "video": "videos/D015.mp4",
+    "poster": "posters/D015.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 57,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark pickup truck ahead turns right at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A pedestrian crosses the street from left to right in the crosswalk.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D016",
+    "video": "videos/D016.mp4",
+    "poster": "posters/D016.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 19,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black sedan crosses the intersection from left to right, following the path of the previous vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white SUV crosses the intersection from left to right, moving laterally across the ego vehicle's path.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D017",
+    "video": "videos/D017.mp4",
+    "poster": "posters/D017.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 49,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white box truck turns left at the intersection, moving from the left side toward the center.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A blue sedan follows the truck, turning left through the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D018",
+    "video": "videos/D018.mp4",
+    "poster": "posters/D018.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 0,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A red sedan crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D019",
+    "video": "videos/D019.mp4",
+    "poster": "posters/D019.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 35,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A silver SUV crosses the intersection from left to right behind the white sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white sedan crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D020",
+    "video": "videos/D020.mp4",
+    "poster": "posters/D020.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 36,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black sedan follows the white SUV, crossing the intersection from right to left.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white SUV crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D021",
+    "video": "videos/D021.mp4",
+    "poster": "posters/D021.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 38,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white SUV turns left across the oncoming lanes at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A silver sedan turns left across the oncoming lanes at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D022",
+    "video": "videos/D022.mp4",
+    "poster": "posters/D022.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 13,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black SUV crosses the intersection from left to right behind the white minivan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white minivan crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D023",
+    "video": "videos/D023.mp4",
+    "poster": "posters/D023.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 57,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "The dark SUV directly ahead begins moving forward as the traffic light turns green.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "The white sedan in the right lane begins moving forward when the light changes.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D024",
+    "video": "videos/D024.mp4",
+    "poster": "posters/D024.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 46,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black SUV turns left across the ego vehicle's path while crossing the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white sedan turns left across the ego vehicle's path while crossing the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D025",
+    "video": "videos/D025.mp4",
+    "poster": "posters/D025.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 34,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A red SUV crosses the intersection laterally from left to right following the white sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white sedan crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D026",
+    "video": "videos/D026.mp4",
+    "poster": "posters/D026.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 53,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark SUV crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white sedan crosses the intersection from right to left behind the dark SUV.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D027",
+    "video": "videos/D027.mp4",
+    "poster": "posters/D027.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 57,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A man in a dark shirt and grey pants pulls a black rolling suitcase along the driveway.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A woman in a pink top and denim shorts is unloading luggage from the open trunk of a white sedan.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D028",
+    "video": "videos/D028.mp4",
+    "poster": "posters/D028.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 36,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white sports car crosses the intersection from left to right behind the yellow SUV.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A yellow SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D029",
+    "video": "videos/D029.mp4",
+    "poster": "posters/D029.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 7,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white shuttle bus crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white taxi crosses the intersection from left to right following the shuttle bus.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D030",
+    "video": "videos/D030.mp4",
+    "poster": "posters/D030.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 57,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A red SUV begins moving from a stop at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white sedan turns left at the intersection in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D031",
+    "video": "videos/D031.mp4",
+    "poster": "posters/D031.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 0,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark sedan in front of the ego vehicle turns left at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A silver SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D032",
+    "video": "videos/D032.mp4",
+    "poster": "posters/D032.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 26,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white pickup truck crosses the intersection from right to left, following the path of the previous vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark SUV crosses the intersection from right to left, moving laterally across the ego vehicle's path.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D033",
+    "video": "videos/D033.mp4",
+    "poster": "posters/D033.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 39,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A silver SUV turns right at the intersection near a stop sign.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black SUV crosses the intersection laterally from left to right.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D034",
+    "video": "videos/D034.mp4",
+    "poster": "posters/D034.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 13,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white sedan crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black sedan crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D035",
+    "video": "videos/D035.mp4",
+    "poster": "posters/D035.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 57,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A man in a white shirt and khaki pants stands at the open trunk of a black sedan, handling luggage.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A woman in a patterned top and denim shorts pulls a rolling suitcase across the driveway.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D036",
+    "video": "videos/D036.mp4",
+    "poster": "posters/D036.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 45,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white SUV crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A large white bus crosses the intersection from right to left behind the white SUV.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D037",
+    "video": "videos/D037.mp4",
+    "poster": "posters/D037.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 21,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "An orange SUV crosses the intersection laterally from left to right.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black sedan crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D038",
+    "video": "videos/D038.mp4",
+    "poster": "posters/D038.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 36,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white convertible crosses the intersection from left to right across the ego vehicle's path.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white SUV turns right at the intersection in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D039",
+    "video": "videos/D039.mp4",
+    "poster": "posters/D039.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 36,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white passenger van makes a left turn across the intersection following the sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark sedan executes a left turn across the intersection from the oncoming lanes.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D040",
+    "video": "videos/D040.mp4",
+    "poster": "posters/D040.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 34,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A man in a grey t-shirt and shorts crosses the street from right to left in front of the ego vehicle.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A woman in a dark dress crosses the street from right to left following the man.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D041",
+    "video": "videos/D041.mp4",
+    "poster": "posters/D041.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 24,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A second pedestrian in a blue shirt crosses the street from right to left while talking on a phone.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A pedestrian wearing a blue hat and grey shirt crosses the street from right to left in front of the ego vehicle.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D042",
+    "video": "videos/D042.mp4",
+    "poster": "posters/D042.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 26,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A man in a grey shirt stands at the open trunk of a black sedan, handling luggage inside the vehicle.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A man in a dark suit opens the rear passenger door of a black sedan on the right side of the driveway.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D043",
+    "video": "videos/D043.mp4",
+    "poster": "posters/D043.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 9,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark sedan crosses the intersection from left to right behind the first white sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white sedan crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D044",
+    "video": "videos/D044.mp4",
+    "poster": "posters/D044.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 0,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A silver sedan crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white sedan crosses the intersection laterally from left to right following the first vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D045",
+    "video": "videos/D045.mp4",
+    "poster": "posters/D045.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 26,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A grey hatchback crosses the intersection from right to left behind the black SUV.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black SUV crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D046",
+    "video": "videos/D046.mp4",
+    "poster": "posters/D046.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 42,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white minivan crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black sedan crosses the intersection laterally from left to right behind the white minivan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D047",
+    "video": "videos/D047.mp4",
+    "poster": "posters/D047.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 32,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white shuttle bus crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black SUV crosses the intersection laterally from left to right following the shuttle bus.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D048",
+    "video": "videos/D048.mp4",
+    "poster": "posters/D048.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 0,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white box truck crosses the intersection laterally from right to left.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A yellow taxi crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D049",
+    "video": "videos/D049.mp4",
+    "poster": "posters/D049.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 34,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A pedestrian in a black shirt and shorts crosses the street from left to right using the crosswalk.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A yellow mail truck crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D050",
+    "video": "videos/D050.mp4",
+    "poster": "posters/D050.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 47,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark SUV turns left across the ego vehicle's path at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "An orange convertible car turns left across the ego vehicle's path at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D051",
+    "video": "videos/D051.mp4",
+    "poster": "posters/D051.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 55,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A man in a light blue shirt exits the driver's side of a silver hatchback and closes the door.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A woman in a black dress exits the passenger side of the silver hatchback and walks away.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D052",
+    "video": "videos/D052.mp4",
+    "poster": "posters/D052.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 42,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A light blue pickup truck with side graphics crosses the intersection laterally from left to right.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black pickup truck crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D053",
+    "video": "videos/D053.mp4",
+    "poster": "posters/D053.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 19,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A pedestrian in a black shirt and shorts runs across the crosswalk from left to right in front of the ego vehicle.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A second pedestrian in a patterned shirt and light pants runs across the crosswalk following the first person.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D054",
+    "video": "videos/D054.mp4",
+    "poster": "posters/D054.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 26,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white sedan crosses the intersection from right to left, passing directly in front of the ego vehicle's path.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark SUV follows the white sedan, crossing the intersection from right to left.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D055",
+    "video": "videos/D055.mp4",
+    "poster": "posters/D055.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 17,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A silver pickup truck crosses the intersection from left to right.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D056",
+    "video": "videos/D056.mp4",
+    "poster": "posters/D056.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 39,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white pickup truck crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white shuttle bus crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D057",
+    "video": "videos/D057.mp4",
+    "poster": "posters/D057.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 21,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A tan pickup truck crosses the intersection from right to left behind the white SUV.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white SUV crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D058",
+    "video": "videos/D058.mp4",
+    "poster": "posters/D058.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 17,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "An orange SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark sedan crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D059",
+    "video": "videos/D059.mp4",
+    "poster": "posters/D059.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 57,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A silver sedan crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A red sedan follows the silver car, crossing the intersection from right to left.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D060",
+    "video": "videos/D060.mp4",
+    "poster": "posters/D060.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 21,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white SUV crosses the intersection from left to right following the black SUV.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D061",
+    "video": "videos/D061.mp4",
+    "poster": "posters/D061.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 5,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black sedan crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A red SUV crosses the intersection from right to left behind the black sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D062",
+    "video": "videos/D062.mp4",
+    "poster": "posters/D062.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 0,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark sedan crosses the intersection from left to right behind the white pickup truck.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white pickup truck crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D063",
+    "video": "videos/D063.mp4",
+    "poster": "posters/D063.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 28,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black sedan turns left from the oncoming lane across the ego vehicle's path at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white SUV turns left from the oncoming lane across the ego vehicle's path at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D064",
+    "video": "videos/D064.mp4",
+    "poster": "posters/D064.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 8,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark pickup truck crosses the intersection from right to left following the sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark sedan crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D065",
+    "video": "videos/D065.mp4",
+    "poster": "posters/D065.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 12,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A silver cargo van crosses the intersection laterally from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white pickup truck crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D066",
+    "video": "videos/D066.mp4",
+    "poster": "posters/D066.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 38,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A pedestrian carrying a brown bag crosses the street from the right sidewalk toward the left.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark SUV crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D067",
+    "video": "videos/D067.mp4",
+    "poster": "posters/D067.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 23,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white box truck crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A pedestrian walks across the street from left to right in the foreground crosswalk.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D068",
+    "video": "videos/D068.mp4",
+    "poster": "posters/D068.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 30,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark SUV crosses the intersection laterally from left to right following the pickup truck.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A dark pickup truck crosses the intersection laterally from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D069",
+    "video": "videos/D069.mp4",
+    "poster": "posters/D069.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 13,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark SUV crosses the intersection from right to left behind the white sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white sedan crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D070",
+    "video": "videos/D070.mp4",
+    "poster": "posters/D070.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 42,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A large black dump truck crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black SUV ahead turns left at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D071",
+    "video": "videos/D071.mp4",
+    "poster": "posters/D071.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 49,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A large white semi-trailer truck with a cookie pattern turns right at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black sedan crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D072",
+    "video": "videos/D072.mp4",
+    "poster": "posters/D072.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 31,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black SUV crosses the intersection from right to left behind the pickup truck.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black pickup truck crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D073",
+    "video": "videos/D073.mp4",
+    "poster": "posters/D073.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 13,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A dark blue pickup truck turns left across the intersection in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A pedestrian in a blue shirt and shorts crosses the street from right to left in the crosswalk.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D074",
+    "video": "videos/D074.mp4",
+    "poster": "posters/D074.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 0,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "An orange SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D075",
+    "video": "videos/D075.mp4",
+    "poster": "posters/D075.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 3,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black SUV turns left across the ego vehicle's path at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A red hatchback turns left across the ego vehicle's path at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D076",
+    "video": "videos/D076.mp4",
+    "poster": "posters/D076.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 57,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white SUV turns left across the ego vehicle's path at the intersection.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A pedestrian walks across the street in the crosswalk ahead.",
+        "category": "pedestrian",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D077",
+    "video": "videos/D077.mp4",
+    "poster": "posters/D077.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 24,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A silver SUV crosses the intersection laterally from right to left behind the grey sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A grey sedan crosses the intersection laterally from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D078",
+    "video": "videos/D078.mp4",
+    "poster": "posters/D078.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 31,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white sedan crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A black pickup truck crosses the intersection from right to left behind the white sedan.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D079",
+    "video": "videos/D079.mp4",
+    "poster": "posters/D079.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 0,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A large double-decker bus crosses the intersection laterally from right to left.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A blue sedan crosses the intersection laterally from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D080",
+    "video": "videos/D080.mp4",
+    "poster": "posters/D080.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 0,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A white hatchback crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A white SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  },
+  {
+    "id": "D081",
+    "video": "videos/D081.mp4",
+    "poster": "posters/D081.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 24,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "一名骑手驾驶摩托车穿过路口，向右转弯后驶向另一条道路。",
+        "category": "bicycle",
+        "source": "Existing"
+      },
+      {
+        "number": 2,
+        "caption": "一名骑手驾驶摩托车进入路口，向右转弯后沿横向道路驶去。",
+        "category": "bicycle",
+        "source": "Existing"
+      }
+    ]
+  },
+  {
+    "id": "D082",
+    "video": "videos/D082.mp4",
+    "poster": "posters/D082.jpg",
+    "frames": 57,
+    "fps": 8.0,
+    "simultaneous_visible_frames": 29,
+    "objects": [
+      {
+        "number": 1,
+        "caption": "A black SUV crosses the intersection from left to right in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      },
+      {
+        "number": 2,
+        "caption": "A yellow taxi crosses the intersection from right to left in front of the ego vehicle.",
+        "category": "vehicle",
+        "source": "Automatic"
+      }
+    ]
+  }
+]
