@@ -1,0 +1,902 @@
+[
+  {
+    "id": "A001",
+    "group": "A",
+    "caption": "A white sedan in the center lane begins to accelerate forward as traffic starts to move through the intersection.",
+    "video": "videos/A001.mp4",
+    "poster": "posters/A001.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A002",
+    "group": "A",
+    "caption": "A brown tour bus crosses the intersection from left to right behind a grey sedan.",
+    "video": "videos/A002.mp4",
+    "poster": "posters/A002.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A003",
+    "group": "A",
+    "caption": "A pedestrian in an orange safety vest walks away from the camera down the driveway while carrying a dark bag in their left hand.",
+    "video": "videos/A003.mp4",
+    "poster": "posters/A003.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A004",
+    "group": "A",
+    "caption": "The orange SUV ahead brakes and comes to a stop in the lane directly in front of the ego vehicle.",
+    "video": "videos/A004.mp4",
+    "poster": "posters/A004.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A005",
+    "group": "A",
+    "caption": "A yellow taxi crosses the intersection laterally from left to right in front of the ego vehicle.",
+    "video": "videos/A005.mp4",
+    "poster": "posters/A005.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A006",
+    "group": "A",
+    "caption": "A white pickup truck in the right lane begins to move forward as traffic starts to flow.",
+    "video": "videos/A006.mp4",
+    "poster": "posters/A006.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A007",
+    "group": "A",
+    "caption": "A white minivan ahead begins moving forward through the intersection as the traffic light is green.",
+    "video": "videos/A007.mp4",
+    "poster": "posters/A007.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A008",
+    "group": "A",
+    "caption": "A dark SUV in the ego vehicle's lane brakes and comes to a stop at the intersection.",
+    "video": "videos/A008.mp4",
+    "poster": "posters/A008.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A009",
+    "group": "A",
+    "caption": "A silver sedan turns left across the oncoming lanes in the middle of the road.",
+    "video": "videos/A009.mp4",
+    "poster": "posters/A009.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A010",
+    "group": "A",
+    "caption": "A pedestrian in a black shirt and shorts runs across the crosswalk from left to right in front of the ego vehicle.",
+    "video": "videos/A010.mp4",
+    "poster": "posters/A010.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A011",
+    "group": "A",
+    "caption": "A pedestrian walking on the right sidewalk carries a large blue shopping bag in their left hand.",
+    "video": "videos/A011.mp4",
+    "poster": "posters/A011.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A012",
+    "group": "A",
+    "caption": "A white minivan crosses the intersection from left to right in front of the ego vehicle.",
+    "video": "videos/A012.mp4",
+    "poster": "posters/A012.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A013",
+    "group": "A",
+    "caption": "A silver SUV turns left across the ego vehicle's path at the intersection.",
+    "video": "videos/A013.mp4",
+    "poster": "posters/A013.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A014",
+    "group": "A",
+    "caption": "A blonde woman in a blue top and denim shorts stands by the open rear passenger door of a black SUV, interacting with the vehicle.",
+    "video": "videos/A014.mp4",
+    "poster": "posters/A014.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A015",
+    "group": "A",
+    "caption": "A white minivan in the center lane brakes and comes to a stop in front of the ego vehicle.",
+    "video": "videos/A015.mp4",
+    "poster": "posters/A015.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A016",
+    "group": "A",
+    "caption": "The black pickup truck in the center lane begins to move forward as the traffic light ahead turns green.",
+    "video": "videos/A016.mp4",
+    "poster": "posters/A016.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A017",
+    "group": "A",
+    "caption": "A cyclist rides a bicycle from the right side of the road, moving leftward across the ego vehicle's path near the curb.",
+    "video": "videos/A017.mp4",
+    "poster": "posters/A017.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A018",
+    "group": "A",
+    "caption": "A black sedan in the ego lane brakes and comes to a stop behind a queue of traffic.",
+    "video": "videos/A018.mp4",
+    "poster": "posters/A018.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A019",
+    "group": "A",
+    "caption": "The black SUV directly ahead brakes and comes to a stop in the lane.",
+    "video": "videos/A019.mp4",
+    "poster": "posters/A019.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A020",
+    "group": "A",
+    "caption": "A dark SUV in the center lane ahead brakes and comes to a stop as traffic slows.",
+    "video": "videos/A020.mp4",
+    "poster": "posters/A020.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A021",
+    "group": "A",
+    "caption": "A dark SUV crosses the intersection from left to right, passing laterally in front of the ego vehicle's path.",
+    "video": "videos/A021.mp4",
+    "poster": "posters/A021.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A022",
+    "group": "A",
+    "caption": "A white box truck crosses the intersection from right to left in front of the ego vehicle.",
+    "video": "videos/A022.mp4",
+    "poster": "posters/A022.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A023",
+    "group": "A",
+    "caption": "A dark sedan in the center lane ahead brakes and comes to a stop as traffic slows down.",
+    "video": "videos/A023.mp4",
+    "poster": "posters/A023.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A024",
+    "group": "A",
+    "caption": "A white SUV pulls out from the left side and merges into the lane ahead of the ego vehicle.",
+    "video": "videos/A024.mp4",
+    "poster": "posters/A024.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A025",
+    "group": "A",
+    "caption": "A grey sedan crosses the intersection laterally from right to left in front of the ego vehicle.",
+    "video": "videos/A025.mp4",
+    "poster": "posters/A025.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A026",
+    "group": "A",
+    "caption": "A pedestrian walks from the left sidewalk across the open paved area toward the right side of the frame.",
+    "video": "videos/A026.mp4",
+    "poster": "posters/A026.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A027",
+    "group": "A",
+    "caption": "A silver SUV ahead brakes and comes to a stop at the intersection.",
+    "video": "videos/A027.mp4",
+    "poster": "posters/A027.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A028",
+    "group": "A",
+    "caption": "A dark sedan crosses the intersection from right to left in front of the ego vehicle.",
+    "video": "videos/A028.mp4",
+    "poster": "posters/A028.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A029",
+    "group": "A",
+    "caption": "A pedestrian in a dark vest walks from the left side of the driveway to the right, crossing the path of the ego vehicle.",
+    "video": "videos/A029.mp4",
+    "poster": "posters/A029.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A030",
+    "group": "A",
+    "caption": "A red sedan turns right from the intersection onto the cross street to the right of the ego vehicle.",
+    "video": "videos/A030.mp4",
+    "poster": "posters/A030.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A031",
+    "group": "A",
+    "caption": "Two pedestrians walk side by side across the road in front of the ego vehicle, moving from the right side to the left side.",
+    "video": "videos/A031.mp4",
+    "poster": "posters/A031.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A032",
+    "group": "A",
+    "caption": "A police car crosses the intersection from left to right in front of the stopped traffic.",
+    "video": "videos/A032.mp4",
+    "poster": "posters/A032.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A033",
+    "group": "A",
+    "caption": "A white minivan in the center lane ahead brakes and comes to a stop as it approaches the intersection.",
+    "video": "videos/A033.mp4",
+    "poster": "posters/A033.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A034",
+    "group": "A",
+    "caption": "A large box truck crosses the intersection from right to left in front of the stopped ego vehicle.",
+    "video": "videos/A034.mp4",
+    "poster": "posters/A034.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A035",
+    "group": "A",
+    "caption": "A white utility truck ahead begins to move forward as the traffic light turns green.",
+    "video": "videos/A035.mp4",
+    "poster": "posters/A035.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A036",
+    "group": "A",
+    "caption": "A dark SUV turns right from the cross street onto the main road, merging into the right lane ahead of the ego vehicle.",
+    "video": "videos/A036.mp4",
+    "poster": "posters/A036.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A037",
+    "group": "A",
+    "caption": "A pedestrian in a grey shirt and dark shorts walks from right to left across the driveway in front of the stopped grey sedan.",
+    "video": "videos/A037.mp4",
+    "poster": "posters/A037.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A038",
+    "group": "A",
+    "caption": "A white van in the center lane ahead brakes and comes to a stop as traffic slows.",
+    "video": "videos/A038.mp4",
+    "poster": "posters/A038.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A039",
+    "group": "A",
+    "caption": "A maroon double-decker tour bus begins moving forward from a stopped position at the intersection.",
+    "video": "videos/A039.mp4",
+    "poster": "posters/A039.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A040",
+    "group": "A",
+    "caption": "A yellow sedan crosses the intersection laterally from left to right in front of the stopped ego vehicle.",
+    "video": "videos/A040.mp4",
+    "poster": "posters/A040.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A041",
+    "group": "A",
+    "caption": "A large white tour bus crosses the intersection from right to left in front of the stopped ego vehicle.",
+    "video": "videos/A041.mp4",
+    "poster": "posters/A041.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A042",
+    "group": "A",
+    "caption": "A pedestrian wearing a white shirt and a face mask walks across the covered driveway from right to left while carrying a flat cardboard box.",
+    "video": "videos/A042.mp4",
+    "poster": "posters/A042.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A043",
+    "group": "A",
+    "caption": "A white shuttle bus crosses the intersection from left to right in front of the ego vehicle.",
+    "video": "videos/A043.mp4",
+    "poster": "posters/A043.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A044",
+    "group": "A",
+    "caption": "A black sedan follows the curved driveway to the left, keeping pace with a white SUV ahead.",
+    "video": "videos/A044.mp4",
+    "poster": "posters/A044.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A045",
+    "group": "A",
+    "caption": "A dark SUV crosses the intersection laterally from left to right, passing in front of the ego vehicle's path.",
+    "video": "videos/A045.mp4",
+    "poster": "posters/A045.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A046",
+    "group": "A",
+    "caption": "A silver sedan in the ego lane brakes and comes to a stop behind the traffic ahead.",
+    "video": "videos/A046.mp4",
+    "poster": "posters/A046.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A047",
+    "group": "A",
+    "caption": "A black sedan in the ego lane begins to move forward from a stopped position.",
+    "video": "videos/A047.mp4",
+    "poster": "posters/A047.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A048",
+    "group": "A",
+    "caption": "A black limousine begins to move forward from a parked position, driving past the ego vehicle.",
+    "video": "videos/A048.mp4",
+    "poster": "posters/A048.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A049",
+    "group": "A",
+    "caption": "A black sedan in the right lane executes a right turn at the intersection.",
+    "video": "videos/A049.mp4",
+    "poster": "posters/A049.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "A050",
+    "group": "A",
+    "caption": "A dark SUV ahead turns left at the intersection, following the green left-turn signal.",
+    "video": "videos/A050.mp4",
+    "poster": "posters/A050.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H001",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. The vehicle ahead carries a wooden plank at its left rear side before shedding it; the object drops and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H001.mp4",
+    "poster": "posters/H001.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H002",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. The vehicle ahead carries a hard-shell suitcase at its right rear side before shedding it; the object drops and slides along the road, then comes to rest.",
+    "video": "videos/H002.mp4",
+    "poster": "posters/H002.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H003",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. The vehicle ahead carries a plastic barrel at its rear roof edge before shedding it; the object drops and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H003.mp4",
+    "poster": "posters/H003.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H004",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. An aluminum ladder is initially carried at the rear of the vehicle, then comes loose, falls, and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H004.mp4",
+    "poster": "posters/H004.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H005",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. A plastic barrel moves with the vehicle at its right rear side, then falls onto the road and slides along the road, then comes to rest.",
+    "video": "videos/H005.mp4",
+    "poster": "posters/H005.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H006",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. A plastic barrel moves with the vehicle at its right rear side, then falls onto the road and rolls along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H006.mp4",
+    "poster": "posters/H006.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H007",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. Initially attached at the right rear side of the vehicle, a wooden plank breaks loose, lands, and settles on the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H007.mp4",
+    "poster": "posters/H007.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H008",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. A plastic barrel is initially carried at the rear edge of the vehicle's roof, then comes loose, falls, and rolls along the road, then comes to rest.",
+    "video": "videos/H008.mp4",
+    "poster": "posters/H008.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H009",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. A hard-shell suitcase moves with the vehicle at its left rear side, then falls onto the road and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H009.mp4",
+    "poster": "posters/H009.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H010",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. The vehicle ahead carries a loose tire at its rear roof edge before shedding it; the object drops and rolls along the road.",
+    "video": "videos/H010.mp4",
+    "poster": "posters/H010.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H011",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. A plastic barrel moves with the vehicle at its right rear side, then falls onto the road and rolls along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H011.mp4",
+    "poster": "posters/H011.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H012",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. Initially attached at the right rear side of the vehicle, an aluminum ladder breaks loose, lands, and settles on the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H012.mp4",
+    "poster": "posters/H012.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H013",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. The vehicle ahead carries a wooden plank at its rear roof edge before shedding it; the object drops and settles on the road.",
+    "video": "videos/H013.mp4",
+    "poster": "posters/H013.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H014",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. Initially attached at the rear of the vehicle, a plastic barrel breaks loose, lands, and rolls along the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H014.mp4",
+    "poster": "posters/H014.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H015",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. A wooden plank is initially carried at the rear of the vehicle, then comes loose, falls, and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H015.mp4",
+    "poster": "posters/H015.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H016",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. The vehicle ahead carries a cardboard box at its left rear side before shedding it; the object drops and settles on the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H016.mp4",
+    "poster": "posters/H016.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H017",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. Initially attached at the left rear side of the vehicle, a wooden plank breaks loose, lands, and settles on the road.",
+    "video": "videos/H017.mp4",
+    "poster": "posters/H017.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H018",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. Initially attached at the right rear side of the vehicle, a plastic barrel breaks loose, lands, and rolls along the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H018.mp4",
+    "poster": "posters/H018.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H019",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. The vehicle ahead carries a plastic barrel at its rear roof edge before shedding it; the object drops and rolls along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H019.mp4",
+    "poster": "posters/H019.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H020",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. A hard-shell suitcase is initially carried at the rear edge of the vehicle's roof, then comes loose, falls, and settles on the road.",
+    "video": "videos/H020.mp4",
+    "poster": "posters/H020.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H021",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. An aluminum ladder is initially carried at the right rear side of the vehicle, then comes loose, falls, and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H021.mp4",
+    "poster": "posters/H021.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H022",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. An aluminum ladder moves with the vehicle at its rear, then falls onto the road and settles on the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H022.mp4",
+    "poster": "posters/H022.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H023",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. A hard-shell suitcase is initially carried at the rear edge of the vehicle's roof, then comes loose, falls, and settles on the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H023.mp4",
+    "poster": "posters/H023.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H024",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. A hard-shell suitcase moves with the vehicle at its right rear side, then falls onto the road and settles on the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H024.mp4",
+    "poster": "posters/H024.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H025",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. A loose tire moves with the vehicle at its right rear side, then falls onto the road and rolls along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H025.mp4",
+    "poster": "posters/H025.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H026",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. The vehicle ahead carries a loose tire at its rear before shedding it; the object drops and rolls along the road.",
+    "video": "videos/H026.mp4",
+    "poster": "posters/H026.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H027",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. Initially attached at the rear of the vehicle, a wooden plank breaks loose, lands, and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H027.mp4",
+    "poster": "posters/H027.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H028",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. Initially attached at the right rear side of the vehicle, a cardboard box breaks loose, lands, and settles on the road.",
+    "video": "videos/H028.mp4",
+    "poster": "posters/H028.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H029",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. The vehicle ahead carries a plastic barrel at its rear before shedding it; the object drops and rolls along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H029.mp4",
+    "poster": "posters/H029.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H030",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. A wooden plank is initially carried at the right rear side of the vehicle, then comes loose, falls, and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H030.mp4",
+    "poster": "posters/H030.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H031",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. The vehicle ahead carries a wooden plank at its right rear side before shedding it; the object drops and settles on the road.",
+    "video": "videos/H031.mp4",
+    "poster": "posters/H031.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H032",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. Initially attached at the left rear side of the vehicle, an aluminum ladder breaks loose, lands, and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H032.mp4",
+    "poster": "posters/H032.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H033",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. Initially attached at the rear edge of the vehicle's roof, a wooden plank breaks loose, lands, and settles on the road.",
+    "video": "videos/H033.mp4",
+    "poster": "posters/H033.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H034",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. The vehicle ahead carries a wooden plank at its rear roof edge before shedding it; the object drops and settles on the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H034.mp4",
+    "poster": "posters/H034.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H035",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. Initially attached at the left rear side of the vehicle, a loose tire breaks loose, lands, and slides along the road, then comes to rest.",
+    "video": "videos/H035.mp4",
+    "poster": "posters/H035.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H036",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. The vehicle ahead carries an aluminum ladder at its right rear side before shedding it; the object drops and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H036.mp4",
+    "poster": "posters/H036.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H037",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. The vehicle ahead carries a plastic barrel at its right rear side before shedding it; the object drops and rolls along the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H037.mp4",
+    "poster": "posters/H037.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H038",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. A loose tire moves with the vehicle at its left rear side, then falls onto the road and rolls along the road.",
+    "video": "videos/H038.mp4",
+    "poster": "posters/H038.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H039",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. The vehicle ahead carries a plastic barrel at its rear before shedding it; the object drops and rolls along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H039.mp4",
+    "poster": "posters/H039.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H040",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. The vehicle ahead carries an aluminum ladder at its right rear side before shedding it; the object drops and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H040.mp4",
+    "poster": "posters/H040.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H041",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. A wooden plank is initially carried at the left rear side of the vehicle, then comes loose, falls, and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H041.mp4",
+    "poster": "posters/H041.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H042",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. A hard-shell suitcase is initially carried at the rear of the vehicle, then comes loose, falls, and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H042.mp4",
+    "poster": "posters/H042.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H043",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. The vehicle ahead carries a plastic barrel at its rear roof edge before shedding it; the object drops and rolls along the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H043.mp4",
+    "poster": "posters/H043.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H044",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. A loose tire is initially carried at the rear edge of the vehicle's roof, then comes loose, falls, and rolls along the road, then comes to rest.",
+    "video": "videos/H044.mp4",
+    "poster": "posters/H044.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H045",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. The vehicle ahead carries a wooden plank at its rear before shedding it; the object drops and slides along the road, then comes to rest.",
+    "video": "videos/H045.mp4",
+    "poster": "posters/H045.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H046",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. A plastic barrel moves with the vehicle at its right rear side, then falls onto the road and rolls along the road. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H046.mp4",
+    "poster": "posters/H046.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H047",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. Initially attached at the left rear side of the vehicle, a hard-shell suitcase breaks loose, lands, and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H047.mp4",
+    "poster": "posters/H047.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H048",
+    "group": "H",
+    "caption": "The video shows a front-facing road scene with a vehicle ahead. A wooden plank moves with the vehicle at its left rear side, then falls onto the road and slides along the road, then comes to rest. The following vehicle slows down and stops before reaching the dropped object.",
+    "video": "videos/H048.mp4",
+    "poster": "posters/H048.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H049",
+    "group": "H",
+    "caption": "The front-facing view shows a road scene with a vehicle carrying an object ahead. The vehicle ahead carries a plastic barrel at its rear before shedding it; the object drops and rolls along the road.",
+    "video": "videos/H049.mp4",
+    "poster": "posters/H049.jpg",
+    "frames": 57,
+    "fps": 8.0
+  },
+  {
+    "id": "H050",
+    "group": "H",
+    "caption": "A vehicle ahead is seen from the front-facing camera of the following vehicle. A loose tire is initially carried at the rear edge of the vehicle's roof, then comes loose, falls, and rolls along the road.",
+    "video": "videos/H050.mp4",
+    "poster": "posters/H050.jpg",
+    "frames": 57,
+    "fps": 8.0
+  }
+]
