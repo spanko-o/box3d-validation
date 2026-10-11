@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Selected videos</title><style>
+*{box-sizing:border-box}body{margin:0;background:#f5f7f7;color:#333;font:13px system-ui,sans-serif;letter-spacing:0}
+main{max-width:1600px;margin:auto;padding:20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+figure{margin:0;min-width:0}video{display:block;width:100%;aspect-ratio:832/480;background:#111;object-fit:contain}
+figcaption{padding:8px 0;overflow-wrap:anywhere}
+@media(max-width:760px){main{padding:10px;grid-template-columns:1fr;gap:16px}}
+</style><main><figure><video controls loop playsinline preload="metadata" src="videos/01_v1_000003.mp4" poster="posters/01_v1_000003.jpg" aria-label="V1 / 000003"></video><figcaption>V1 / 000003</figcaption></figure>
+<figure><video controls loop playsinline preload="metadata" src="videos/02_v1_000009.mp4" poster="posters/02_v1_000009.jpg" aria-label="V1 / 000009"></video><figcaption>V1 / 000009</figcaption></figure>
+<figure><video controls loop playsinline preload="metadata" src="videos/03_v2_000004.mp4" poster="posters/03_v2_000004.jpg" aria-label="V2 / 000004"></video><figcaption>V2 / 000004</figcaption></figure>
+<figure><video controls loop playsinline preload="metadata" src="videos/04_v2_000006.mp4" poster="posters/04_v2_000006.jpg" aria-label="V2 / 000006"></video><figcaption>V2 / 000006</figcaption></figure>
+<figure><video controls loop playsinline preload="metadata" src="videos/05_v2_000012.mp4" poster="posters/05_v2_000012.jpg" aria-label="V2 / 000012"></video><figcaption>V2 / 000012</figcaption></figure>
+<figure><video controls loop playsinline preload="metadata" src="videos/06_v2_000033.mp4" poster="posters/06_v2_000033.jpg" aria-label="V2 / 000033"></video><figcaption>V2 / 000033</figcaption></figure></main><script>
+document.querySelectorAll('video').forEach(v=>v.addEventListener('play',()=>{
+document.querySelectorAll('video').forEach(o=>{if(o!==v)o.pause()})}));
+</script></html>
