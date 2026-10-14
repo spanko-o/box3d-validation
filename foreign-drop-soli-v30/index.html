@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Foreign-object drop: SoliReward scores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-review-key="foreign-drop-soli-v30-human-review">
+  <header>
+    <div class="toolbar">
+      <select id="status" aria-label="Model result"><option value="ALL">All scored</option></select>
+      <select id="order" aria-label="Sort videos">
+        <option value="low">Score: low to high</option>
+        <option value="high">Score: high to low</option>
+        <option value="original">Original order</option>
+      </select>
+      <select id="family" aria-label="Object family"><option value="ALL">All objects</option></select>
+      <select id="human" aria-label="Your shape review filter">
+        <option value="ALL">All reviews</option><option value="UNREVIEWED">Not reviewed</option>
+        <option value="KEEP">Natural shape</option><option value="REJECT">Unnatural shape</option>
+        <option value="UNCERTAIN">Unsure</option>
+      </select>
+      <input id="search" type="search" placeholder="Clip ID" aria-label="Find clip">
+      <label class="toggle"><input id="show-model" type="checkbox" checked>Model scores</label>
+      <button id="export" type="button">Export review</button>
+    </div>
+    <div class="totals"><span id="counts" aria-live="polite">Loading...</span><span id="saved" aria-live="polite"></span></div>
+  </header>
+  <main id="clips"></main>
+  <script src="app.js"></script>
+</body>
+</html>
