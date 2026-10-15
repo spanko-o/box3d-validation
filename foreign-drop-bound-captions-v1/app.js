@@ -69,4 +69,4 @@ document.getElementById('export').addEventListener('click',()=>{
   const url=URL.createObjectURL(new Blob([JSON.stringify(output,null,2)],{type:'application/json'}));
   const a=el('a');a.href=url;a.download=data.review_filename||'foreign-drop-v27-100-human-review.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
 });
-fetch('data.json').then(response=>{if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json();}).then(value=>{data=value;render();}).catch(error=>{document.getElementById('counts').textContent=`Could not load videos: ${error.message}`;});
+fetch('data.json', {cache:'no-store'}).then(response=>{if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.json();}).then(value=>{data=value;render();}).catch(error=>{document.getElementById('counts').textContent=`Could not load videos: ${error.message}`;});
