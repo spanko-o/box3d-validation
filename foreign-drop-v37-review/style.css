@@ -1,0 +1,22 @@
+*{box-sizing:border-box;letter-spacing:0}
+body{margin:0;background:#fafafa;color:#252a2d;font:14px/1.5 system-ui,sans-serif}
+button,select,input{font:inherit;color:inherit}
+button,select,input[type=search],input[type=text]{border:1px solid #bfc6cb;border-radius:4px;background:#fff;min-height:36px;padding:6px 10px;max-width:100%}
+button{cursor:pointer}button:hover{background:#edf2f3}
+button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid #176b81;outline-offset:2px}
+header{background:#fff;border-bottom:1px solid #d7dcdf}
+.toolbar,.totals{max-width:1464px;margin:auto;padding:12px 20px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.toolbar input[type=search]{width:155px}.toolbar #export{margin-left:auto}
+.toggle{display:inline-flex;align-items:center;gap:6px;min-height:36px}.toggle input{width:16px;height:16px;accent-color:#176b81}
+.totals{padding-top:0;color:#596268;font-size:13px;justify-content:space-between}
+main{max-width:1464px;margin:auto;padding:20px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 24px}
+article{min-width:0;border-bottom:1px solid #d7dcdf;padding-bottom:18px}
+.meta{display:flex;gap:10px;align-items:baseline;min-height:32px;flex-wrap:wrap}.meta strong{font-size:14px}.family{color:#697279;font-size:12px}.status{margin-left:auto;font-weight:600}
+.KEEP,.CANDIDATE{color:#126849}.REJECT{color:#b02e40}.UNCERTAIN,.HOLD{color:#8a6515}.technical_failure,.PENDING{color:#666}
+video{display:block;width:100%;aspect-ratio:832/480;background:#111;object-fit:contain}
+.review{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.review input{flex:1;min-width:150px}
+details{font-size:13px;padding:6px 0;overflow-wrap:anywhere}summary{cursor:pointer;width:fit-content}
+.answer-label{font-weight:600;margin:10px 0 3px}.answer{white-space:pre-wrap;overflow-wrap:anywhere;margin:0;color:#4b545a}
+.empty{grid-column:1/-1;color:#697279;padding:40px 0}.hide-model .model{display:none}
+[hidden]{display:none!important}
+@media(max-width:720px){.toolbar,.totals{padding-left:12px;padding-right:12px}.toolbar #export{margin-left:0}.toolbar input[type=search]{flex:1;min-width:120px}main{padding:12px;grid-template-columns:1fr;gap:22px}.meta{gap:6px}.review input{flex-basis:100%}}
