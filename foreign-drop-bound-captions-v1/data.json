@@ -1,0 +1,451 @@
+{
+  "experiment": "foreign_drop_bound_caption_v1",
+  "manifest_sha256": "fc4d082f437a9ea1f1a5fd3051926305ca8cab03670368b91d12237e1b70560b",
+  "rows": [
+    {
+      "id": "N37_000226",
+      "ordinal": 0,
+      "source_sha256": "9976d6f48a50e2852ab5328c8b946bffe8da7c0f10e178c7022c685c437cbd5b",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "15616cf5efb65246",
+      "caption": "The white SUV with a rear-mounted spare tire dropped the tire, which fell onto the road and rolled forward in the lane ahead.",
+      "video": "videos/N37_000226.mp4",
+      "original_video": "original/N37_000226.mp4",
+      "poster": "posters/N37_000226.jpg",
+      "answers": {
+        "evidence": "The white lead SUV shows a spare tire on its tailgate early in the clip; by ~3.3s the spare is gone from the rear and a tire appears on the pavement, then rolls/bounces down the lane in front of the camera."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_000566",
+      "ordinal": 1,
+      "source_sha256": "f567129693209c365f41441122217bdfad6c7becfa6ee8108d5e2e975496e138",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "120be692a7f25bf4",
+      "caption": "The pickup truck's ladder fell backward from its bed and landed flat on the road behind it.",
+      "video": "videos/N37_000566.mp4",
+      "original_video": "original/N37_000566.mp4",
+      "poster": "posters/N37_000566.jpg",
+      "answers": {
+        "evidence": "A tall ladder mounted vertically on the truck's bed tilts rearward and drops to the pavement, ending up lying flat behind the truck by about 3 seconds."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_000771",
+      "ordinal": 2,
+      "source_sha256": "6a0373a78f2f2b05377ef8284c821411832c6a111aae704c334d22934c390d71",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "db687d2b738955bd",
+      "caption": "The white pickup truck drops a long wooden board from its bed onto the road on its right side.",
+      "video": "videos/N37_000771.mp4",
+      "original_video": "original/N37_000771.mp4",
+      "poster": "posters/N37_000771.jpg",
+      "answers": {
+        "evidence": "The white pickup directly ahead carries a long plank leaning out of the right side of its bed; over the sequence the plank tilts down and ends up lying flat on the pavement to the truck's right, indicating it fell from the vehicle."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_000780",
+      "ordinal": 3,
+      "source_sha256": "663f26eb71a394345721bce2fd40e0cb743a8f0cd03004411f82f902637362d8",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "73c9e1c9e9435feb",
+      "caption": "The flatbed truck loses a cardboard box from the top of its load, which falls and lands on the road behind it.",
+      "video": "videos/N37_000780.mp4",
+      "original_video": "original/N37_000780.mp4",
+      "poster": "posters/N37_000780.jpg",
+      "answers": {
+        "evidence": "At the start a cardboard box sits atop the stacked load on the flatbed; over the next seconds it is seen detaching and descending through the air, then resting on the pavement in the lane behind the truck."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_001022",
+      "ordinal": 4,
+      "source_sha256": "26374a5924d801ce802e9bebba77bf9a7d19495c4d9166ed8a24e002ffe6239b",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "628175d002735769",
+      "caption": "The dark pickup truck loses its ladder from the bed, which tilts backward and falls to lie flat on the road behind it.",
+      "video": "videos/N37_001022.mp4",
+      "original_video": "original/N37_001022.mp4",
+      "poster": "posters/N37_001022.jpg",
+      "answers": {
+        "evidence": "At the start a tall ladder stands vertically in the truck's bed; over the following frames it progressively tilts rearward and ends up lying flat on the pavement behind the truck as it drives on."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_001047",
+      "ordinal": 5,
+      "source_sha256": "e7f49399574bf7ff238436a92cb87f7c58671e0c4518167e884f32cde3e49af0",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "e49580b155aa5e9d",
+      "caption": "The black truck drops a wooden plank from its rear, which slides down and lands flat on the road behind it.",
+      "video": "videos/N37_001047.mp4",
+      "original_video": "original/N37_001047.mp4",
+      "poster": "posters/N37_001047.jpg",
+      "answers": {
+        "evidence": "At frame 0 a wooden plank leans against the rear of the dark truck; over the next ~1.5 s the plank tilts, slides off the back, and comes to rest flat on the pavement behind the moving truck."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_001472",
+      "ordinal": 6,
+      "source_sha256": "2c78d383c10fd55d3c17bfb9bb0639719f7334133b7251cb81597b57405c3dbc",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "28b156b3886a5f34",
+      "caption": "The box truck loses a ladder from its rear, which tilts backward and lands flat on the road behind it.",
+      "video": "videos/N37_001472.mp4",
+      "original_video": "original/N37_001472.mp4",
+      "poster": "posters/N37_001472.jpg",
+      "answers": {
+        "evidence": "Frame 0 shows a ladder standing vertically against the truck's rear doors; over the following frames the ladder tilts away and by ~2.3-2.6s it lies flat on the pavement behind the truck, confirming the ladder fell from this carrier."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_001541",
+      "ordinal": 7,
+      "source_sha256": "9b6062ab1d3807f290401e4dc449318563ddc06039368ce1eac675e554dab107",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "b064aaf9d4765e8f",
+      "caption": "The white box truck loses a white barrel from its roof, which slides off the right side and lands upright on the road.",
+      "video": "videos/N37_001541.mp4",
+      "original_video": "original/N37_001541.mp4",
+      "poster": "posters/N37_001541.jpg",
+      "answers": {
+        "evidence": "Frame 0 shows a white barrel resting on the truck's roof; over the next ~1.5 s it tilts, detaches, and falls to the right, ending upright on the pavement beside the lane."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_002007",
+      "ordinal": 8,
+      "source_sha256": "e4e3e6bfb435fd81e64c3742e6849fe1c77ea3b2e1a5e80b35224e42b223331d",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "31b70adde81255ae",
+      "caption": "The black pickup truck drops a long wooden plank from its bed, which falls forward and lands flat on the road behind it.",
+      "video": "videos/N37_002007.mp4",
+      "original_video": "original/N37_002007.mp4",
+      "poster": "posters/N37_002007.jpg",
+      "answers": {
+        "evidence": "The black pickup ahead carries a vertical wooden plank in its bed; as it moves through the intersection the plank tilts and falls forward, ending up lying flat on the pavement while the truck continues on."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_002037",
+      "ordinal": 9,
+      "source_sha256": "4beea8a777e2e85b099fc52c5bd42f5507ade459274a204849f5e98f15f7a231",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "dadcd04295845dc2",
+      "caption": "The white pickup truck drops a long wooden plank from its bed, which tilts forward and lands flat on the road behind it.",
+      "video": "videos/N37_002037.mp4",
+      "original_video": "original/N37_002037.mp4",
+      "poster": "posters/N37_002037.jpg",
+      "answers": {
+        "evidence": "The white pickup carrying a vertically standing board in its bed shows the board tilting forward around 3-4s and then lying flat on the pavement in the lane behind the truck by 5s."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_002138",
+      "ordinal": 10,
+      "source_sha256": "890415e4b10eab62c89aa7e6ca42d198419b9e6bd7dd7282aeaf0156cbb81e4a",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "ea9fd9bb722758ef",
+      "caption": "The black SUV drops a long white ladder from its rear, which tilts forward and lands flat on the road behind the vehicle.",
+      "video": "videos/N37_002138.mp4",
+      "original_video": "original/N37_002138.mp4",
+      "poster": "posters/N37_002138.jpg",
+      "answers": {
+        "evidence": "The black SUV in the center lane carries a tall white ladder mounted vertically on its rear; over the clip the ladder tilts forward, detaches, and comes to rest lying flat on the pavement behind the SUV."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_002220",
+      "ordinal": 11,
+      "source_sha256": "826ea0aef3849a39e4682414e1bfa1855d4c63fb780fe8a32ac63e4f4bb2f32f",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "669f48ae83685dfb",
+      "caption": "The white pickup truck carrying a tall stack of cardboard boxes drops a box from the top of the load, which falls to the pavement and slides along the road behind the vehicle.",
+      "video": "videos/N37_002220.mp4",
+      "original_video": "original/N37_002220.mp4",
+      "poster": "posters/N37_002220.jpg",
+      "answers": {
+        "evidence": "The top box on the pickup's stack tilts and detaches around 3.8\u20134.1 s, after which a separate cardboard box is visible on the road surface sliding behind the truck in subsequent frames."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_003066",
+      "ordinal": 12,
+      "source_sha256": "3fe39d795d447cb4abd5d4b544d368bfc865eb596447ede1cb1fcecf74aef306",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "9e203995d1cb5bd9",
+      "caption": "The dark pickup truck drops a cardboard box from its bed, which tumbles out to the left and lands on the road.",
+      "video": "videos/N37_003066.mp4",
+      "original_video": "original/N37_003066.mp4",
+      "poster": "posters/N37_003066.jpg",
+      "answers": {
+        "evidence": "The center dark pickup (matching Reference A's box and left-side orange cone) is seen with a second box tumbling from the left side of its bed around 1.6\u20132.1 s, falling and coming to rest on the pavement by ~3.6 s."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_003156",
+      "ordinal": 13,
+      "source_sha256": "33d96c5f3a494f45b08a25f6bbbceddd512e7ac322bb6e0d886ffe3e240c65b9",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "5def31e5ad675334",
+      "caption": "The dark pickup truck drops a cardboard box from its bed, which tumbles out the rear and slides across the road behind it.",
+      "video": "videos/N37_003156.mp4",
+      "original_video": "original/N37_003156.mp4",
+      "poster": "posters/N37_003156.jpg",
+      "answers": {
+        "evidence": "The box is seated in the truck's bed in the early frames, then tilts and falls out the back around the 3-second mark, landing on the pavement and sliding forward in the lane."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_003705",
+      "ordinal": 14,
+      "source_sha256": "3521ad399f64169db3d70f067d094cdf3663cb0f4d5293d6bd548cec8d506a23",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "8b2f6f8de5fd52a0",
+      "caption": "The orange SUV loses a long wooden plank that slides off its roof toward the rear and lands flat on the road behind it.",
+      "video": "videos/N37_003705.mp4",
+      "original_video": "original/N37_003705.mp4",
+      "poster": "posters/N37_003705.jpg",
+      "answers": {
+        "evidence": "The orange SUV carries a long wooden board on its roof; over the clip the board tilts, slides off the back, and is seen lying flat on the pavement trailing behind the vehicle."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "N37_003836",
+      "ordinal": 15,
+      "source_sha256": "36748b2b23358157f09fecdedffada39c6b69af1e76ddcb00cbdd5a729c7f4cf",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "b11fda2b604c5753",
+      "caption": "The black pickup truck loses its ladder, which slides off the rear of the bed and is left on the road behind it as the truck continues forward.",
+      "video": "videos/N37_003836.mp4",
+      "original_video": "original/N37_003836.mp4",
+      "poster": "posters/N37_003836.jpg",
+      "answers": {
+        "evidence": "The ladder initially overhangs the tailgate toward the camera; over the clip its overhang grows until the whole ladder rests on the pavement behind the truck while the truck drives on, indicating the cargo slid off the bed."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "B28_000401",
+      "ordinal": 16,
+      "source_sha256": "c97e8dee3d7357e038bcf19d4337e95dedbfd359ee71f286c02f16f76c89c49c",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "b65a68bc507f5b3e",
+      "caption": "The truck drops an orange barrel from its open bed, which tumbles and rolls across the road behind it.",
+      "video": "videos/B28_000401.mp4",
+      "original_video": "original/B28_000401.mp4",
+      "poster": "posters/B28_000401.jpg",
+      "answers": {
+        "evidence": "Frame 0 shows the truck's rear with an upright orange barrel in the bed; over the following frames the barrel tilts, falls out the back, and is seen rolling and then lying on its side on the pavement behind the truck."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "B28_001055",
+      "ordinal": 17,
+      "source_sha256": "25bb1706eff285ca8d8270bee0522ec04ac82dfea67e96907d94129b17c2f545",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "596d1966d76057e8",
+      "caption": "The white SUV loses a large white cylindrical roll from its roof, which tumbles down behind the vehicle and rolls to a stop on the road.",
+      "video": "videos/B28_001055.mp4",
+      "original_video": "original/B28_001055.mp4",
+      "poster": "posters/B28_001055.jpg",
+      "answers": {
+        "evidence": "A white cylindrical roll sits on the SUV's roof in the early frames, detaches around the 3-second mark, falls to the pavement behind the vehicle, and rolls until it rests on its side in the lane."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "B28_004242",
+      "ordinal": 18,
+      "source_sha256": "69c123e4b09dbaa556205be6ca1f1edad1ee97fcc7287497a0254150551c1ab6",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "c97bec4b2cdf5733",
+      "caption": "The dark pickup truck drops a cardboard box and a flat panel from its bed, which tumble backward onto the road behind it.",
+      "video": "videos/B28_004242.mp4",
+      "original_video": "original/B28_004242.mp4",
+      "poster": "posters/B28_004242.jpg",
+      "answers": {
+        "evidence": "The center-lane dark pickup matching the reference (tall cardboard item in the bed) is seen at 0.1\u20131.8s with the box/panel sliding out of the bed, and by 2.1\u20132.3s the box and flat panel have landed on the pavement behind the truck."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "B28_004434",
+      "ordinal": 19,
+      "source_sha256": "9f480e03703d2e871dcec6d524509ca28516f428684725709d6ac016fedf64ea",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "8fcd2b0530625f2a",
+      "caption": "The black SUV loses a large cardboard box from its roof, which tumbles off the rear and lands on the pavement behind the vehicle.",
+      "video": "videos/B28_004434.mp4",
+      "original_video": "original/B28_004434.mp4",
+      "poster": "posters/B28_004434.jpg",
+      "answers": {
+        "evidence": "The box sits on the SUV's roof through ~3.6s, tilts at 3.8s, falls off the rear at 4.1s, and rests on the road by 4.3s while the SUV drives on."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "B28_004664",
+      "ordinal": 20,
+      "source_sha256": "cb7a84393e3774d2b75de1e59fb33884beeff3393c9cf29a22606c82480c25ab",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "58e95d9a7f4e54cd",
+      "caption": "The flatbed trailer drops a long ladder from its left side, which falls to the road and slides backward.",
+      "video": "videos/B28_004664.mp4",
+      "original_video": "original/B28_004664.mp4",
+      "poster": "posters/B28_004664.jpg",
+      "answers": {
+        "evidence": "A long ladder leaning diagonally off the left side of the trailer tilts further and detaches around 1.3-1.8 s, then lands on the pavement behind the truck by 2.3 s."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "B28_004988",
+      "ordinal": 21,
+      "source_sha256": "94c08c82b3109bb5a6b0c2df0f7a9f758ecd02803b5dc2759cc4d6282ca94211",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "496a3ffbf9745eea",
+      "caption": "The flatbed truck's long ladder detaches from its rear rack and falls onto the road, sliding backward along the pavement as the truck continues driving forward.",
+      "video": "videos/B28_004988.mp4",
+      "original_video": "original/B28_004988.mp4",
+      "poster": "posters/B28_004988.jpg",
+      "answers": {
+        "evidence": "The center-lane flatbed truck carries a vertical rack with a long ladder angled off its rear; from about 3s the ladder separates, drops to the road behind the truck, and a second ladder piece is also seen lying on the pavement as the truck moves on."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "F12_004265",
+      "ordinal": 22,
+      "source_sha256": "c1e97eb9d8e762f1bdc6c0bbe309b74c95dc09849ffce541e7019c5458715ba5",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "96373f862b9050e2",
+      "caption": "The dark sedan in the center lane drops a large white plastic barrel from its rear, which tumbles down the road and ends up lying on its side in the lane.",
+      "video": "videos/F12_004265.mp4",
+      "original_video": "original/F12_004265.mp4",
+      "poster": "posters/F12_004265.jpg",
+      "answers": {
+        "evidence": "Frame 0 shows the dark center sedan carrying a white cylindrical barrel on its rear; around 2-3 s the barrel tilts, detaches, and rolls/tumbles backward down the lane, coming to rest on its side behind the car."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "F12_004271",
+      "ordinal": 23,
+      "source_sha256": "ca1d1f1dd91ce0f35cc5644c05907e92154f83079e757cecaf5feb156e7c620f",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "311fba97c4b55df3",
+      "caption": "The white box truck drops a large white cylindrical roll from its roof, which tumbles down and comes to rest on the road behind it.",
+      "video": "videos/F12_004271.mp4",
+      "original_video": "original/F12_004271.mp4",
+      "poster": "posters/F12_004271.jpg",
+      "answers": {
+        "evidence": "The white box truck in the right lane carries a white cylinder on its roof; the object tilts, detaches, tumbles through the air, and lands on the pavement in the right lane."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "P03",
+      "ordinal": 24,
+      "source_sha256": "c0f3df29a0cb07e47f7ecbb4f60ab92d000f6ec561abb5db1fe0dcdd791d0b22",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "79513caee64c507a",
+      "caption": "The dark pickup truck drops its rear-mounted spare tire, which tumbles off the tailgate and rolls onto the pavement behind the vehicle.",
+      "video": "videos/P03.mp4",
+      "original_video": "original/P03.mp4",
+      "poster": "posters/P03.jpg",
+      "answers": {
+        "evidence": "A spare tire is mounted on the tailgate at the start; around 3s it tilts and detaches, then rolls on the road and comes to rest flat on the pavement behind the truck by 5s."
+      },
+      "training_approved": false
+    },
+    {
+      "id": "P05",
+      "ordinal": 25,
+      "source_sha256": "580d6eb70deaa0d02df4f6183bdb3393e990c7a0ee8cbef4f4d62ab113541792",
+      "status": "CANDIDATE",
+      "event": "Carrier",
+      "track_id": "fa17e303813f56e6",
+      "caption": "The dark pickup truck drops a cardboard box from its open bed, which falls onto the road behind it and slides backward.",
+      "video": "videos/P05.mp4",
+      "original_video": "original/P05.mp4",
+      "poster": "posters/P05.jpg",
+      "answers": {
+        "evidence": "At the start the box sits upright in the truck's open bed; by ~1.6 s it is on the pavement behind the truck and continues sliding backward as the truck moves forward."
+      },
+      "training_approved": false
+    }
+  ],
+  "counts": {
+    "CANDIDATE": 26
+  },
+  "training_approved": false,
+  "review_filename": "foreign-drop-bound-captions-v1-human-review.json",
+  "human_labels": [
+    [
+      "",
+      "Your review"
+    ],
+    [
+      "KEEP",
+      "Keep"
+    ],
+    [
+      "REJECT",
+      "Reject"
+    ],
+    [
+      "UNCERTAIN",
+      "Caption / binding issue"
+    ]
+  ],
+  "answer_labels": [
+    [
+      "evidence",
+      "Model evidence"
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bound vehicle captions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="hide-model" data-review-key="foreign-drop-bound-captions-v1-human-review">
+  <header>
+    <div class="toolbar">
+      <select id="status" aria-label="Model result" hidden><option value="ALL">All</option></select>
+      <input id="show-model" type="checkbox" hidden>
+      <select id="family" aria-label="Object family" hidden><option value="ALL">All</option></select>
+      <select id="human" aria-label="Review filter">
+        <option value="ALL">All reviews</option><option value="UNREVIEWED">Not reviewed</option>
+        <option value="KEEP">Keep</option><option value="REJECT">Reject</option>
+        <option value="UNCERTAIN">Caption / binding issue</option>
+      </select>
+      <input id="search" type="search" placeholder="Clip ID" aria-label="Find clip">
+      <button id="export" type="button">Export review</button>
+    </div>
+    <div class="totals"><span id="counts" aria-live="polite">Loading...</span><span id="saved" aria-live="polite"></span></div>
+  </header>
+  <main id="clips"></main>
+  <script src="app.js"></script>
+</body>
+</html>
