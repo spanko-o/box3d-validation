@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Object-bound control</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <nav aria-label="Sections">
+    <div class="nav-inner">
+      <a href="#architecture">Architecture</a>
+      <a href="#nuplan">nuPlan <span>6</span></a>
+      <a href="#synthetic">Synthetic <span>6</span></a>
+    </div>
+  </nav>
+  <main>
+    <figure id="architecture">
+      <a href="architecture.png" target="_blank" rel="noopener" aria-label="Open full-size architecture diagram">
+        <img src="architecture.png" width="1774" height="887" fetchpriority="high"
+          alt="Object-bound control: a selected 3D trajectory and its caption are fused; geometry and bound text condition video cross-attention.">
+      </a>
+    </figure>
+    <section id="nuplan" aria-labelledby="nuplan-label">
+      <header><h2 id="nuplan-label">nuPlan</h2><span>6 examples</span></header>
+      <div class="grid"><article id="N01">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/N01.jpg" src="videos/N01.mp4" aria-label="N01: A silver sedan turns left across the oncoming lanes in the middle of the road."></video>
+  <div class="caption"><span class="sample-id">N01</span><p>A silver sedan turns left across the oncoming lanes in the middle of the road.</p></div>
+</article>
+<article id="N02">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/N02.jpg" src="videos/N02.mp4" aria-label="N02: A pedestrian in a black shirt and shorts runs across the crosswalk from left to right in front of the ego vehicle."></video>
+  <div class="caption"><span class="sample-id">N02</span><p>A pedestrian in a black shirt and shorts runs across the crosswalk from left to right in front of the ego vehicle.</p></div>
+</article>
+<article id="N03">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/N03.jpg" src="videos/N03.mp4" aria-label="N03: A blonde woman in a blue top and denim shorts stands by the open rear passenger door of a black SUV, interacting with the vehicle."></video>
+  <div class="caption"><span class="sample-id">N03</span><p>A blonde woman in a blue top and denim shorts stands by the open rear passenger door of a black SUV, interacting with the vehicle.</p></div>
+</article>
+<article id="N04">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/N04.jpg" src="videos/N04.mp4" aria-label="N04: A cyclist rides a bicycle from the right side of the road, moving leftward across the ego vehicle&#x27;s path near the curb."></video>
+  <div class="caption"><span class="sample-id">N04</span><p>A cyclist rides a bicycle from the right side of the road, moving leftward across the ego vehicle&#x27;s path near the curb.</p></div>
+</article>
+<article id="N05">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/N05.jpg" src="videos/N05.mp4" aria-label="N05: A white SUV pulls out from the left side and merges into the lane ahead of the ego vehicle."></video>
+  <div class="caption"><span class="sample-id">N05</span><p>A white SUV pulls out from the left side and merges into the lane ahead of the ego vehicle.</p></div>
+</article>
+<article id="N06">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/N06.jpg" src="videos/N06.mp4" aria-label="N06: A pedestrian wearing a white shirt and a face mask walks across the covered driveway from right to left while carrying a flat cardboard box."></video>
+  <div class="caption"><span class="sample-id">N06</span><p>A pedestrian wearing a white shirt and a face mask walks across the covered driveway from right to left while carrying a flat cardboard box.</p></div>
+</article></div>
+    </section>
+    <section id="synthetic" aria-labelledby="synthetic-label">
+      <header><h2 id="synthetic-label">Synthetic</h2><span>6 examples</span></header>
+      <div class="grid"><article id="S01">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/S01.jpg" src="videos/S01.mp4" aria-label="S01: The dark pickup ahead loses a long wooden board from its rear; the board tips down, lands flat on the road, and is left behind as the pickup continues forward."></video>
+  <div class="caption"><span class="sample-id">S01</span><p>The dark pickup ahead loses a long wooden board from its rear; the board tips down, lands flat on the road, and is left behind as the pickup continues forward.</p></div>
+</article>
+<article id="S02">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/S02.jpg" src="videos/S02.mp4" aria-label="S02: The car ahead in the middle lane drops a long wooden board, which lands flat on the road behind it as the car continues forward."></video>
+  <div class="caption"><span class="sample-id">S02</span><p>The car ahead in the middle lane drops a long wooden board, which lands flat on the road behind it as the car continues forward.</p></div>
+</article>
+<article id="S03">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/S03.jpg" src="videos/S03.mp4" aria-label="S03: The dark pickup truck drops its rear-mounted spare tire, which tumbles off the tailgate and rolls onto the pavement behind the vehicle."></video>
+  <div class="caption"><span class="sample-id">S03</span><p>The dark pickup truck drops its rear-mounted spare tire, which tumbles off the tailgate and rolls onto the pavement behind the vehicle.</p></div>
+</article>
+<article id="S04">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/S04.jpg" src="videos/S04.mp4" aria-label="S04: The black pickup rounds a bend as a large cardboard package tips backward from its rear, falls onto the road, and lands flat behind it."></video>
+  <div class="caption"><span class="sample-id">S04</span><p>The black pickup rounds a bend as a large cardboard package tips backward from its rear, falls onto the road, and lands flat behind it.</p></div>
+</article>
+<article id="S05">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/S05.jpg" src="videos/S05.mp4" aria-label="S05: The dark pickup truck drops a cardboard box from its open bed, which falls onto the road behind it and slides backward."></video>
+  <div class="caption"><span class="sample-id">S05</span><p>The dark pickup truck drops a cardboard box from its open bed, which falls onto the road behind it and slides backward.</p></div>
+</article>
+<article id="S06">
+  <video controls loop muted playsinline preload="none" width="832" height="480"
+    poster="posters/S06.jpg" src="videos/S06.mp4" aria-label="S06: The dark pickup drives ahead as long wooden boards tip down from its rear and come to rest flat across the lane behind it."></video>
+  <div class="caption"><span class="sample-id">S06</span><p>The dark pickup drives ahead as long wooden boards tip down from its rear and come to rest flat across the lane behind it.</p></div>
+</article></div>
+    </section>
+  </main>
+</body>
+</html>
