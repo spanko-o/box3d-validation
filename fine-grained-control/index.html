@@ -1,43 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Object-bound control</title>
-  <link rel="stylesheet" href="style.css?v=story-1">
+  <title>细粒度事件控制</title>
+  <link rel="stylesheet" href="style.css?v=story-zh-1">
   <script src="app.js" defer></script>
 </head>
 <body>
-  <nav aria-label="Sections">
+  <nav aria-label="页面章节">
     <div class="nav-inner">
-      <a href="#architecture">Architecture</a>
-      <a href="#event-data">Event Data</a>
-      <a href="#caption-ablation">Caption Ablation</a>
+      <a href="#architecture">架构对比</a>
+      <a href="#event-data">事件数据</a>
+      <a href="#caption-ablation">文本消融</a>
     </div>
   </nav>
   <main>
     <section id="architecture" aria-labelledby="architecture-label">
-      <header><h2 id="architecture-label">Architecture</h2><span>Before / after</span></header>
+      <header><h2 id="architecture-label">架构对比</h2><span>原方案 / 新方案</span></header>
       <figure class="architecture-figure">
-        <figcaption><h3>Previous: Shared Condition Attention</h3><p>Geometry and object-bound text share one condition-token readout.</p></figcaption>
-        <a href="architecture.png" target="_blank" rel="noopener" aria-label="Open full-size previous architecture diagram">
+        <figcaption><h3>原方案：统一读取几何与文本</h3><p>将指定对象的 3D 轨迹与逐框文本融合，再与其余几何条件一起被视频特征读取。文本已绑定到对象，但仍与所有条件共享注意力。</p></figcaption>
+        <a href="architecture.png" target="_blank" rel="noopener" aria-label="查看原方案架构图原图">
           <img src="architecture.png" width="1774" height="887" fetchpriority="high"
-            alt="Previous architecture: a selected object's geometry and caption are fused; the bound tokens join all geometry tokens in one cross-attention readout.">
+            alt="原方案：对象几何与文本融合后，与全部几何条件共同参与一次交叉注意力读取。">
         </a>
       </figure>
       <figure class="architecture-figure">
-        <figcaption><h3>Updated: Object-Priority Readout</h3><p>Keep geometry control; add an independent event readout for described objects. Training is underway; effectiveness remains to be validated.</p></figcaption>
-        <a href="architecture-priority.png" target="_blank" rel="noopener" aria-label="Open full-size updated architecture diagram">
+        <figcaption><h3>新方案：独立读取对象事件</h3><p>保留全部对象的几何控制，新增只在有描述的对象之间分配注意力的事件分支，避免普通对象稀释事件读取。实际控制效果仍需训练验证。</p></figcaption>
+        <a href="architecture-priority.png" target="_blank" rel="noopener" aria-label="查看新方案架构图原图">
           <img src="architecture-priority.png" width="3780" height="1512" loading="lazy"
-            alt="Updated architecture: all 3D boxes provide geometry control; a selected box and its caption share a track ID and feed object-text fusion and priority event control into Wan video denoising, alongside the global caption.">
+            alt="新方案：保留全部对象的几何控制，指定对象与文本按同一轨迹绑定，并通过独立事件分支参与视频去噪。">
         </a>
       </figure>
     </section>
     <section id="event-data" aria-labelledby="event-data-label">
-      <header><h2 id="event-data-label">Event Data</h2><span>Object-bound captions</span></header>
+      <header><h2 id="event-data-label">事件数据示例</h2><span>指定框与对应英文描述</span></header>
       <div class="dataset" id="nuplan">
-      <header><h3>nuPlan</h3><span>6 examples</span></header>
-      <div class="grid"><article id="N01">
+      <header><h3>nuPlan 真实事件</h3><span>6 条示例</span></header>
+      <div class="grid" lang="en"><article id="N01">
   <video controls loop muted playsinline preload="none" width="832" height="480"
     poster="posters/N01.jpg" src="videos/N01.mp4" aria-label="N01: A silver sedan turns left across the oncoming lanes in the middle of the road."></video>
   <div class="caption"><span class="sample-id">N01</span><p>A silver sedan turns left across the oncoming lanes in the middle of the road.</p></div>
@@ -69,8 +69,8 @@
 </article></div>
       </div>
       <div class="dataset" id="synthetic">
-      <header><h3>Synthetic Foreign-Object Drop</h3><span>6 examples</span></header>
-      <div class="grid"><article id="S01">
+      <header><h3>异物掉落合成事件</h3><span>6 条示例</span></header>
+      <div class="grid" lang="en"><article id="S01">
   <video controls loop muted playsinline preload="none" width="832" height="480"
     poster="posters/S01.jpg" src="videos/S01.mp4" aria-label="S01: The dark pickup ahead loses a long wooden board from its rear; the board tips down, lands flat on the road, and is left behind as the pickup continues forward."></video>
   <div class="caption"><span class="sample-id">S01</span><p>The dark pickup ahead loses a long wooden board from its rear; the board tips down, lands flat on the road, and is left behind as the pickup continues forward.</p></div>
@@ -103,35 +103,34 @@
       </div>
     </section>
     <section id="caption-ablation" aria-labelledby="ablation-label">
-      <header><h2 id="ablation-label">Caption Ablation</h2><span>Previous architecture | step 1500 | 480p | 57 frames</span></header>
-      <p class="section-note">Object captions affect the output, but these examples do not show reliable execution of their requested events. The comparisons below motivate the updated readout, not a claim that the update already works.</p>
+      <header><h2 id="ablation-label">逐框文本消融</h2><span>旧架构 | 1500 步 | 480p | 57 帧</span></header>
+      <p class="section-note">以下对比固定几何条件与随机种子，仅改变文本条件，用于检查事件由全局描述还是逐框描述驱动。</p>
       <figure class="ablation">
-        <figcaption><h3>Change Only the Object Caption</h3><p>Background-only global prompt. Same geometry and seed 63. Left: mattress; center: ladder; right: no object caption.</p></figcaption>
+        <figcaption><h3>1. 只改变逐框描述</h3><p>全局文本仅描述背景。左：床垫掉落；中：梯子掉落；右：关闭逐框描述。</p></figcaption>
         <video class="comparison" controls loop muted playsinline preload="none" width="2496" height="512"
           poster="posters/ablation-background-text.jpg" src="ablations/drop_background_text.mp4"
-          aria-label="Background-only global prompt with mattress, ladder, or no object caption"></video>
-        <p class="observation">The scene changes, but neither requested dropped object is clearly realized.</p>
+          aria-label="背景描述不变，逐框描述分别指定床垫、梯子或关闭"></video>
+        <p class="observation">画面发生了变化，但未明确生成指定掉落物。逐框文本能影响输出，却未可靠控制事件。</p>
       </figure>
       <figure class="ablation">
-        <figcaption><h3>Object Caption On / Off</h3><p>Full global prompt still describes the mattress drop. Same geometry and seed 63. Left: object caption on; right: off.</p></figcaption>
+        <figcaption><h3>2. 开启 / 关闭逐框描述</h3><p>全局文本仍包含床垫掉落事件。左：开启逐框描述；右：关闭逐框描述。</p></figcaption>
         <video class="comparison" controls loop muted playsinline preload="none" width="1664" height="512"
           poster="posters/ablation-full-on-off.jpg" src="ablations/drop_full_on_off.mp4"
-          aria-label="Mattress drop with the same full global prompt and object caption on versus off"></video>
-        <p class="observation">A mattress appears in both outputs. Global event text can explain the event even when the object caption is absent.</p>
+          aria-label="保留完整全局描述，对比开启与关闭逐框描述的床垫掉落视频"></video>
+        <p class="observation">两侧都出现床垫。仅看到事件生成，不能证明模型利用了逐框描述，全局文本本身就可能驱动生成。</p>
       </figure>
       <figure class="ablation">
-        <figcaption><h3>Remove Event Text from the Global Prompt</h3><p>Keep the same mattress object caption, geometry and seed 63. Left: full global prompt; right: background only.</p></figcaption>
+        <figcaption><h3>3. 移除全局描述中的事件</h3><p>逐框描述始终指定床垫掉落。左：完整全局描述；右：全局仅描述背景。</p></figcaption>
         <video class="comparison" controls loop muted playsinline preload="none" width="1664" height="512"
           poster="posters/ablation-global-prompt.jpg" src="ablations/drop_full_vs_background.mp4"
-          aria-label="Same mattress object caption with full global prompt versus background-only global prompt"></video>
-        <p class="observation">The requested drop is not preserved after removing the event from the global prompt.</p>
+          aria-label="保留床垫逐框描述，对比完整全局描述与仅背景描述"></video>
+        <p class="observation">去掉全局事件文本后，掉落未能保留。这一案例提示：事件生成仍较依赖全局文本，逐框语义尚未被充分利用。</p>
       </figure>
-      <figure class="ablation">
-        <figcaption><h3>Pedestrian Event: Object Caption On / Off</h3><p>Full global prompt still describes the pedestrian event. Same geometry and seed 51. Left: object caption on; right: off.</p></figcaption>
-        <video class="comparison" controls loop muted playsinline preload="none" width="1664" height="512"
-          poster="posters/ablation-ghost-on-off.jpg" src="ablations/ghost_full_on_off.mp4"
-          aria-label="Pedestrian event with the same full global prompt and object caption on versus off"></video>
-      </figure>
+      <div class="analysis">
+        <h3>结论与改动动机</h3>
+        <p>当前问题不是逐框文本完全无效，而是还不能可靠地执行指定事件。因此，新方案保留几何控制，并让有描述的对象获得独立的事件读取机会。</p>
+        <p>这些消融支持继续改进，但尚不能证明注意力竞争是唯一原因，也不能证明新架构已经有效。</p>
+      </div>
     </section>
   </main>
 </body>
