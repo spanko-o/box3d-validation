@@ -27,6 +27,12 @@ header span { font-size: 12px; color: #737c84; }
 .observation { margin-top: 10px; color: #535d65; }
 .analysis { margin-top: 32px; padding-top: 20px; border-top: 1px solid #e4e7e9; }
 .analysis p { max-width: 960px; margin-top: 8px; color: #535d65; }
+.mechanism-list, ul.observation { padding-left: 24px; font-size: 14px; line-height: 24px; color: #535d65; overflow-wrap: anywhere; }
+.mechanism-list { margin: 18px 0 0; }
+ul.observation { margin-bottom: 0; }
+.mechanism-list li + li, ul.observation li + li { margin-top: 8px; }
+.mechanism-list strong, .observation strong { color: #23272b; }
+code { font-family: "DejaVu Sans Mono", Consolas, monospace; font-size: 13px; overflow-wrap: anywhere; }
 .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 24px; }
 article { min-width: 0; margin: 0; }
 video { display: block; width: 100%; height: auto; aspect-ratio: 832 / 480; object-fit: contain; background: #101214; }
