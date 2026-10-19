@@ -4,26 +4,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Object-bound control</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=story-1">
   <script src="app.js" defer></script>
 </head>
 <body>
   <nav aria-label="Sections">
     <div class="nav-inner">
       <a href="#architecture">Architecture</a>
-      <a href="#nuplan">nuPlan <span>6</span></a>
-      <a href="#synthetic">Synthetic <span>6</span></a>
+      <a href="#event-data">Event Data</a>
+      <a href="#caption-ablation">Caption Ablation</a>
     </div>
   </nav>
   <main>
-    <figure id="architecture">
-      <a href="architecture-priority.png" target="_blank" rel="noopener" aria-label="Open full-size architecture diagram">
-        <img src="architecture-priority.png" width="3780" height="1512" fetchpriority="high"
-          alt="Object-priority control: all 3D boxes provide geometry control; a selected box and its caption share a track ID and feed object-text fusion and priority event control into Wan video denoising, alongside the global caption.">
-      </a>
-    </figure>
-    <section id="nuplan" aria-labelledby="nuplan-label">
-      <header><h2 id="nuplan-label">nuPlan</h2><span>6 examples</span></header>
+    <section id="architecture" aria-labelledby="architecture-label">
+      <header><h2 id="architecture-label">Architecture</h2><span>Before / after</span></header>
+      <figure class="architecture-figure">
+        <figcaption><h3>Previous: Shared Condition Attention</h3><p>Geometry and object-bound text share one condition-token readout.</p></figcaption>
+        <a href="architecture.png" target="_blank" rel="noopener" aria-label="Open full-size previous architecture diagram">
+          <img src="architecture.png" width="1774" height="887" fetchpriority="high"
+            alt="Previous architecture: a selected object's geometry and caption are fused; the bound tokens join all geometry tokens in one cross-attention readout.">
+        </a>
+      </figure>
+      <figure class="architecture-figure">
+        <figcaption><h3>Updated: Object-Priority Readout</h3><p>Keep geometry control; add an independent event readout for described objects. Training is underway; effectiveness remains to be validated.</p></figcaption>
+        <a href="architecture-priority.png" target="_blank" rel="noopener" aria-label="Open full-size updated architecture diagram">
+          <img src="architecture-priority.png" width="3780" height="1512" loading="lazy"
+            alt="Updated architecture: all 3D boxes provide geometry control; a selected box and its caption share a track ID and feed object-text fusion and priority event control into Wan video denoising, alongside the global caption.">
+        </a>
+      </figure>
+    </section>
+    <section id="event-data" aria-labelledby="event-data-label">
+      <header><h2 id="event-data-label">Event Data</h2><span>Object-bound captions</span></header>
+      <div class="dataset" id="nuplan">
+      <header><h3>nuPlan</h3><span>6 examples</span></header>
       <div class="grid"><article id="N01">
   <video controls loop muted playsinline preload="none" width="832" height="480"
     poster="posters/N01.jpg" src="videos/N01.mp4" aria-label="N01: A silver sedan turns left across the oncoming lanes in the middle of the road."></video>
@@ -54,9 +67,9 @@
     poster="posters/N06.jpg" src="videos/N06.mp4" aria-label="N06: A pedestrian wearing a white shirt and a face mask walks across the covered driveway from right to left while carrying a flat cardboard box."></video>
   <div class="caption"><span class="sample-id">N06</span><p>A pedestrian wearing a white shirt and a face mask walks across the covered driveway from right to left while carrying a flat cardboard box.</p></div>
 </article></div>
-    </section>
-    <section id="synthetic" aria-labelledby="synthetic-label">
-      <header><h2 id="synthetic-label">Synthetic</h2><span>6 examples</span></header>
+      </div>
+      <div class="dataset" id="synthetic">
+      <header><h3>Synthetic Foreign-Object Drop</h3><span>6 examples</span></header>
       <div class="grid"><article id="S01">
   <video controls loop muted playsinline preload="none" width="832" height="480"
     poster="posters/S01.jpg" src="videos/S01.mp4" aria-label="S01: The dark pickup ahead loses a long wooden board from its rear; the board tips down, lands flat on the road, and is left behind as the pickup continues forward."></video>
@@ -87,6 +100,38 @@
     poster="posters/S06.jpg" src="videos/S06.mp4" aria-label="S06: The dark pickup drives ahead as long wooden boards tip down from its rear and come to rest flat across the lane behind it."></video>
   <div class="caption"><span class="sample-id">S06</span><p>The dark pickup drives ahead as long wooden boards tip down from its rear and come to rest flat across the lane behind it.</p></div>
 </article></div>
+      </div>
+    </section>
+    <section id="caption-ablation" aria-labelledby="ablation-label">
+      <header><h2 id="ablation-label">Caption Ablation</h2><span>Previous architecture | step 1500 | 480p | 57 frames</span></header>
+      <p class="section-note">Object captions affect the output, but these examples do not show reliable execution of their requested events. The comparisons below motivate the updated readout, not a claim that the update already works.</p>
+      <figure class="ablation">
+        <figcaption><h3>Change Only the Object Caption</h3><p>Background-only global prompt. Same geometry and seed 63. Left: mattress; center: ladder; right: no object caption.</p></figcaption>
+        <video class="comparison" controls loop muted playsinline preload="none" width="2496" height="512"
+          poster="posters/ablation-background-text.jpg" src="ablations/drop_background_text.mp4"
+          aria-label="Background-only global prompt with mattress, ladder, or no object caption"></video>
+        <p class="observation">The scene changes, but neither requested dropped object is clearly realized.</p>
+      </figure>
+      <figure class="ablation">
+        <figcaption><h3>Object Caption On / Off</h3><p>Full global prompt still describes the mattress drop. Same geometry and seed 63. Left: object caption on; right: off.</p></figcaption>
+        <video class="comparison" controls loop muted playsinline preload="none" width="1664" height="512"
+          poster="posters/ablation-full-on-off.jpg" src="ablations/drop_full_on_off.mp4"
+          aria-label="Mattress drop with the same full global prompt and object caption on versus off"></video>
+        <p class="observation">A mattress appears in both outputs. Global event text can explain the event even when the object caption is absent.</p>
+      </figure>
+      <figure class="ablation">
+        <figcaption><h3>Remove Event Text from the Global Prompt</h3><p>Keep the same mattress object caption, geometry and seed 63. Left: full global prompt; right: background only.</p></figcaption>
+        <video class="comparison" controls loop muted playsinline preload="none" width="1664" height="512"
+          poster="posters/ablation-global-prompt.jpg" src="ablations/drop_full_vs_background.mp4"
+          aria-label="Same mattress object caption with full global prompt versus background-only global prompt"></video>
+        <p class="observation">The requested drop is not preserved after removing the event from the global prompt.</p>
+      </figure>
+      <figure class="ablation">
+        <figcaption><h3>Pedestrian Event: Object Caption On / Off</h3><p>Full global prompt still describes the pedestrian event. Same geometry and seed 51. Left: object caption on; right: off.</p></figcaption>
+        <video class="comparison" controls loop muted playsinline preload="none" width="1664" height="512"
+          poster="posters/ablation-ghost-on-off.jpg" src="ablations/ghost_full_on_off.mp4"
+          aria-label="Pedestrian event with the same full global prompt and object caption on versus off"></video>
+      </figure>
     </section>
   </main>
 </body>
