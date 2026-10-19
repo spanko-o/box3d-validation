@@ -10,7 +10,7 @@ a:focus-visible, video:focus-visible { outline: 2px solid #087f8c; outline-offse
 main { max-width: 1328px; margin: auto; padding: 24px 24px 60px; }
 figure { margin: 0; padding: 0 0 30px; scroll-margin-top: 78px; }
 figure a, figure img { display: block; width: 100%; }
-figure img { height: auto; aspect-ratio: 2 / 1; object-fit: contain; }
+figure img { height: auto; aspect-ratio: 5 / 2; object-fit: contain; }
 section { border-top: 1px solid #e4e7e9; padding: 24px 0 36px; scroll-margin-top: 62px; }
 section header { display: flex; align-items: baseline; gap: 14px; margin-bottom: 18px; }
 h2 { font-size: 19px; line-height: 26px; margin: 0; font-weight: 600; }
