@@ -25,21 +25,21 @@
             alt="原方案：对象几何与文本融合后，与全部几何条件共同参与一次交叉注意力读取。">
         </a>
         <ol class="mechanism-list">
-          <li>通过 track ID 将描述绑定到指定框，使用 T5 和 Wan 文本投影编码描述。</li>
+          <li>通过 track ID 将事件描述绑定到指定框，使用 T5 和 Wan 文本投影编码描述。</li>
           <li>将同一对象的几何与文本特征对齐维度、拼接，再通过自注意力融合。</li>
           <li>视频特征统一读取全部几何与融合后的文本，以残差方式注入 Wan。全局描述仍保留原有路径。</li>
         </ol>
       </figure>
       <figure class="architecture-figure">
-        <figcaption><h3>新方案：独立读取对象事件</h3><p>保留对象内融合，将事件读取与基础几何控制分开。</p></figcaption>
-        <a href="architecture-priority.png" target="_blank" rel="noopener" aria-label="查看新方案架构图原图">
-          <img src="architecture-priority.png" width="3780" height="1512" loading="lazy"
-            alt="新方案：保留全部对象的几何控制，指定对象与文本按同一轨迹绑定，并通过独立事件分支参与视频去噪。">
+        <figcaption><h3>新方案：独立读取指定事件</h3><p>同一份视频特征分别读取全部几何，以及指定框的几何与描述。</p></figcaption>
+        <a href="architecture-event-readout.png" target="_blank" rel="noopener" aria-label="查看新方案架构图原图">
+          <img src="architecture-event-readout.png" width="4400" height="1680" loading="lazy"
+            alt="视频特征并行查询全部原始几何和指定框融合后的几何与文本；事件读取结果减去该框原始几何的 Value，经投影和增益后，与几何残差共同加入 Wan。">
         </a>
         <ol class="mechanism-list">
-          <li>保留全部对象的原始几何读取，维持基础位置与轨迹控制。</li>
-          <li>只在有描述的对象之间分配事件权重，分别读取各自融合后的几何与文本，避免普通对象参与事件权重竞争。</li>
-          <li>提取相对原始几何的事件增量，加权后与几何残差共同注入 Wan。事件不被硬限制在框内，允许掉落物离开车辆框。</li>
+          <li>保留全部原始几何的 attention 读取，同时让视频特征独立读取指定框融合后的几何与文本。</li>
+          <li>从事件读取结果中减去该框原始几何的 Value，得到特征增量。减去的不是视频 latent。</li>
+          <li>事件增量经过投影与可学习增益，和几何残差共同注入 Wan。各视频位置分别读取，事件不被硬限制在框内。</li>
         </ol>
       </figure>
     </section>
@@ -146,7 +146,7 @@
         <h3>结论与改动动机</h3>
         <ol class="mechanism-list">
           <li>这些样本中，旧版仍依赖全局事件描述，逐框控制不够可靠。</li>
-          <li>新版将指定对象的事件独立读取，目标是减少竞争；效果仍需通过开关、替换逐框描述的对照验证。</li>
+          <li>新版为指定框增加独立的事件读取，同时保留基础几何控制；效果仍需通过开关、替换逐框描述的对照验证。</li>
         </ol>
       </div>
     </section>
