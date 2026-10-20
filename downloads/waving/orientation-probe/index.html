@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orientation Diagnostic Downloads</title>
+<style>
+body { max-width: 720px; margin: 40px auto; padding: 0 20px; font: 16px/1.7 system-ui, sans-serif; color: #222; background: #fff; }
+a { color: #0756b8; overflow-wrap: anywhere; }
+li { margin: 12px 0; }
+</style>
+<p>step-500 / 480p / 57 帧 / 12 步采样诊断版，非原来的 50 步推理。</p>
+<ul>
+  <li><a href="b01_full57_baseline12.mp4" download>交警静态：原描述，seed 42</a></li>
+  <li><a href="b02_full57_subject_first12.mp4" download>交警静态：主体优先描述，seed 42</a></li>
+  <li><a href="b05_subject_first_seed44.mp4" download>交警静态：主体优先描述，seed 44</a></li>
+  <li><a href="b06_police_moving_subject_first12.mp4" download>交警动态：主体优先描述，seed 42</a></li>
+  <li><a href="b07_view_prefix_only.mp4" download>交警静态：仅在原描述前增加正面提示，seed 42</a></li>
+  <li><a href="b08_full57_global_only.mp4" download>交警静态：只重写全局描述，逐框描述不变，seed 42</a></li>
+  <li><a href="b03_giraffe_baseline12.mp4" download>长颈鹿：原描述，seed 55</a></li>
+  <li><a href="b04_giraffe_subject_first12.mp4" download>长颈鹿：主体优先描述，seed 55</a></li>
+  <li><a href="b09_giraffe_restored12.mp4" download>长颈鹿：完整条件镜像推理后还原，seed 55</a></li>
+  <li><a href="b11_giraffe_restored_seed56_12.mp4" download>长颈鹿：完整条件镜像推理后还原，seed 56</a></li>
+  <li><a href="b10_giraffe_map_text_only12.mp4" download>长颈鹿：保留地图和文本，关闭 3D 与逐框分支，seed 55</a></li>
+</ul>
+<p><a href="../">返回原下载页</a></p>
+</html>
