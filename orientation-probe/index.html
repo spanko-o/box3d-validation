@@ -24,6 +24,7 @@
     a { color: #166056; text-underline-offset: 3px; }
     .download { font-size: 13px; flex-shrink: 0; }
     .result { font-size: 14px; margin-top: 2px; }
+    .confirmation figure { max-width: 832px; margin-top: 18px; }
     footer { margin-top: 30px; padding-top: 16px; border-top: 1px solid #d9dede; }
     @media (max-width: 680px) {
       main { padding: 20px 14px 32px; }
@@ -37,8 +38,17 @@
   <header>
     <h1>朝向对照实验</h1>
     <p class="meta">Checkpoint step-500 · 832 × 480 · 57 帧 · 8 fps · CFG 5</p>
-    <p class="note">以下为 12 步采样的完整视频诊断。仅修改推理条件，未修改训练；局部改善不代表已解决通用朝向控制。</p>
+    <p class="note">包含 12 步诊断与 50 步复验，均为完整 57 帧。仅修改推理条件，未修改训练；局部改善不代表已解决通用朝向控制。</p>
   </header>
+
+  <section class="confirmation" aria-labelledby="production-confirmation">
+    <h2 id="production-confirmation">动态交警：50 步复验</h2>
+    <p class="note">使用下方动态诊断的同一组描述、地图、3D 框与 seed 42，恢复标准 50 步采样。</p>
+    <figure>
+      <video controls playsinline preload="metadata" poster="police_moving_subject_first_50steps.jpg" src="police_moving_subject_first_50steps.mp4" aria-label="动态交警，50 步标准采样复验，seed 42"></video>
+      <figcaption><div class="caption-line"><strong>重写全局与逐框描述 · seed 42 · 50 步</strong><a class="download" download href="police_moving_subject_first_50steps.mp4">下载</a></div><p class="result">身体保持正面，自车持续接近。抬臂后主要保持姿势，仍有未要求的黑色面部遮挡，尚未达到清晰露脸与完整大幅挥手的要求。</p></figcaption>
+    </figure>
+  </section>
 
   <section aria-labelledby="police-static">
     <h2 id="police-static">交警：静态对照</h2>
