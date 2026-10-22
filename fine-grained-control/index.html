@@ -10,27 +10,11 @@
 <body>
   <nav aria-label="页面章节">
     <div class="nav-inner">
-      <a href="#architecture">架构介绍</a>
       <a href="#event-data">事件数据</a>
       <a href="#caption-ablation">文本消融</a>
     </div>
   </nav>
   <main>
-    <section id="architecture" aria-labelledby="architecture-label">
-      <header><h2 id="architecture-label">架构介绍</h2></header>
-      <figure class="architecture-figure">
-        <figcaption><h3>原方案：统一读取几何与文本</h3><p>先在对象内部融合，再把融合结果交给视频特征统一读取。</p></figcaption>
-        <a href="architecture.png" target="_blank" rel="noopener" aria-label="查看原方案架构图原图">
-          <img src="architecture.png" width="1774" height="887" fetchpriority="high"
-            alt="原方案：对象几何与文本融合后，与全部几何条件共同参与一次交叉注意力读取。">
-        </a>
-        <ol class="mechanism-list">
-          <li>通过 track ID 将事件描述绑定到指定框，使用 T5 和 Wan 文本投影编码描述。</li>
-          <li>将同一对象的几何与文本特征对齐维度、拼接，再通过自注意力融合。</li>
-          <li>视频特征统一读取全部几何与融合后的文本，以残差方式注入 Wan。全局描述仍保留原有路径。</li>
-        </ol>
-      </figure>
-    </section>
     <section id="event-data" aria-labelledby="event-data-label">
       <header><h2 id="event-data-label">事件数据示例</h2><span>指定框与对应英文描述</span></header>
       <div class="dataset" id="nuplan">

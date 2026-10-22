@@ -8,7 +8,7 @@ document.addEventListener('visibilitychange', () => {
 });
 const links = [...document.querySelectorAll('nav a')];
 function markSection() {
-  const id = location.hash || '#architecture';
+  const id = location.hash || '#event-data';
   links.forEach(link => {
     if (link.getAttribute('href') === id) link.setAttribute('aria-current', 'location');
     else link.removeAttribute('aria-current');

@@ -1,7 +1,7 @@
 # Box3D Video Demos
 
 - [Selected generation results](https://spanko-o.github.io/box3d-validation/)
-- [Fine-grained control: architecture, event data and caption ablations](https://spanko-o.github.io/box3d-validation/fine-grained-control/)
+- [Fine-grained control: event data and caption ablations](https://spanko-o.github.io/box3d-validation/fine-grained-control/)
 - [Waving and traffic-police video downloads](https://spanko-o.github.io/box3d-validation/downloads/waving/)
 - [Orientation diagnostic comparisons](https://spanko-o.github.io/box3d-validation/orientation-probe/)
 
