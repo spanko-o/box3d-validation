@@ -1,0 +1,130 @@
+[
+  {
+    "id": "early-global-vs-background",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 1664,
+    "height": 512,
+    "sha256": "b9de8fadb6dd7b7524ea7f0c44c717afacf1c069f8ed0bf30f6c38ccce8dbebd"
+  },
+  {
+    "id": "early-object-on-off",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 1664,
+    "height": 512,
+    "sha256": "df427156cc754a4a1d08516e1e480c5dee442384d28206dab20098b82cfb8ac4"
+  },
+  {
+    "id": "early-object-replacement",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 2496,
+    "height": 512,
+    "sha256": "88492e184107a98e1abde209c01add898188fc178d75dedefb693511143af7cd"
+  },
+  {
+    "id": "police-original",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 832,
+    "height": 480,
+    "sha256": "cb6c5d2b3643868a752b008b94e38311c8e1d0a0521ab2140ec589a14e1de2d6"
+  },
+  {
+    "id": "police-global-rewrite",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 832,
+    "height": 480,
+    "sha256": "3c66e7784306dc01971f53c5af29fb3c9caa87fc5b47deba0f498fd4b6bd62bb"
+  },
+  {
+    "id": "police-50step-confirmation",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 832,
+    "height": 480,
+    "sha256": "c4059f2a84cea91192e97557cb18759693f4542d0f2292ab0e0a92b38fe5fbc0"
+  },
+  {
+    "id": "direct-ladder",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 832,
+    "height": 480,
+    "sha256": "c9b9b2ad67ff7937454715c15c9244d9cd45b98d93978ed8afae46fe5888f6c7"
+  },
+  {
+    "id": "region-loss-ladder",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 832,
+    "height": 480,
+    "sha256": "40afbeb26b29777132b2b239555b0d189eb8e5a8b372379e4b48df6e512d2f57"
+  },
+  {
+    "id": "mattress-background",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 416,
+    "height": 240,
+    "sha256": "5d4e5beeb85a83bbbca43caf9819fdeba19b40fca5ea65ca65f193ad8a83863b"
+  },
+  {
+    "id": "mattress-independent",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 416,
+    "height": 240,
+    "sha256": "2b7413f0a1b88bf39c975ac6bbb37863656f0e838fb5a4ade6304b08e2ced348"
+  },
+  {
+    "id": "mattress-joint",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 416,
+    "height": 240,
+    "sha256": "f4502c5642615d9f8f0fc253cbf6a8f4bdc1d4a906eb0bbf5efa04b643956e9d"
+  },
+  {
+    "id": "mattress-rms",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 416,
+    "height": 240,
+    "sha256": "9d3e04e062415c500c109d1623918d711143e91a09abd5715d66db5b216544e4"
+  },
+  {
+    "id": "mattress-displaced",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 416,
+    "height": 240,
+    "sha256": "8e214273f6470249ffae8504a229fe69400b6dc6dc2bebc370b31805b8348b19"
+  },
+  {
+    "id": "mattress-wrong-word",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 416,
+    "height": 240,
+    "sha256": "85aa2716a106569df63f38316474427d90ea93df32c90943f554ef670847bab9"
+  },
+  {
+    "id": "police-joint",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 416,
+    "height": 240,
+    "sha256": "46e699a7335990a6bb4a090dd9793a9cc7ebdba6ed385a96181d305da0633fba"
+  },
+  {
+    "id": "dog-joint",
+    "frames": 57,
+    "fps": 8.0,
+    "width": 416,
+    "height": 240,
+    "sha256": "27200c7a9f9dee2a38891e8b002be570314a37780cb099faf4756dcc33085d49"
+  }
+]
