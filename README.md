@@ -1,6 +1,7 @@
 # Box3D Video Demos
 
 - [Selected generation results](https://spanko-o.github.io/box3d-validation/)
+- [Control pilot step 4000 vs Joint3D v3 step 1500: 10 scenes, 20 videos](https://spanko-o.github.io/box3d-validation/pilot4000-joint3d1500/)
 - [Fine-grained control: event data and caption ablations](https://spanko-o.github.io/box3d-validation/fine-grained-control/)
 - [Waving and traffic-police video downloads](https://spanko-o.github.io/box3d-validation/downloads/waving/)
 - [Orientation diagnostic comparisons](https://spanko-o.github.io/box3d-validation/orientation-probe/)

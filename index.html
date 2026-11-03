@@ -8,6 +8,8 @@
   * { box-sizing: border-box; }
   body { margin: 0; background: #f5f7f7; }
   main { max-width: 1760px; margin: 0 auto; padding: 20px; }
+  .comparison-link { margin-bottom: 20px; font: 16px/1.6 system-ui, sans-serif; }
+  .comparison-link a { color: #075e72; }
   #gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
   video { display: block; width: 100%; height: auto; aspect-ratio: 832 / 480; background: #111; object-fit: contain; }
   @media (max-width: 760px) {
@@ -15,7 +17,7 @@
     #gallery { grid-template-columns: 1fr; gap: 12px; }
   }
 </style>
-<main><section id="gallery" aria-label="视频"></section></main>
+<main><nav class="comparison-link"><a href="pilot4000-joint3d1500/">旧版 4000 步 / Joint3D 1500 步：10 组视频对照 →</a></nav><section id="gallery" aria-label="视频"></section></main>
 <script>
 const videos = [
   '01_dense_pedestrian_crosswalk_001.mp4',

@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>旧版 4000 步 / Joint3D 1500 步 · 视频对照</title>
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body><main>
+  <header class="page-heading">
+    <a href="../" class="back">← 视频主页</a>
+    <h1>旧版 4000 步 / Joint3D 1500 步</h1>
+    <p>10 个相同场景 · 20 个视频 · 25 帧 · 8 fps</p>
+    <p class="legend">每条视频从左到右：<strong>GT</strong> / <strong>Clean HDMap</strong> / <strong>Prediction</strong>。使用同步播放或拖动帧进度进行对照。</p>
+    <div class="toolbar">
+      <label><input id="stacked" type="checkbox"> 上下排列，放大查看</label>
+      <label>播放速度 <select id="speed"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option></select></label>
+      <button id="pause-all" type="button">全部暂停</button>
+    </div>
+    <nav aria-label="跳转到场景"><a href="#scene-00">00</a><a href="#scene-01">01</a><a href="#scene-02">02</a><a href="#scene-03">03</a><a href="#scene-04">04</a><a href="#scene-05">05</a><a href="#scene-06">06</a><a href="#scene-07">07</a><a href="#scene-08">08</a><a href="#scene-09">09</a></nav>
+  </header>
+  <section aria-label="两个版本的推理结果"><article class="scene" id="scene-00">
+          <header class="scene-heading"><div><h2>场景 00</h2><p>hdmap_m000001_s02_2021_05_25_14_16_10_veh-35_01690_02183__s000300_n00300</p></div>
+            <a href="#scene-00" aria-label="场景 00 的固定链接">#00</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-00.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-00.jpg" src="videos/pilot4000-00.mp4"
+                aria-label="场景 00，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-00.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-00.jpg" src="videos/joint3d1500-00.mp4"
+                aria-label="场景 00，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 00 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article>
+<article class="scene" id="scene-01">
+          <header class="scene-heading"><div><h2>场景 01</h2><p>hdmap_m000003_s04_2021_05_25_14_16_10_veh-35_01690_02183__s000900_n00300</p></div>
+            <a href="#scene-01" aria-label="场景 01 的固定链接">#01</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-01.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-01.jpg" src="videos/pilot4000-01.mp4"
+                aria-label="场景 01，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-01.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-01.jpg" src="videos/joint3d1500-01.mp4"
+                aria-label="场景 01，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 01 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article>
+<article class="scene" id="scene-02">
+          <header class="scene-heading"><div><h2>场景 02</h2><p>hdmap_m000007_s02_2021_05_25_14_16_10_veh-35_01690_02183__s002100_n00300</p></div>
+            <a href="#scene-02" aria-label="场景 02 的固定链接">#02</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-02.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-02.jpg" src="videos/pilot4000-02.mp4"
+                aria-label="场景 02，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-02.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-02.jpg" src="videos/joint3d1500-02.mp4"
+                aria-label="场景 02，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 02 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article>
+<article class="scene" id="scene-03">
+          <header class="scene-heading"><div><h2>场景 03</h2><p>hdmap_m000008_s04_2021_05_25_14_16_10_veh-35_01690_02183__s002400_n00300</p></div>
+            <a href="#scene-03" aria-label="场景 03 的固定链接">#03</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-03.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-03.jpg" src="videos/pilot4000-03.mp4"
+                aria-label="场景 03，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-03.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-03.jpg" src="videos/joint3d1500-03.mp4"
+                aria-label="场景 03，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 03 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article>
+<article class="scene" id="scene-04">
+          <header class="scene-heading"><div><h2>场景 04</h2><p>hdmap_m000016_s00_2021_06_03_12_02_06_veh-35_00233_00609__s000000_n00300</p></div>
+            <a href="#scene-04" aria-label="场景 04 的固定链接">#04</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-04.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-04.jpg" src="videos/pilot4000-04.mp4"
+                aria-label="场景 04，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-04.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-04.jpg" src="videos/joint3d1500-04.mp4"
+                aria-label="场景 04，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 04 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article>
+<article class="scene" id="scene-05">
+          <header class="scene-heading"><div><h2>场景 05</h2><p>hdmap_m000019_s01_2021_06_03_12_02_06_veh-35_00233_00609__s000900_n00300</p></div>
+            <a href="#scene-05" aria-label="场景 05 的固定链接">#05</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-05.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-05.jpg" src="videos/pilot4000-05.mp4"
+                aria-label="场景 05，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-05.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-05.jpg" src="videos/joint3d1500-05.mp4"
+                aria-label="场景 05，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 05 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article>
+<article class="scene" id="scene-06">
+          <header class="scene-heading"><div><h2>场景 06</h2><p>hdmap_m000020_s04_2021_06_03_12_02_06_veh-35_00233_00609__s001200_n00300</p></div>
+            <a href="#scene-06" aria-label="场景 06 的固定链接">#06</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-06.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-06.jpg" src="videos/pilot4000-06.mp4"
+                aria-label="场景 06，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-06.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-06.jpg" src="videos/joint3d1500-06.mp4"
+                aria-label="场景 06，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 06 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article>
+<article class="scene" id="scene-07">
+          <header class="scene-heading"><div><h2>场景 07</h2><p>hdmap_m000022_s01_2021_06_03_12_02_06_veh-35_00233_00609__s001800_n00300</p></div>
+            <a href="#scene-07" aria-label="场景 07 的固定链接">#07</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-07.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-07.jpg" src="videos/pilot4000-07.mp4"
+                aria-label="场景 07，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-07.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-07.jpg" src="videos/joint3d1500-07.mp4"
+                aria-label="场景 07，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 07 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article>
+<article class="scene" id="scene-08">
+          <header class="scene-heading"><div><h2>场景 08</h2><p>hdmap_m000025_s00_2021_06_03_12_02_06_veh-35_00233_00609__s002700_n00300</p></div>
+            <a href="#scene-08" aria-label="场景 08 的固定链接">#08</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-08.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-08.jpg" src="videos/pilot4000-08.mp4"
+                aria-label="场景 08，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-08.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-08.jpg" src="videos/joint3d1500-08.mp4"
+                aria-label="场景 08，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 08 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article>
+<article class="scene" id="scene-09">
+          <header class="scene-heading"><div><h2>场景 09</h2><p>hdmap_m000027_s02_2021_06_03_12_02_06_veh-35_00233_00609__s003300_n00300</p></div>
+            <a href="#scene-09" aria-label="场景 09 的固定链接">#09</a></header>
+          <div class="videos"><figure class="pilot4000">
+              <figcaption><strong>旧版 Cross-attention · step 4000</strong><a href="videos/pilot4000-09.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/pilot4000-09.jpg" src="videos/pilot4000-09.mp4"
+                aria-label="场景 09，旧版 Cross-attention · step 4000，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure><figure class="joint3d1500">
+              <figcaption><strong>当前 Joint3D v3 · step 1500</strong><a href="videos/joint3d1500-09.mp4" download>下载 MP4</a></figcaption>
+              <video controls muted playsinline preload="metadata" width="1248" height="272"
+                poster="posters/joint3d1500-09.jpg" src="videos/joint3d1500-09.mp4"
+                aria-label="场景 09，当前 Joint3D v3 · step 1500，GT、HDMap、生成结果">
+                浏览器不支持视频播放，可使用上方链接下载。
+              </video>
+            </figure></div>
+          <div class="pair-controls">
+            <button type="button" data-action="play">同步播放</button>
+            <button type="button" data-action="pause">暂停</button>
+            <button type="button" data-action="restart">从头播放</button>
+            <label class="timeline">逐帧查看 <input type="range" min="0" max="24" value="0" step="1" aria-label="场景 09 的同步帧位置"></label>
+            <output>帧 01 / 25</output>
+          </div>
+          <p class="error" role="status" aria-live="polite"></p>
+        </article></section>
+  <footer>旧版：control pilot / step-4000 · 当前：Joint3D geometry-v3 / step-1500</footer>
+</main></body></html>
