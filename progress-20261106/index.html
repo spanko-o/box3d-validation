@@ -43,11 +43,12 @@
         width="416" height="240" aria-label="改进：加入对齐残差"></video>
       <div class="caption"><h4>改进：加入对齐残差</h4><p>4000 步 · 57 帧 · 比较布局与视角响应，不代表画质问题全部解决</p>
       <a href="videos/hdmap-16-aligned.mp4" download>下载视频</a></div></article></div></div></section>
-<section id="geometry-success"><h2>保留对照：HDMap＋3D 的 BiCross 结果</h2>
-<p>mini-test 场景 06、09：保留 GT、HDMap 与 BiCross 3000 步生成。BiCross 为 25 帧，同步播放比较共同的前 25 帧；上面的 HDMap 失败案例不再受此时长限制。</p><div class="scene" id="scene-06"><div class="row-heading"><h3>场景 06</h3>
+<section id="geometry-success"><h2>3D 控制：生成视频与输入框叠加对照</h2>
+<p>mini-test 场景 06、09：GT、HDMap、BiCross 3000 步原视频，以及叠加输入 3D 框的生成视频。同步播放比较共同的前 25 帧。</p>
+<p>青色为车辆框，橙色标出框的车头面，灰色为其它目标。框线来自推理时使用的 3D 条件与相机标定，逐帧投影到生成画面，用于观察位置、尺寸与朝向的对应程度。</p><div class="scene" id="scene-06"><div class="row-heading"><h3>场景 06</h3>
       <button data-play="scene-06" data-duration="3.125">同步播放前 25 帧</button>
       <button class="secondary" data-pause="scene-06">暂停</button></div>
-      <div class="stage-grid" data-group="scene-06"><article class="card">
+      <div class="four-grid" data-group="scene-06"><article class="card">
       <video controls muted playsinline preload="none" poster="posters/scene-06-gt.jpg" src="videos/scene-06-gt.mp4"
         width="832" height="480" aria-label="原始视频 GT"></video>
       <div class="caption"><h4>原始视频 GT</h4><p>57 帧 · 8 fps</p>
@@ -59,10 +60,14 @@
       <video controls muted playsinline preload="none" poster="posters/scene-06-bicross.jpg" src="videos/scene-06-bicross.mp4"
         width="416" height="240" aria-label="HDMap＋3D：BiCross"></video>
       <div class="caption"><h4>HDMap＋3D：BiCross</h4><p>3000 步 · 25 帧 · 独立 HDMap 残差＋双向 cross attention</p>
-      <a href="videos/scene-06-bicross.mp4" download>下载视频</a></div></article></div></div><div class="scene" id="scene-09"><div class="row-heading"><h3>场景 09</h3>
+      <a href="videos/scene-06-bicross.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-06-bicross-boxes.jpg" src="videos/scene-06-bicross-boxes.mp4"
+        width="416" height="240" aria-label="BiCross＋输入 3D 框"></video>
+      <div class="caption"><h4>BiCross＋输入 3D 框</h4><p>3000 步 · 25 帧 · 青色车辆框，橙色车头面，灰色其它目标</p>
+      <a href="videos/scene-06-bicross-boxes.mp4" download>下载视频</a></div></article></div></div><div class="scene" id="scene-09"><div class="row-heading"><h3>场景 09</h3>
       <button data-play="scene-09" data-duration="3.125">同步播放前 25 帧</button>
       <button class="secondary" data-pause="scene-09">暂停</button></div>
-      <div class="stage-grid" data-group="scene-09"><article class="card">
+      <div class="four-grid" data-group="scene-09"><article class="card">
       <video controls muted playsinline preload="none" poster="posters/scene-09-gt.jpg" src="videos/scene-09-gt.mp4"
         width="832" height="480" aria-label="原始视频 GT"></video>
       <div class="caption"><h4>原始视频 GT</h4><p>57 帧 · 8 fps</p>
@@ -74,7 +79,11 @@
       <video controls muted playsinline preload="none" poster="posters/scene-09-bicross.jpg" src="videos/scene-09-bicross.mp4"
         width="416" height="240" aria-label="HDMap＋3D：BiCross"></video>
       <div class="caption"><h4>HDMap＋3D：BiCross</h4><p>3000 步 · 25 帧 · 独立 HDMap 残差＋双向 cross attention</p>
-      <a href="videos/scene-09-bicross.mp4" download>下载视频</a></div></article></div></div></section>
+      <a href="videos/scene-09-bicross.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-09-bicross-boxes.jpg" src="videos/scene-09-bicross-boxes.mp4"
+        width="416" height="240" aria-label="BiCross＋输入 3D 框"></video>
+      <div class="caption"><h4>BiCross＋输入 3D 框</h4><p>3000 步 · 25 帧 · 青色车辆框，橙色车头面，灰色其它目标</p>
+      <a href="videos/scene-09-bicross-boxes.mp4" download>下载视频</a></div></article></div></div></section>
 <section id="dogs"><h2>狗场景：对象文本是否控制了指定内容？</h2>
 <p>recurrent 16 卡版本 · step 500 · 57 帧 · 240p · seed 53。四条使用相同几何内容和 HDMap；前三条全局背景不变，第四条改为完整全局事件描述并关闭对象描述。</p>
 <p class="note">可见画面差异，但这组结果尚不能认定已可靠实现“狗 / 猪”的物种切换。</p>
