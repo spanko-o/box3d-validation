@@ -13,7 +13,7 @@
 <p class="note">这两条长尾场景没有配对 GT，直接与 HDMap 对照。它们是用于展示失败的选例，不代表整体失败率；各版训练配置不同，也不构成单因素消融。</p><div class="scene" id="hdmap-13"><div class="row-heading"><h3>转弯条件被忽略：生成始终沿直路前进</h3>
       <button data-play="hdmap-13">同步播放完整 57 帧</button>
       <button class="secondary" data-pause="hdmap-13">暂停</button></div>
-      <p>看前半段：输入 HDMap 的道路方向明显旋转，转弯后才朝向纵深；早期生成从头到尾沿直路前进，路口与道路方向不对应。加入对齐残差后出现了相应转向，但路面仍有明显偏紫伪影。</p><p class="note">场景 ID：ghost_probe_turn_ego_stop_001</p>
+      <p>看前半段：输入 HDMap 的道路方向明显旋转，转弯后才朝向纵深；早期生成从头到尾沿直路前进，路口与道路方向不对应。右侧使用后续 BiCross 的已保存结果，跟随转向，转弯后保持正常道路画面。</p><p class="note">场景 ID：ghost_probe_turn_ego_stop_001</p>
       <div class="stage-grid" data-group="hdmap-13"><article class="card">
       <video controls muted playsinline preload="none" poster="posters/hdmap-13-input.jpg" src="videos/hdmap-13-input.mp4"
         width="832" height="480" aria-label="输入 HDMap · 完整 57 帧"></video>
@@ -23,10 +23,10 @@
         width="416" height="240" aria-label="早期：未跟随 HDMap"></video>
       <div class="caption"><h4>早期：未跟随 HDMap</h4><p>6000 步 · 57 帧 · 时空编码，尚未加入对齐残差</p>
       <a href="videos/hdmap-13-before.mp4" download>下载视频</a></div></article><article class="card">
-      <video controls muted playsinline preload="none" poster="posters/hdmap-13-aligned.jpg" src="videos/hdmap-13-aligned.mp4"
-        width="416" height="240" aria-label="改进：加入对齐残差"></video>
-      <div class="caption"><h4>改进：加入对齐残差</h4><p>4000 步 · 57 帧 · 比较布局与视角响应，不代表画质问题全部解决</p>
-      <a href="videos/hdmap-13-aligned.mp4" download>下载视频</a></div></article></div></div><div class="scene" id="hdmap-16"><div class="row-heading"><h3>静止条件被忽略：生成自行向前行驶</h3>
+      <video controls muted playsinline preload="none" poster="posters/hdmap-13-bicross.jpg" src="videos/hdmap-13-bicross.mp4"
+        width="416" height="240" aria-label="后续：BiCross 转弯结果"></video>
+      <div class="caption"><h4>后续：BiCross 转弯结果</h4><p>1000 步 · 57 帧 · 对象文本版；本例使用全局事件描述，对象描述为空</p>
+      <a href="videos/hdmap-13-bicross.mp4" download>下载视频</a></div></article></div></div><div class="scene" id="hdmap-16"><div class="row-heading"><h3>静止条件被忽略：生成自行向前行驶</h3>
       <button data-play="hdmap-16">同步播放完整 57 帧</button>
       <button class="secondary" data-pause="hdmap-16">暂停</button></div>
       <p>看整段：输入 HDMap 的视角与近处横向道路边界基本不变；早期生成却持续向前行驶，路口、路缘和中央分隔关系随之改变。加入对齐残差后视角基本保持静止，路口关系更接近输入。</p><p class="note">场景 ID：ghost_probe_static_001</p>
