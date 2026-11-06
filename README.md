@@ -1,5 +1,7 @@
 # Box3D Video Demos
 
+- [2026-11-06 progress: HDMap, 3D, object text and global color control](https://spanko-o.github.io/box3d-validation/progress-20261106/)
+
 - [Selected generation results](https://spanko-o.github.io/box3d-validation/)
 - [Control pilot step 4000 vs Joint3D v3 step 1500: 10 scenes, 20 videos](https://spanko-o.github.io/box3d-validation/pilot4000-joint3d1500/)
 - [Fine-grained control: event data and caption ablations](https://spanko-o.github.io/box3d-validation/fine-grained-control/)

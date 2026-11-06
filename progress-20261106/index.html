@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>从几何控制到对象语义控制 · 2026-11-06</title><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body><nav><a href="../">视频主页</a><a href="#parameters">参数规模</a><a href="#geometry">HDMap / 3D</a><a href="#dogs">狗的文本对照</a><a href="#colors">颜色对照</a></nav>
+<main><header class="hero"><p class="eyebrow">研究进展 · 2026-11-06</p><h1>从几何控制到对象语义控制</h1>
+<p>HDMap 布局、3D 目标控制，以及对象文本与全局文本的生成对照。</p></header>
+<section id="parameters"><h2>条件分支参数规模</h2><p>当前在训的对象语义组版本：每个有描述的对象使用 4 个语义 token。</p>
+<div class="stats"><div><strong>576.45 M</strong><span>条件分支总参数 · 5.764 亿</span></div><div><strong>462.92 M</strong><span>本轮可训练参数 · 4.629 亿</span></div><div><strong>102.94 M</strong><span>其中 HDMap 路径</span></div></div>
+<details><summary>查看精确统计与版本区别</summary><div class="table-wrap"><table><thead><tr><th>模块</th><th>参数量</th><th>本轮状态</th></tr></thead><tbody><tr><td>HDMap 时空编码与残差注入</td><td>102,940,680</td><td>冻结</td></tr><tr><td>3D 几何编码器</td><td>10,591,374</td><td>冻结</td></tr><tr><td>视频读取条件 · 40 层</td><td>252,375,080</td><td>训练</td></tr><tr><td>条件读取视频 · 16 层</td><td>92,487,696</td><td>训练</td></tr><tr><td>对象文本投影与 cross attention · 40 层</td><td>44,204,544</td><td>训练</td></tr><tr><td>条件 / 语义状态 FFN · 40 层</td><td>42,045,440</td><td>训练</td></tr><tr><td>对象语义组及视频读取模块</td><td>31,803,392</td><td>训练</td></tr></tbody><tfoot><tr><th>合计</th><th>576,448,206</th><th>训练 462,916,152</th></tr></tfoot></table></div>
+<p>统计包含 HDMap、几何编码、双向交互、对象文本和语义组模块；不包含 Wan 主干、VAE、UMT5。下方狗场景来自前一版 recurrent：544,644,814 个参数；当前语义组版新增 31,803,392 个参数。最初成功的几何 BiCross 版本为 458,394,830 个参数。</p></details></section>
+<section id="geometry"><h2>HDMap 与 3D 控制的三个阶段</h2>
+<p>选取相同的 mini-test 场景 06、09。前两版为 57 帧，BiCross 快速验证为 25 帧；同步播放只比较共同的前 25 帧，单独播放可查看完整原视频。</p>
+<p class="note">这些视频展示迭代过程。各版初始化、训练步数与帧数不同，不作为等预算的单因素消融结论。</p><div class="scene" id="scene-06"><div class="row-heading"><h3>场景 06</h3>
+      <button data-play="scene-06" data-duration="3.125">同步播放前 25 帧</button>
+      <button class="secondary" data-pause="scene-06">暂停</button></div>
+      <div class="stage-grid" data-group="scene-06"><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-06-gt.jpg" src="videos/scene-06-gt.mp4"
+        width="832" height="480" aria-label="原始视频 GT"></video>
+      <div class="caption"><h4>原始视频 GT</h4><p>57 帧 · 8 fps</p>
+      <a href="videos/scene-06-gt.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-06-hdmap.jpg" src="videos/scene-06-hdmap.mp4"
+        width="832" height="480" aria-label="输入 HDMap"></video>
+      <div class="caption"><h4>输入 HDMap</h4><p>57 帧 · 8 fps</p>
+      <a href="videos/scene-06-hdmap.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-06-before.jpg" src="videos/scene-06-before.mp4"
+        width="416" height="240" aria-label="早期：HDMap 未稳定控制"></video>
+      <div class="caption"><h4>早期：HDMap 未稳定控制</h4><p>6000 步 · 57 帧 · 时空编码，尚未加入对齐残差</p>
+      <a href="videos/scene-06-before.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-06-aligned.jpg" src="videos/scene-06-aligned.mp4"
+        width="416" height="240" aria-label="HDMap：加入对齐残差"></video>
+      <div class="caption"><h4>HDMap：加入对齐残差</h4><p>4000 步 · 57 帧 · 道路布局改善，3D 框控制尚不可靠</p>
+      <a href="videos/scene-06-aligned.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-06-bicross.jpg" src="videos/scene-06-bicross.mp4"
+        width="416" height="240" aria-label="HDMap＋3D：BiCross"></video>
+      <div class="caption"><h4>HDMap＋3D：BiCross</h4><p>3000 步 · 25 帧 · 独立 HDMap 残差＋双向 cross attention</p>
+      <a href="videos/scene-06-bicross.mp4" download>下载视频</a></div></article></div></div><div class="scene" id="scene-09"><div class="row-heading"><h3>场景 09</h3>
+      <button data-play="scene-09" data-duration="3.125">同步播放前 25 帧</button>
+      <button class="secondary" data-pause="scene-09">暂停</button></div>
+      <div class="stage-grid" data-group="scene-09"><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-09-gt.jpg" src="videos/scene-09-gt.mp4"
+        width="832" height="480" aria-label="原始视频 GT"></video>
+      <div class="caption"><h4>原始视频 GT</h4><p>57 帧 · 8 fps</p>
+      <a href="videos/scene-09-gt.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-09-hdmap.jpg" src="videos/scene-09-hdmap.mp4"
+        width="832" height="480" aria-label="输入 HDMap"></video>
+      <div class="caption"><h4>输入 HDMap</h4><p>57 帧 · 8 fps</p>
+      <a href="videos/scene-09-hdmap.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-09-before.jpg" src="videos/scene-09-before.mp4"
+        width="416" height="240" aria-label="早期：HDMap 未稳定控制"></video>
+      <div class="caption"><h4>早期：HDMap 未稳定控制</h4><p>6000 步 · 57 帧 · 时空编码，尚未加入对齐残差</p>
+      <a href="videos/scene-09-before.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-09-aligned.jpg" src="videos/scene-09-aligned.mp4"
+        width="416" height="240" aria-label="HDMap：加入对齐残差"></video>
+      <div class="caption"><h4>HDMap：加入对齐残差</h4><p>4000 步 · 57 帧 · 道路布局改善，3D 框控制尚不可靠</p>
+      <a href="videos/scene-09-aligned.mp4" download>下载视频</a></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/scene-09-bicross.jpg" src="videos/scene-09-bicross.mp4"
+        width="416" height="240" aria-label="HDMap＋3D：BiCross"></video>
+      <div class="caption"><h4>HDMap＋3D：BiCross</h4><p>3000 步 · 25 帧 · 独立 HDMap 残差＋双向 cross attention</p>
+      <a href="videos/scene-09-bicross.mp4" download>下载视频</a></div></article></div></div></section>
+<section id="dogs"><h2>狗场景：对象文本是否控制了指定内容？</h2>
+<p>recurrent 16 卡版本 · step 500 · 57 帧 · 240p · seed 53。四条使用相同几何内容和 HDMap；前三条全局背景不变，第四条改为完整全局事件描述并关闭对象描述。</p>
+<p class="note">可见画面差异，但这组结果尚不能认定已可靠实现“狗 / 猪”的物种切换。</p>
+<div class="row-heading"><button data-play="dogs">同步播放四条</button><button class="secondary" data-pause="dogs">暂停</button><a href="videos/dog-four-way.mp4" download>下载四宫格</a><a href="dog-comparison-frames.jpg">关键帧对照</a></div>
+<div class="four-grid" data-group="dogs"><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/dog-off.jpg" src="videos/dog-off.mp4"
+        width="416" height="240" aria-label="关闭对象描述"></video>
+      <div class="caption"><h4>关闭对象描述</h4><p>全局仅描述背景</p>
+      <a href="videos/dog-off.mp4" download>下载视频</a><details><summary>英文描述</summary><p lang="en">The video shows a realistic front-facing autonomous driving scene on a marked urban roadway in daylight. The ego vehicle moves forward along the road, with lane boundaries, roadside infrastructure and surrounding traffic visible in the distance.</p></details></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/dog-object.jpg" src="videos/dog-object.mp4"
+        width="416" height="240" aria-label="对象描述：狗"></video>
+      <div class="caption"><h4>对象描述：狗</h4><p>同一 track ID，描述狗穿过道路</p>
+      <a href="videos/dog-object.mp4" download>下载视频</a><details><summary>英文描述</summary><p lang="en">A medium-sized dog enters from the right and runs diagonally across the road toward the left at a brisk, natural pace, crossing in front of the approaching ego vehicle and clearing its lane.</p></details></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/pig-object.jpg" src="videos/pig-object.mp4"
+        width="416" height="240" aria-label="对象描述：猪"></video>
+      <div class="caption"><h4>对象描述：猪</h4><p>同一 track ID，仅将 dog 替换为 pig</p>
+      <a href="videos/pig-object.mp4" download>下载视频</a><details><summary>英文描述</summary><p lang="en">A medium-sized pig enters from the right and runs diagonally across the road toward the left at a brisk, natural pace, crossing in front of the approaching ego vehicle and clearing its lane.</p></details></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/dog-global.jpg" src="videos/dog-global.mp4"
+        width="416" height="240" aria-label="全局描述：狗"></video>
+      <div class="caption"><h4>全局描述：狗</h4><p>全局描述包含狗过马路，对象描述关闭</p>
+      <a href="videos/dog-global.mp4" download>下载视频</a><details><summary>英文描述</summary><p lang="en">The video shows a realistic front-facing autonomous driving scene on an urban roadway in daylight. The ego vehicle is moving along a marked road with lane boundaries, roadside infrastructure, and normal surrounding traffic visible in the distance. A medium-sized dog suddenly enters from the right side at a safe distance ahead and runs across the roadway from right to left. The dog follows a natural diagonal crossing path at a brisk but plausible speed, clears the ego vehicle&#x27;s lane, and creates a realistic animal-crossing hazard without colliding with the ego vehicle.</p></details></div></article></div></section>
+<section id="colors"><h2>只把对象描述加到全局提示词，会怎样？</h2>
+<p>对象语义组版本 · step 1000 · 57 帧 · 240p · seed 211。每种颜色的新旧结果仅改变全局提示词：在原背景后追加原对象描述。对象分支输入、权重、几何和采样参数均保持一致；未启用新的文本直读分支。</p>
+<div class="result"><strong>黄色与黑色都得到明确响应。</strong><p>旧结果均为白车；加入全局描述后分别变为黄车和黑车。黑色同时影响了部分邻车，说明全局语义响应与精确对象绑定仍是两个问题。</p></div>
+<div class="row-heading"><button data-play="colors">同步播放四条</button><button class="secondary" data-pause="colors">暂停</button><a href="videos/color-four-way.mp4" download>下载四宫格</a><a href="color-comparison-frames.jpg">关键帧对照</a></div>
+<div class="four-grid" data-group="colors"><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/color-object-yellow.jpg" src="videos/color-object-yellow.mp4"
+        width="416" height="240" aria-label="仅对象描述：黄色"></video>
+      <div class="caption"><h4>仅对象描述：黄色</h4><p>原验证结果，目标仍为白色</p>
+      <a href="videos/color-object-yellow.mp4" download>下载视频</a><details><summary>英文描述</summary><p lang="en">The street is lined with trees and lampposts, featuring a grand hotel entrance with an ornate arched canopy and columns. Additional buildings with windows and balconies are visible in the background. The sky is clear and sunny.</p></details></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/color-object-black.jpg" src="videos/color-object-black.mp4"
+        width="416" height="240" aria-label="仅对象描述：黑色"></video>
+      <div class="caption"><h4>仅对象描述：黑色</h4><p>原验证结果，目标仍为白色</p>
+      <a href="videos/color-object-black.mp4" download>下载视频</a><details><summary>英文描述</summary><p lang="en">The street is lined with trees and lampposts, featuring a grand hotel entrance with an ornate arched canopy and columns. Additional buildings with windows and balconies are visible in the background. The sky is clear and sunny.</p></details></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/color-global-yellow.jpg" src="videos/color-global-yellow.mp4"
+        width="416" height="240" aria-label="加到全局描述：黄色"></video>
+      <div class="caption"><h4>加到全局描述：黄色</h4><p>目标变为黄色</p>
+      <a href="videos/color-global-yellow.mp4" download>下载视频</a><details><summary>英文描述</summary><p lang="en">The street is lined with trees and lampposts, featuring a grand hotel entrance with an ornate arched canopy and columns. Additional buildings with windows and balconies are visible in the background. The sky is clear and sunny. A yellow compact hatchback with dark windows.</p></details></div></article><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/color-global-black.jpg" src="videos/color-global-black.mp4"
+        width="416" height="240" aria-label="加到全局描述：黑色"></video>
+      <div class="caption"><h4>加到全局描述：黑色</h4><p>目标变为黑色，部分邻车也变黑</p>
+      <a href="videos/color-global-black.mp4" download>下载视频</a><details><summary>英文描述</summary><p lang="en">The street is lined with trees and lampposts, featuring a grand hotel entrance with an ornate arched canopy and columns. Additional buildings with windows and balconies are visible in the background. The sky is clear and sunny. A black compact hatchback with dark windows.</p></details></div></article></div>
+<p class="note">本次只有一个用于训练的场景；黄色与黑色是两条本机生成结果。这能验证该场景的颜色响应，不能证明留出集泛化或多对象绑定已解决。</p>
+<details><summary>直接播放颜色四宫格</summary><article class="card">
+      <video controls muted playsinline preload="none" poster="posters/color-four-way.jpg" src="videos/color-four-way.mp4"
+        width="832" height="544" aria-label="颜色：新旧结果同屏对照"></video>
+      <div class="caption"><h4>颜色：新旧结果同屏对照</h4><p>上排只给对象描述，下排同时加入全局描述；左黄、右黑。</p>
+      <a href="videos/color-four-way.mp4" download>下载视频</a></div></article></details></section>
+<footer>仅整理已有视频，未新增训练或模型推理。<a href="media-manifest.json">视频与实验信息</a> · <a href="parameter-counts.json">参数统计</a></footer></main></body></html>

@@ -1,0 +1,92 @@
+{
+  "current_object_memory": {
+    "architecture": "Box3DObjectMemoryBiCrossConditionModel",
+    "total": 576448206,
+    "trainable": 462916152,
+    "modules": {
+      "hdmap_branch": {
+        "total": 102940680,
+        "trainable": 0
+      },
+      "object_memory_groups": {
+        "total": 31803392,
+        "trainable": 31803392
+      },
+      "geometry_encoder": {
+        "total": 10591374,
+        "trainable": 0
+      },
+      "video_reads_conditions_40_layers": {
+        "total": 252375080,
+        "trainable": 252375080
+      },
+      "conditions_read_video_16_layers": {
+        "total": 92487696,
+        "trainable": 92487696
+      },
+      "object_text_40_layers": {
+        "total": 44204544,
+        "trainable": 44204544
+      },
+      "condition_ffn_40_layers": {
+        "total": 42045440,
+        "trainable": 42045440
+      }
+    }
+  },
+  "previous_recurrent": {
+    "architecture": "Box3DObjectTextBiCrossConditionModel",
+    "total": 544644814,
+    "trainable": 431112760,
+    "modules": {
+      "hdmap_branch": {
+        "total": 102940680,
+        "trainable": 0
+      },
+      "geometry_encoder": {
+        "total": 10591374,
+        "trainable": 0
+      },
+      "video_reads_conditions_40_layers": {
+        "total": 252375080,
+        "trainable": 252375080
+      },
+      "conditions_read_video_16_layers": {
+        "total": 92487696,
+        "trainable": 92487696
+      },
+      "object_text_40_layers": {
+        "total": 44204544,
+        "trainable": 44204544
+      },
+      "condition_ffn_40_layers": {
+        "total": 42045440,
+        "trainable": 42045440
+      }
+    }
+  },
+  "geometry_bicross": {
+    "architecture": "Box3DBiCrossConditionModel",
+    "total": 458394830,
+    "trainable": 458394830,
+    "modules": {
+      "hdmap_branch": {
+        "total": 102940680,
+        "trainable": 102940680
+      },
+      "geometry_encoder": {
+        "total": 10591374,
+        "trainable": 10591374
+      },
+      "video_reads_conditions_40_layers": {
+        "total": 252375080,
+        "trainable": 252375080
+      },
+      "conditions_read_video_16_layers": {
+        "total": 92487696,
+        "trainable": 92487696
+      }
+    }
+  },
+  "scope": "Condition branch only; includes geometry, HDMap, all adapters and object semantic modules; excludes Wan, VAE, UMT5. Trainable counts use each class configuration, not an optimizer checkpoint."
+}
