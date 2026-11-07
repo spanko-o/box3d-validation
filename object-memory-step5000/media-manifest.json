@@ -26,6 +26,32 @@
     "processing": "byte-identical copy"
   },
   {
+    "id": "carrier__ladder_drop",
+    "title": "对象描述：梯子掉落",
+    "group": "carrier",
+    "video": "videos/000006_carrier__ladder_drop.mp4",
+    "poster": "posters/000006_carrier__ladder_drop.jpg",
+    "source_file": "000006_carrier__ladder_drop.mp4",
+    "source_kind": "generated",
+    "experiment": "box3d_bicross_object_memory_57f_240p",
+    "checkpoint_step": 5000,
+    "seed": 63,
+    "frames": 57,
+    "fps": 8,
+    "width": 416,
+    "height": 240,
+    "global_prompt": "The video shows a realistic front-facing autonomous driving scene on a marked urban roadway in daylight. The ego vehicle follows a clearly visible lead vehicle at a relatively close distance in the same lane, with no other nearby vehicles blocking the view.",
+    "object_captions": [
+      {
+        "track_id": "6d80d7ced700516e",
+        "caption": "The lead vehicle carries a long folded ladder secured to its rear or roof rack; the ladder slips free, falls onto the roadway behind the vehicle, briefly tips and bounces, then skids a short distance and comes to rest as the ego vehicle approaches and brakes."
+      }
+    ],
+    "sha256": "58c2486599ebb56d6e4c5ea7328f3ddd327b80524512fa877392fb0100008eb0",
+    "bytes": 722957,
+    "processing": "byte-identical copy"
+  },
+  {
     "id": "appearance_hatchback__black",
     "title": "对象描述：黑色",
     "group": "colors",
