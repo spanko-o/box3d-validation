@@ -1,5 +1,7 @@
 # Box3D Video Demos
 
+- [Object memory step 5000: four generated videos](https://spanko-o.github.io/box3d-validation/object-memory-step5000/)
+
 - [2026-11-06 progress: HDMap, 3D, object text and global color control](https://spanko-o.github.io/box3d-validation/progress-20261106/)
 
 - [Selected generation results](https://spanko-o.github.io/box3d-validation/)

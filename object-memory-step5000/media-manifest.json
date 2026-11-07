@@ -1,0 +1,106 @@
+[
+  {
+    "id": "carrier__mattress_drop",
+    "title": "对象描述：床垫掉落",
+    "group": "carrier",
+    "video": "videos/000005_carrier__mattress_drop.mp4",
+    "poster": "posters/000005_carrier__mattress_drop.jpg",
+    "source_file": "000005_carrier__mattress_drop.mp4",
+    "source_kind": "generated",
+    "experiment": "box3d_bicross_object_memory_57f_240p",
+    "checkpoint_step": 5000,
+    "seed": 63,
+    "frames": 57,
+    "fps": 8,
+    "width": 416,
+    "height": 240,
+    "global_prompt": "The video shows a realistic front-facing autonomous driving scene on a marked urban roadway in daylight. The ego vehicle follows a clearly visible lead vehicle at a relatively close distance in the same lane, with no other nearby vehicles blocking the view.",
+    "object_captions": [
+      {
+        "track_id": "6d80d7ced700516e",
+        "caption": "The lead vehicle carries a large mattress on its rear roof or cargo area; the mattress loosens, falls onto the lane behind the vehicle, bounces softly and slides a short distance before coming to rest as the ego vehicle approaches and brakes."
+      }
+    ],
+    "sha256": "5766ecb5d395e325abe04c5d226aa52a29f8f673affe2f47992d9cbd6ee5c5a7",
+    "bytes": 724945,
+    "processing": "byte-identical copy"
+  },
+  {
+    "id": "appearance_hatchback__black",
+    "title": "对象描述：黑色",
+    "group": "colors",
+    "video": "videos/000022_appearance_hatchback__black.mp4",
+    "poster": "posters/000022_appearance_hatchback__black.jpg",
+    "source_file": "000022_appearance_hatchback__black.mp4",
+    "source_kind": "generated",
+    "experiment": "box3d_bicross_object_memory_57f_240p",
+    "checkpoint_step": 5000,
+    "seed": 211,
+    "frames": 57,
+    "fps": 8,
+    "width": 416,
+    "height": 240,
+    "global_prompt": "The street is lined with trees and lampposts, featuring a grand hotel entrance with an ornate arched canopy and columns. Additional buildings with windows and balconies are visible in the background. The sky is clear and sunny.",
+    "object_captions": [
+      {
+        "track_id": "3fd1e8b24ecf5d9c",
+        "caption": "A black compact hatchback with dark windows."
+      }
+    ],
+    "sha256": "4f476ebff65cbe9ff086137a511cd7f45c7fbb990060449151192b085193ce76",
+    "bytes": 1462987,
+    "processing": "byte-identical copy"
+  },
+  {
+    "id": "appearance_hatchback__blue",
+    "title": "对象描述：蓝色",
+    "group": "colors",
+    "video": "videos/000025_appearance_hatchback__blue.mp4",
+    "poster": "posters/000025_appearance_hatchback__blue.jpg",
+    "source_file": "000025_appearance_hatchback__blue.mp4",
+    "source_kind": "generated",
+    "experiment": "box3d_bicross_object_memory_57f_240p",
+    "checkpoint_step": 5000,
+    "seed": 211,
+    "frames": 57,
+    "fps": 8,
+    "width": 416,
+    "height": 240,
+    "global_prompt": "The street is lined with trees and lampposts, featuring a grand hotel entrance with an ornate arched canopy and columns. Additional buildings with windows and balconies are visible in the background. The sky is clear and sunny.",
+    "object_captions": [
+      {
+        "track_id": "3fd1e8b24ecf5d9c",
+        "caption": "A blue compact hatchback with dark windows."
+      }
+    ],
+    "sha256": "85b541f0f6075ec4ba06356cb7502a54c5b56da9351bd4024d33ac1fb26d6210",
+    "bytes": 1479563,
+    "processing": "byte-identical copy"
+  },
+  {
+    "id": "appearance_hatchback__red",
+    "title": "对象描述：红色",
+    "group": "colors",
+    "video": "videos/000024_appearance_hatchback__red.mp4",
+    "poster": "posters/000024_appearance_hatchback__red.jpg",
+    "source_file": "000024_appearance_hatchback__red.mp4",
+    "source_kind": "generated",
+    "experiment": "box3d_bicross_object_memory_57f_240p",
+    "checkpoint_step": 5000,
+    "seed": 211,
+    "frames": 57,
+    "fps": 8,
+    "width": 416,
+    "height": 240,
+    "global_prompt": "The street is lined with trees and lampposts, featuring a grand hotel entrance with an ornate arched canopy and columns. Additional buildings with windows and balconies are visible in the background. The sky is clear and sunny.",
+    "object_captions": [
+      {
+        "track_id": "3fd1e8b24ecf5d9c",
+        "caption": "A red compact hatchback with dark windows."
+      }
+    ],
+    "sha256": "390e1ad7b3f509458d86944499cc991295fe651dd13ab1d9e63393fd5eef7f48",
+    "bytes": 1478055,
+    "processing": "byte-identical copy"
+  }
+]
