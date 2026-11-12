@@ -1,0 +1,78 @@
+[
+  {
+    "id": "police_pair__person_0",
+    "title": "对象描述：指定人物 A",
+    "group": "pair",
+    "video": "videos/000008_police_pair__person_0.mp4",
+    "poster": "posters/000008_police_pair__person_0.jpg",
+    "source_file": "000008_police_pair__person_0.mp4",
+    "source_kind": "generated",
+    "experiment": "box3d_bicross_track_marker_57f_240p",
+    "checkpoint_step": 7000,
+    "object_marker_prompt_cfg_version": 1,
+    "seed": 43,
+    "frames": 57,
+    "fps": 8,
+    "width": 416,
+    "height": 240,
+    "global_prompt": "A realistic daylight dashboard-camera street scene shows a quiet urban road with marked lanes, a crosswalk, sidewalks and buildings. The camera vehicle remains stationary throughout the video.",
+    "object_captions": [
+      {
+        "track_id": "custom_waving_pair_static_ped_000",
+        "caption": "A Chinese traffic police officer wearing a white peaked police cap, a light blue uniform shirt with dark shoulder boards, a fluorescent yellow reflective traffic vest with POLICE and Chinese traffic-police markings, dark navy trousers and white gloves stands facing the camera directly, showing his face and the front of his chest. His feet stay planted at the same place on the road. He raises his right arm above shoulder height and makes two broad, deliberate side-to-side sweeps toward the driver with his white-gloved hand, then holds his open palm toward the camera as a stop signal. His left arm remains lowered."
+      }
+    ],
+    "bytes": 809002,
+    "sha256": "1c87790a9158febd4d4cbf43a3ad490157876022e166fc25bba8a7f821aef6f8",
+    "processing": "byte-identical copy"
+  },
+  {
+    "id": "police_pair__person_1",
+    "title": "对象描述：指定人物 B",
+    "group": "pair",
+    "video": "videos/000009_police_pair__person_1.mp4",
+    "poster": "posters/000009_police_pair__person_1.jpg",
+    "source_file": "000009_police_pair__person_1.mp4",
+    "source_kind": "generated",
+    "experiment": "box3d_bicross_track_marker_57f_240p",
+    "checkpoint_step": 7000,
+    "object_marker_prompt_cfg_version": 1,
+    "seed": 43,
+    "frames": 57,
+    "fps": 8,
+    "width": 416,
+    "height": 240,
+    "global_prompt": "A realistic daylight dashboard-camera street scene shows a quiet urban road with marked lanes, a crosswalk, sidewalks and buildings. The camera vehicle remains stationary throughout the video.",
+    "object_captions": [
+      {
+        "track_id": "custom_waving_pair_static_ped_001",
+        "caption": "A Chinese traffic police officer wearing a white peaked police cap, a light blue uniform shirt with dark shoulder boards, a fluorescent yellow reflective traffic vest with POLICE and Chinese traffic-police markings, dark navy trousers and white gloves stands facing the camera directly, showing his face and the front of his chest. His feet stay planted at the same place on the road. He raises his right arm above shoulder height and makes two broad, deliberate side-to-side sweeps toward the driver with his white-gloved hand, then holds his open palm toward the camera as a stop signal. His left arm remains lowered."
+      }
+    ],
+    "bytes": 792765,
+    "sha256": "0ad43e1dcd332b735ae2909e405954c97ac8dd91ad9f7eed75211cf606da0b0d",
+    "processing": "byte-identical copy"
+  },
+  {
+    "id": "global_traffic_police_roadside_wave_001",
+    "title": "全局描述：路边警察招手",
+    "group": "global",
+    "video": "videos/000019_global_traffic_police_roadside_wave_001.mp4",
+    "poster": "posters/000019_global_traffic_police_roadside_wave_001.jpg",
+    "source_file": "000019_global_traffic_police_roadside_wave_001.mp4",
+    "source_kind": "generated",
+    "experiment": "box3d_bicross_track_marker_57f_240p",
+    "checkpoint_step": 7000,
+    "object_marker_prompt_cfg_version": 1,
+    "seed": 64,
+    "frames": 57,
+    "fps": 8,
+    "width": 416,
+    "height": 240,
+    "global_prompt": "The video shows a simple realistic front-facing autonomous driving scene on a quiet urban roadway in daylight. The ego vehicle is moving slowly along a marked road with clear lane boundaries, roadside curbs, sparse traffic, and ordinary urban infrastructure. A single traffic police officer stands safely on the right roadside near the curb, outside the ego vehicle's lane, and actively waves one arm to signal the approaching vehicle to slow down and proceed carefully. The officer remains at the roadside rather than walking into the lane. The scene is intentionally uncluttered so the roadside traffic-control gesture is easy to perceive, while the ego vehicle continues forward at low speed and maintains a safe distance from the officer. The traffic police officer's position is fixed in world coordinates and does not slide with the camera.",
+    "object_captions": [],
+    "bytes": 625461,
+    "sha256": "1e2b32b824878436fed01248df9fbef4ab1499d914ea2a6e6d656606abedb7e7",
+    "processing": "byte-identical copy"
+  }
+]

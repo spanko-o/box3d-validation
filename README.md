@@ -1,5 +1,7 @@
 # Box3D Video Demos
 
+- [Police waving, step 7000](https://spanko-o.github.io/box3d-validation/track-marker-step7000-police/)
+
 - [Object memory step 5000: generated videos](https://spanko-o.github.io/box3d-validation/object-memory-step5000/)
 
 - [2026-11-06 progress: HDMap, 3D, object text and global color control](https://spanko-o.github.io/box3d-validation/progress-20261106/)
