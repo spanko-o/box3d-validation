@@ -1,0 +1,376 @@
+{
+  "title": "对象控制与预测 Mask",
+  "date": "2026-11-15",
+  "mask_visualization": {
+    "kind": "predicted read support, not ground-truth segmentation",
+    "mapping": "smoothstep((p - 0.05) / 0.15), clamped to [0,1]",
+    "final_denoising_step": 49,
+    "police_middle_denoising_step": 24,
+    "colors": {
+      "first_target": "cyan",
+      "second_target": "orange"
+    }
+  },
+  "media": [
+    {
+      "video": "videos/appearance_hatchback_five_colors_horizontal.mp4",
+      "poster": "posters/appearance_hatchback_five_colors_horizontal.jpg",
+      "frames": 57,
+      "fps": 8,
+      "width": 2496,
+      "height": 288,
+      "bytes": 3818387,
+      "sha256": "ed227bf10166378cea789a8a70836f031ca0350d4b100feb5c0a8f896f64c9d9"
+    },
+    {
+      "video": "videos/appearance_hatchback_five_colors.mp4",
+      "poster": "posters/appearance_hatchback_five_colors.jpg",
+      "frames": 57,
+      "fps": 8,
+      "width": 1248,
+      "height": 576,
+      "bytes": 3813390,
+      "sha256": "1c9ad15ca0a8ef537f340b5c31a6e78be63b3bcf5bce6fd75fbf2f98e7f81ad7"
+    },
+    {
+      "video": "videos/appearance_suv_five_colors_horizontal.mp4",
+      "poster": "posters/appearance_suv_five_colors_horizontal.jpg",
+      "frames": 57,
+      "fps": 8,
+      "width": 2496,
+      "height": 288,
+      "bytes": 1758501,
+      "sha256": "550c973d9391d0760cb2c7096b4f6dc83c67278a6baae4d536fd8d1b4e651d4a"
+    },
+    {
+      "video": "videos/appearance_suv_five_colors.mp4",
+      "poster": "posters/appearance_suv_five_colors.jpg",
+      "frames": 57,
+      "fps": 8,
+      "width": 1248,
+      "height": 576,
+      "bytes": 1757564,
+      "sha256": "04ed8ea4806dd6d53660f44b17c4c57c833b1bc39622117abd4abf75169587b0"
+    },
+    {
+      "video": "videos/carrier__mattress_drop_predicted_mask.mp4",
+      "poster": "posters/carrier__mattress_drop_predicted_mask.jpg",
+      "frames": 57,
+      "fps": 8,
+      "width": 416,
+      "height": 240,
+      "bytes": 352578,
+      "sha256": "823b80ac77195639182ed99b488cb6f19d00f12ebbc01535f94d156a0270f52e"
+    },
+    {
+      "video": "videos/carrier__ladder_drop_predicted_mask.mp4",
+      "poster": "posters/carrier__ladder_drop_predicted_mask.jpg",
+      "frames": 57,
+      "fps": 8,
+      "width": 416,
+      "height": 240,
+      "bytes": 391671,
+      "sha256": "f3b5b06e66d07b5165c94bc12bdd5ff774d3e9a06ca8749968fbd82ff7e4cb7f"
+    },
+    {
+      "video": "videos/police_firefighter_predicted_mask.mp4",
+      "poster": "posters/police_firefighter_predicted_mask.jpg",
+      "frames": 57,
+      "fps": 8,
+      "width": 416,
+      "height": 240,
+      "bytes": 220717,
+      "sha256": "b386fb1c6beeb0a4e5cc94b4f6df940ed6db88c2cae9f2892413867dddb00d1f"
+    },
+    {
+      "video": "videos/police_firefighter_predicted_mask_middle.mp4",
+      "poster": "posters/police_firefighter_predicted_mask_middle.jpg",
+      "frames": 57,
+      "fps": 8,
+      "width": 416,
+      "height": 240,
+      "bytes": 221755,
+      "sha256": "a183d8abd4ffa3669a6eb21ef54ec7c3f9d9a7a2b2a95323198576d99826a604"
+    }
+  ],
+  "sources": [
+    {
+      "case": "appearance_hatchback__yellow",
+      "video": "originals/appearance_hatchback__yellow.mp4",
+      "poster": "posters/appearance_hatchback__yellow.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 1566945,
+      "sha256": "cd6e457d83f1c53e26312b3d59826d27df643f12f3858d06a161171dfe5d95d3",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 211,
+      "object_captions": [
+        {
+          "track_id": "3fd1e8b24ecf5d9c",
+          "caption": "A yellow compact hatchback with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "3fd1e8b24ecf5d9c"
+      ],
+      "mask_sha256": "5f1581841037d8eb954d32e4ccb9b5aa3637d4791947a52db519455ae0356178"
+    },
+    {
+      "case": "appearance_hatchback__white",
+      "video": "originals/appearance_hatchback__white.mp4",
+      "poster": "posters/appearance_hatchback__white.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 1535946,
+      "sha256": "bfdc3ca3e111f048f111c2b9d822df2dbf5ffcd7b5fb7687bd23753fc0bb0d9c",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 211,
+      "object_captions": [
+        {
+          "track_id": "3fd1e8b24ecf5d9c",
+          "caption": "A white compact hatchback with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "3fd1e8b24ecf5d9c"
+      ],
+      "mask_sha256": "c764ed7d0209ac1d25680d528bb41f6443d8fd96b1c3195a5e5fa7c7a8727120"
+    },
+    {
+      "case": "appearance_hatchback__black",
+      "video": "originals/appearance_hatchback__black.mp4",
+      "poster": "posters/appearance_hatchback__black.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 1572391,
+      "sha256": "18a9040cd4141ab5df9745c11c7f6884c34c8dd9962414fafbdc8af831db1dad",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 211,
+      "object_captions": [
+        {
+          "track_id": "3fd1e8b24ecf5d9c",
+          "caption": "A black compact hatchback with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "3fd1e8b24ecf5d9c"
+      ],
+      "mask_sha256": "34d2b9869c2cc17ef822853879c27e0de369f30d693ce2d9665c27d6d525a965"
+    },
+    {
+      "case": "appearance_hatchback__blue",
+      "video": "originals/appearance_hatchback__blue.mp4",
+      "poster": "posters/appearance_hatchback__blue.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 1550237,
+      "sha256": "ab309f053d675ba360f047f1997948a7e554893542f41f1d6cf5cafcdcbbb511",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 211,
+      "object_captions": [
+        {
+          "track_id": "3fd1e8b24ecf5d9c",
+          "caption": "A blue compact hatchback with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "3fd1e8b24ecf5d9c"
+      ],
+      "mask_sha256": "ce0c515a357ffb83217eac7a012a8d1496863f0ac4ce18151e1030d13d1a95ae"
+    },
+    {
+      "case": "appearance_hatchback__red",
+      "video": "originals/appearance_hatchback__red.mp4",
+      "poster": "posters/appearance_hatchback__red.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 1568007,
+      "sha256": "25bccfce5c9bda95ec7facdac45db9883e2b9d029aeb2c2f23f6ce55d8ffd13a",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 211,
+      "object_captions": [
+        {
+          "track_id": "3fd1e8b24ecf5d9c",
+          "caption": "A red compact hatchback with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "3fd1e8b24ecf5d9c"
+      ],
+      "mask_sha256": "097767557f653ce87ec26b12564191a3da33de8541f3290e17630eabbcbc0b4d"
+    },
+    {
+      "case": "appearance_suv__yellow",
+      "video": "originals/appearance_suv__yellow.mp4",
+      "poster": "posters/appearance_suv__yellow.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 853168,
+      "sha256": "7192129366a1af024a2d0c544371133e50df05bbbf47e4b58f9f1b2e2e7b3765",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 223,
+      "object_captions": [
+        {
+          "track_id": "9e055b623a045137",
+          "caption": "A yellow SUV with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "9e055b623a045137"
+      ],
+      "mask_sha256": "40dc55e7ad9becf126848aafdddfc5df5484eb6f5ada339636f5c6be4f3a99fd"
+    },
+    {
+      "case": "appearance_suv__white",
+      "video": "originals/appearance_suv__white.mp4",
+      "poster": "posters/appearance_suv__white.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 836350,
+      "sha256": "33512e0d8d3c039d72e7ed85fe22a568e81f42fdae5d7bfa7d4c64ef17fd22b3",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 223,
+      "object_captions": [
+        {
+          "track_id": "9e055b623a045137",
+          "caption": "A white SUV with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "9e055b623a045137"
+      ],
+      "mask_sha256": "3c818efdadc1d58655d51c0851668e8f8662c007bde4be05b555424ad4d54ef8"
+    },
+    {
+      "case": "appearance_suv__black",
+      "video": "originals/appearance_suv__black.mp4",
+      "poster": "posters/appearance_suv__black.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 856890,
+      "sha256": "00e24746c8c45661e53fbcdd220c1416ef96ca4cd5888471f13be5e3d68b1f9b",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 223,
+      "object_captions": [
+        {
+          "track_id": "9e055b623a045137",
+          "caption": "A black SUV with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "9e055b623a045137"
+      ],
+      "mask_sha256": "d4bf622c2af23e59b86ea2b9bd9c58e4611dee19617462deac4bf7ae46e4b2ad"
+    },
+    {
+      "case": "appearance_suv__blue",
+      "video": "originals/appearance_suv__blue.mp4",
+      "poster": "posters/appearance_suv__blue.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 866361,
+      "sha256": "98401659c3cd0557e2b4ab61ace0a7243f502392018d1d634451e1e79c909db8",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 223,
+      "object_captions": [
+        {
+          "track_id": "9e055b623a045137",
+          "caption": "A blue SUV with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "9e055b623a045137"
+      ],
+      "mask_sha256": "03d5045be10d9143524f8cba077b2581cc6b42b4b815ebc50a9482bf5397796c"
+    },
+    {
+      "case": "appearance_suv__red",
+      "video": "originals/appearance_suv__red.mp4",
+      "poster": "posters/appearance_suv__red.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 836057,
+      "sha256": "6927a1bf3949535e5320b7675565c705c619db1f6b0faa154408f199ae9cbf29",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 223,
+      "object_captions": [
+        {
+          "track_id": "9e055b623a045137",
+          "caption": "A red SUV with dark windows."
+        }
+      ],
+      "target_track_ids": [
+        "9e055b623a045137"
+      ],
+      "mask_sha256": "49615b15195b22169a6a1f2f84ddc281e530aa1fd1887597322220eb9f45b3cf"
+    },
+    {
+      "case": "carrier__mattress_drop",
+      "video": "originals/carrier__mattress_drop.mp4",
+      "poster": "posters/carrier__mattress_drop.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 998489,
+      "sha256": "48117facc68c1d413e4e64e9d537c867c634dc2c4c627ffaa13a649509ddcda4",
+      "checkpoint": "step-7000.safetensors",
+      "seed": 63,
+      "object_captions": [
+        {
+          "track_id": "6d80d7ced700516e",
+          "caption": "The lead vehicle carries a large mattress on its rear roof or cargo area; the mattress loosens, falls onto the lane behind the vehicle, bounces softly and slides a short distance before coming to rest as the ego vehicle approaches and brakes."
+        }
+      ],
+      "target_track_ids": [
+        "6d80d7ced700516e"
+      ],
+      "mask_sha256": "5e7e92a5ec58951bb77818e109970a870522a207971def221a79b142d5a3cef3"
+    },
+    {
+      "case": "carrier__ladder_drop",
+      "video": "originals/carrier__ladder_drop.mp4",
+      "poster": "posters/carrier__ladder_drop.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 1065869,
+      "sha256": "1c96d82abac5a73ad45e0a79c9fbb458c8887d6f7ab9daec12ae32b23233f308",
+      "checkpoint": "step-7000.safetensors",
+      "seed": 63,
+      "object_captions": [
+        {
+          "track_id": "6d80d7ced700516e",
+          "caption": "The lead vehicle carries a long folded ladder secured to its rear or roof rack; the ladder slips free, falls onto the roadway behind the vehicle, briefly tips and bounces, then skids a short distance and comes to rest as the ego vehicle approaches and brakes."
+        }
+      ],
+      "target_track_ids": [
+        "6d80d7ced700516e"
+      ],
+      "mask_sha256": "abcc2698447cb45544f28e7cf5e6e2809de37201c15071f2d8497795ab8b08fe"
+    },
+    {
+      "case": "police_pair__left_police_right_firefighter",
+      "video": "originals/police_pair__left_police_right_firefighter.mp4",
+      "poster": "posters/police_pair__left_police_right_firefighter.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 733613,
+      "sha256": "a7a4dd91892b8c6bef7de55d2b7fc5fce74f827799a08f3bfa5e5eb5a8f22f3d",
+      "checkpoint": "step-5000.safetensors",
+      "seed": 43,
+      "object_captions": [
+        {
+          "track_id": "custom_waving_pair_static_ped_000",
+          "caption": "A Chinese traffic police officer wearing a white peaked police cap, a light blue uniform shirt with dark shoulder boards, a fluorescent yellow reflective traffic vest with POLICE and Chinese traffic-police markings, dark navy trousers and white gloves stands facing the camera directly, showing his face and the front of his chest. His feet stay planted at the same place on the road. He raises his right arm above shoulder height and makes two broad, deliberate side-to-side sweeps toward the driver with his white-gloved hand, then holds his open palm toward the camera as a stop signal. His left arm remains lowered."
+        },
+        {
+          "track_id": "custom_waving_pair_static_ped_001",
+          "caption": "A firefighter wearing a bright red firefighter helmet, a dark charcoal turnout jacket and trousers with wide fluorescent yellow reflective stripes, and black boots stands facing the camera with both arms relaxed at his sides. His feet stay planted at the same place on the road."
+        }
+      ],
+      "target_track_ids": [
+        "custom_waving_pair_static_ped_000",
+        "custom_waving_pair_static_ped_001"
+      ],
+      "mask_sha256": "1334073999b4e41add82dbbe2b9d045f618ac0a11c1e6a9c057630359502cb7c"
+    }
+  ]
+}

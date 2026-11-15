@@ -1,5 +1,7 @@
 # Box3D Video Demos
 
+- [Object control and predicted masks: colors, falling objects, police/firefighter](https://spanko-o.github.io/box3d-validation/mask-binding-20261115/)
+
 - [Police waving, step 7000](https://spanko-o.github.io/box3d-validation/track-marker-step7000-police/)
 
 - [Object memory step 5000: generated videos](https://spanko-o.github.io/box3d-validation/object-memory-step5000/)
