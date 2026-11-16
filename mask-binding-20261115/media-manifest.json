@@ -19,9 +19,9 @@
       "frames": 57,
       "fps": 8,
       "width": 2496,
-      "height": 288,
-      "bytes": 3818387,
-      "sha256": "ed227bf10166378cea789a8a70836f031ca0350d4b100feb5c0a8f896f64c9d9"
+      "height": 270,
+      "bytes": 3823331,
+      "sha256": "158d8a0ecc59e6324b3b56b56a26c54fa9f09fd61b3c31cf1f30493afdb0741d"
     },
     {
       "video": "videos/appearance_hatchback_five_colors.mp4",
@@ -29,9 +29,9 @@
       "frames": 57,
       "fps": 8,
       "width": 1248,
-      "height": 576,
-      "bytes": 3813390,
-      "sha256": "1c9ad15ca0a8ef537f340b5c31a6e78be63b3bcf5bce6fd75fbf2f98e7f81ad7"
+      "height": 540,
+      "bytes": 3785811,
+      "sha256": "088a326df346e24691ddbf43601fc6bc43115eaf71fce8461b586fe516633365"
     },
     {
       "video": "videos/appearance_suv_five_colors_horizontal.mp4",
@@ -39,9 +39,9 @@
       "frames": 57,
       "fps": 8,
       "width": 2496,
-      "height": 288,
-      "bytes": 1758501,
-      "sha256": "550c973d9391d0760cb2c7096b4f6dc83c67278a6baae4d536fd8d1b4e651d4a"
+      "height": 270,
+      "bytes": 1727662,
+      "sha256": "a38f83557726eb47d5540e2b53b3f63f1a6e4a7ab19cc4ce8ec7a34ea9819cd4"
     },
     {
       "video": "videos/appearance_suv_five_colors.mp4",
@@ -49,9 +49,9 @@
       "frames": 57,
       "fps": 8,
       "width": 1248,
-      "height": 576,
-      "bytes": 1757564,
-      "sha256": "04ed8ea4806dd6d53660f44b17c4c57c833b1bc39622117abd4abf75169587b0"
+      "height": 540,
+      "bytes": 1703597,
+      "sha256": "4ff23f10ddec69036bf4761dc8075c3f998045dfffadd4f090c393664a6051e8"
     },
     {
       "video": "videos/carrier__mattress_drop_predicted_mask.mp4",
@@ -450,6 +450,24 @@
       ],
       "mask_sha256": "82abbf512126d5a1578cc5ed8ee2f62b81b1eabcd0e35d2b254d1a471b07f4c7",
       "mask_prediction_step": 49
+    }
+  ],
+  "architecture": [
+    {
+      "version": "v3",
+      "image": "images/architecture-v3.png",
+      "width": 1046,
+      "height": 692,
+      "bytes": 86581,
+      "sha256": "523fa9e542998dc4c828cfcac9c27256ffc87e826896e13f146d5b4a4a430220"
+    },
+    {
+      "version": "v4",
+      "image": "images/architecture-v4.png",
+      "width": 1062,
+      "height": 692,
+      "bytes": 256360,
+      "sha256": "e4d9ddf063355819fcc4a2e6aa07a47e1f0cef693d9182dec960fd434cfa8336"
     }
   ]
 }
