@@ -1,1 +1,1 @@
-document.querySelectorAll('video').forEach(video => {video.addEventListener('play', () => {document.querySelectorAll('video').forEach(other => {if (other !== video) other.pause();});});});
+document.querySelectorAll('video').forEach(video => {video.addEventListener('play', () => {document.querySelectorAll('video').forEach(other => {if (other !== video && !(video.closest('.event-grid') && video.closest('.event-grid') === other.closest('.event-grid'))) other.pause();});});});

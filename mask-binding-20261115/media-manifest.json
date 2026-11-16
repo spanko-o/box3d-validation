@@ -1,6 +1,7 @@
 {
   "title": "对象控制与预测 Mask",
   "date": "2026-11-15",
+  "updated": "2026-11-16",
   "mask_visualization": {
     "kind": "predicted read support, not ground-truth segmentation",
     "mapping": "smoothstep((p - 0.05) / 0.15), clamped to [0,1]",
@@ -427,6 +428,28 @@
       "mask_sha256": "338f27648b789e0eb5a19406da422bbbe43f24caf5a0bf95303f014c619f24b2",
       "mask_prediction_step": 48,
       "mask_consumed_at_step": 49
+    },
+    {
+      "case": "carrier__mattress_secured",
+      "video": "originals/carrier__mattress_secured.mp4",
+      "poster": "posters/carrier__mattress_secured.jpg",
+      "frames": 57,
+      "fps": 8.0,
+      "bytes": 1156177,
+      "sha256": "e840f305e3de96ff65434249c1ca2bda2a9ae0f4f2d8369e9b1976139b8b66bb",
+      "checkpoint": "step-1500.safetensors",
+      "seed": 63,
+      "object_captions": [
+        {
+          "track_id": "6d80d7ced700516e",
+          "caption": "The lead vehicle carries a large mattress on its rear roof or cargo area. The mattress remains securely fastened to the vehicle throughout the clip as the ego vehicle approaches and brakes; it stays in place without loosening, falling or sliding onto the road."
+        }
+      ],
+      "target_track_ids": [
+        "6d80d7ced700516e"
+      ],
+      "mask_sha256": "82abbf512126d5a1578cc5ed8ee2f62b81b1eabcd0e35d2b254d1a471b07f4c7",
+      "mask_prediction_step": 49
     }
   ]
 }
