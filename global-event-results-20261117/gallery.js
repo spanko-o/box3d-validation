@@ -1,35 +1,37 @@
 const videos = [...document.querySelectorAll('video')];
 const groups = [...document.querySelectorAll('.result-group')];
+const members = group => [...group.querySelectorAll(':scope > .grid video')];
 function refresh() {
   groups.forEach(group => {
-    const active = [...group.querySelectorAll('.grid video')].some(v => !v.paused);
-    group.querySelector('.play-group').textContent = active ? '暂停本组' : '播放本组';
+    group.querySelector('.play-group').textContent = members(group).some(v => !v.paused) ? '暂停本组' : '播放本组';
   });
 }
 videos.forEach(video => {
   video.addEventListener('play', () => {
-    const group = video.closest('.grid');
+    const sync = video.closest('[data-sync]');
     videos.forEach(other => {
-      if (other !== video && (!group || other.closest('.grid') !== group)) other.pause();
+      if (other !== video && (!sync || other.closest('[data-sync]') !== sync)) other.pause();
     });
     refresh();
   });
   video.addEventListener('pause', refresh);
 });
 groups.forEach(group => {
-  const members = [...group.querySelectorAll('.grid video')];
   group.querySelector('.play-group').addEventListener('click', async () => {
-    if (members.some(v => !v.paused)) {
-      members.forEach(v => v.pause());
-    } else {
-      members.forEach(v => { v.currentTime = 0; });
-      await Promise.allSettled(members.map(v => v.play()));
+    const selected = members(group);
+    if (selected.some(v => !v.paused)) selected.forEach(v => v.pause());
+    else {
+      selected.forEach(v => { v.currentTime = 0; });
+      await Promise.allSettled(selected.map(v => v.play()));
     }
     refresh();
   });
 });
-document.querySelectorAll('details.comparison').forEach(item => {
-  item.addEventListener('toggle', () => {
-    if (!item.open) item.querySelectorAll('video').forEach(v => v.pause());
+document.querySelectorAll('.mask-details').forEach(details => {
+  details.addEventListener('toggle', () => {
+    details.querySelectorAll('video').forEach(video => {
+      if (!details.open) video.pause();
+      else if (video.preload === 'none') { video.preload = 'metadata'; video.load(); }
+    });
   });
 });
