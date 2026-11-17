@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>对象编辑展示</title><meta name="description" content="车辆换色、人物身份与动作、大象和牵狗场景的对象编辑视频。">
+<style>
+:root{color-scheme:light;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;color:#1e2b34;background:#f5f7f8}
+*{box-sizing:border-box}body{margin:0}main{max-width:1500px;margin:auto;padding:26px 28px 60px}
+nav{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:30px}nav a{padding:9px 15px;border:1px solid #dce3e6;border-radius:22px;text-decoration:none;color:#345763;background:white;font-size:14px}nav a:hover{background:#eaf2f4}
+section{margin:0 0 36px;scroll-margin-top:20px}.section-head{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:14px}h2{font-size:23px;line-height:1.35;letter-spacing:.01em;margin:0 0 7px}p{font-size:15px;line-height:1.7;color:#56666f;margin:0}
+button{flex-shrink:0;border:1px solid #d3dfe3;background:#fff;border-radius:8px;padding:9px 13px;color:#245466;cursor:pointer;font:inherit;font-size:13px}button:hover{background:#eaf2f4}button:focus-visible,a:focus-visible{outline:3px solid #43a3c0;outline-offset:3px}
+.videos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.videos.single{max-width:900px;grid-template-columns:1fr;margin-inline:auto}figure{margin:0;border:1px solid #e0e6e9;border-radius:11px;overflow:hidden;background:white}video{display:block;width:100%;height:auto;aspect-ratio:832/480;background:#152128;object-fit:contain}figcaption{font-size:15px;padding:12px 16px;font-weight:500}
+@media(max-width:700px){main{padding:18px 14px 36px}nav{gap:7px;margin-bottom:24px}nav a{font-size:12px;padding:7px 11px}.videos{grid-template-columns:1fr;gap:12px}.section-head{align-items:flex-start}h2{font-size:20px}p{font-size:14px}button{font-size:12px;padding:8px}section{margin-bottom:28px}}
+@media(prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+</style></head><body><main><nav aria-label="案例分类"><a href="#color">车辆颜色</a><a href="#identity">车后人物身份</a><a href="#action">左右人物动作</a><a href="#elephant">动物类别</a><a href="#dog">牵狗与外观</a></nav><section id="color" aria-labelledby="color-title">
+<div class="section-head"><div><h2 id="color-title">车辆颜色</h2><p>将目标巴士的车身颜色设为黄色或蓝色。</p></div><button type="button" class="play-group">播放本组</button></div>
+<div class="videos "><figure>
+  <video controls muted loop playsinline preload="metadata" poster="posters/000010_06_bus_color__yellow.jpg" aria-label="黄色巴士"><source src="videos/000010_06_bus_color__yellow.mp4" type="video/mp4"></video>
+  <figcaption>黄色巴士</figcaption>
+</figure><figure>
+  <video controls muted loop playsinline preload="metadata" poster="posters/000011_06_bus_color__blue.jpg" aria-label="蓝色巴士"><source src="videos/000011_06_bus_color__blue.mp4" type="video/mp4"></video>
+  <figcaption>蓝色巴士</figcaption>
+</figure></div>
+</section>
+<section id="identity" aria-labelledby="identity-title">
+<div class="section-head"><div><h2 id="identity-title">车后人物身份</h2><p>将从厢式车后走出的人物设为警察或消防员。</p></div><button type="button" class="play-group">播放本组</button></div>
+<div class="videos "><figure>
+  <video controls muted loop playsinline preload="metadata" poster="posters/000054_28_person_emerges_van__police.jpg" aria-label="警察"><source src="videos/000054_28_person_emerges_van__police.mp4" type="video/mp4"></video>
+  <figcaption>警察</figcaption>
+</figure><figure>
+  <video controls muted loop playsinline preload="metadata" poster="posters/000055_28_person_emerges_van__firefighter.jpg" aria-label="消防员"><source src="videos/000055_28_person_emerges_van__firefighter.mp4" type="video/mp4"></video>
+  <figcaption>消防员</figcaption>
+</figure></div>
+</section>
+<section id="action" aria-labelledby="action-title">
+<div class="section-head"><div><h2 id="action-title">左右人物动作</h2><p>切换抬手对象：左侧人物抬手，或右侧人物抬手。</p></div><button type="button" class="play-group">播放本组</button></div>
+<div class="videos "><figure>
+  <video controls muted loop playsinline preload="metadata" poster="posters/000020_11_pair_action_swap__wave_left.jpg" aria-label="左侧人物抬手"><source src="videos/000020_11_pair_action_swap__wave_left.mp4" type="video/mp4"></video>
+  <figcaption>左侧人物抬手</figcaption>
+</figure><figure>
+  <video controls muted loop playsinline preload="metadata" poster="posters/000021_11_pair_action_swap__wave_right.jpg" aria-label="右侧人物抬手"><source src="videos/000021_11_pair_action_swap__wave_right.mp4" type="video/mp4"></video>
+  <figcaption>右侧人物抬手</figcaption>
+</figure></div>
+</section>
+<section id="elephant" aria-labelledby="elephant-title">
+<div class="section-head"><div><h2 id="elephant-title">动物类别</h2><p>将目标对象设为大象，沿指定轨迹横穿道路。</p></div><button type="button" class="play-group">播放本组</button></div>
+<div class="videos single"><figure>
+  <video controls muted loop playsinline preload="metadata" poster="posters/000037_19_near_elephant__elephant.jpg" aria-label="大象横穿"><source src="videos/000037_19_near_elephant__elephant.mp4" type="video/mp4"></video>
+  <figcaption>大象横穿</figcaption>
+</figure></div>
+</section>
+<section id="dog" aria-labelledby="dog-title">
+<div class="section-head"><div><h2 id="dog-title">牵狗与外观</h2><p>分别修改牵狗人的上衣颜色与狗的毛色。</p></div><button type="button" class="play-group">播放本组</button></div>
+<div class="videos "><figure>
+  <video controls muted loop playsinline preload="metadata" poster="posters/000048_25_person_walking_dog__red_brown.jpg" aria-label="红色上衣 · 棕色狗"><source src="videos/000048_25_person_walking_dog__red_brown.mp4" type="video/mp4"></video>
+  <figcaption>红色上衣 · 棕色狗</figcaption>
+</figure><figure>
+  <video controls muted loop playsinline preload="metadata" poster="posters/000049_25_person_walking_dog__blue_blackwhite.jpg" aria-label="蓝色上衣 · 黑白狗"><source src="videos/000049_25_person_walking_dog__blue_blackwhite.mp4" type="video/mp4"></video>
+  <figcaption>蓝色上衣 · 黑白狗</figcaption>
+</figure></div>
+</section></main>
+<script>
+const groups=[...document.querySelectorAll('section')];
+groups.forEach(group=>{
+ const videos=[...group.querySelectorAll('video')];
+ const button=group.querySelector('button');
+ function update(){button.textContent=videos.some(v=>!v.paused)?'暂停本组':'播放本组';}
+ videos.forEach(video=>{video.addEventListener('play',()=>{groups.filter(g=>g!==group).forEach(g=>g.querySelectorAll('video').forEach(v=>v.pause()));update();});video.addEventListener('pause',update);});
+ button.addEventListener('click',async()=>{
+  if(videos.some(v=>!v.paused)){videos.forEach(v=>v.pause());return;}
+  videos.forEach(v=>{v.currentTime=0;});
+  await Promise.allSettled(videos.map(v=>v.play()));update();
+ });
+});
+</script></body></html>
