@@ -1,5 +1,16 @@
 const videos = [...document.querySelectorAll('video')];
 const groups = [...document.querySelectorAll('.result-group')];
+// Load metadata near the viewport; keep a long gallery inexpensive to open.
+if ('IntersectionObserver' in window) {
+  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const video = entry.target;
+      if (video.preload === 'none') { video.preload = 'metadata'; video.load(); }
+      observer.unobserve(video);
+    }
+  }), {rootMargin:'300px'});
+  videos.filter(v => v.dataset.kind === 'generated').forEach(v => observer.observe(v));
+}
 const members = group => [...group.querySelectorAll(':scope > .grid video')];
 function refresh() {
   groups.forEach(group => {
