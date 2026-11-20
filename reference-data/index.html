@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>掉落与跨时间参考 · 数据示例</title>
+  <link rel="stylesheet" href="assets/style.css?v=selected6-20261120">
+  <script defer src="cases.js?v=selected6-20261120"></script><script defer src="assets/app.js?v=selected6-20261120"></script>
+</head>
+<body>
+  <main>
+    <header class="intro">
+      <div class="eyebrow">OBJECT REFERENCES / DATA EXAMPLES</div>
+      <h1>参考图数据示例<span>掉落事件 · 跨时间参考</span></h1>
+      <p>展示此前手动挑选的 3 条掉落片段，以及 3 条同一对象的跨时间参考。左侧是参考图，右侧是对应视频。</p>
+      <div class="stats" id="stats"></div>
+      <p class="legend"><span class="dot a"></span>A 与 <span class="dot b"></span>B 分别对应视频中的同色目标框。点击参考图，可查看它在原始画面中的位置。</p>
+      <p class="legend">跨时间示例展示同一轨迹 ID 在不同时刻的来源画面与训练画面，用背景和视角变化减少主体与固定背景的耦合。</p>
+    </header>
+    <nav aria-label="筛选数据类型">
+      <div class="filters">
+        <button class="active" data-category="all" aria-pressed="true">全部示例</button>
+        <button data-category="cross_time" aria-pressed="false">跨时间参考</button>
+        <button data-category="drop" aria-pressed="false">掉落事件</button>
+      </div>
+      <div class="export"><span id="count" role="status"></span><a href="reference-data-examples.zip?v=selected6-20261120" download>下载完整展示包</a></div>
+    </nav>
+    <div id="gallery"></div>
+    <footer>展示素材来自当前参考图训练清单。道路样本为实拍视频；掉落样本为合成事件视频。目标框叠加用于说明参考图与对象的对应关系。</footer>
+  </main>
+  <dialog id="reference-dialog">
+    <div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" aria-label="关闭参考图详情">关闭 ×</button></div>
+    <div class="dialog-images"><figure><img id="dialog-reference" alt="对象参考图"><figcaption>对象参考图</figcaption></figure><figure><img id="dialog-locator" alt="参考图在源视频帧中的位置"><figcaption>来源画面与目标位置</figcaption></figure></div>
+  </dialog>
+</body>
+</html>
