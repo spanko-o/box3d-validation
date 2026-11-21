@@ -6,4 +6,5 @@ h2{margin:0 0 16px;font-size:1.125rem;font-weight:650;line-height:1.5}
 figcaption{font-size:.875rem;color:#4d5c65;margin-bottom:8px;line-height:1.5}
 figure a{display:block}img,video{display:block;width:100%;aspect-ratio:416/240;object-fit:contain;border-radius:6px;background:#f0f2f3}
 video{background:#111}a:focus-visible,video:focus-visible{outline:3px solid #137a9b;outline-offset:4px}
+.captions{display:grid;gap:12px;margin-top:18px;padding-top:16px;border-top:1px solid #e5ebed}.captions h3{margin:0 0 5px;font-size:.875rem;font-weight:650;color:#4d5c65}.captions p{margin:0;font-size:.9375rem;line-height:1.65;color:#283a45;overflow-wrap:anywhere}
 @media(max-width:620px){main{padding:12px}.case{padding:14px;margin-bottom:16px}.pair{grid-template-columns:1fr;gap:14px}h2{margin-bottom:12px}}
